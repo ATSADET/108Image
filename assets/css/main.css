@@ -1,0 +1,339 @@
+/* ------------------------------------------------------------------------------
+  Template Name: Auro
+  Author: Designstub
+  Author URI: http://www.designstub.com
+------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+  google fonts
+--------------------------------------------------------------------------------*/
+@font-face {
+    font-family: 'kunlasatriregular';
+    src: url('../fonts/kunlasatri/kunlasatri-webfont.eot');
+    src: url('../fonts/kunlasatri/kunlasatri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kunlasatri/kunlasatri-webfont.woff2') format('woff2'),
+         url('../fonts/kunlasatri/kunlasatri-webfont.woff') format('woff'),
+         url('../fonts/kunlasatri/kunlasatri-webfont.ttf') format('truetype'),
+         url('../fonts/kunlasatri/kunlasatri-webfont.svg#kunlasatriregular') format('svg');
+}
+
+
+@font-face {
+    font-family: 'kunlasatribold';
+    src: url('../fonts/kunlasatri/kunlasatri-bold-webfont.eot');
+    src: url('../fonts/kunlasatri/kunlasatri-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kunlasatri/kunlasatri-bold-webfont.woff2') format('woff2'),
+         url('../fonts/kunlasatri/kunlasatri-bold-webfont.woff') format('woff'),
+         url('../fonts/kunlasatri/kunlasatri-bold-webfont.ttf') format('truetype'),
+         url('../fonts/kunlasatri/kunlasatri-bold-webfont.svg#kunlasatribold') format('svg');
+}
+
+/*################################################################################################################
+------------------------------------------------- General --------------------------------------------------------
+#################################################################################################################*/
+
+html,body{
+  height:100%;
+  font-family: kunlasatriregular;
+  font-size: 18px;
+  color: #4d4d4d;
+  background-color: #ffffff;
+}
+
+p{
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: KunlasatriRegular;
+    font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 5px 0;
+    margin: 0px;
+    color: #333333;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+h4 {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+h5 {
+    font-size: 26px;
+    line-height: 28px;
+}
+
+h6 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+a{
+
+}
+
+section{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
+.text-dark{
+  color: #4d4d4d;
+}
+
+.text-dark{
+  color: #808080;
+}
+
+
+
+/*################################ HEADER ####################################*/
+.logo-header-section{
+  margin-top: 15px;
+}
+
+.header-logo{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120px;
+}
+
+
+/*################################ NAVBAR ####################################*/
+
+.nav-box{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top : 1px solid;
+  border-bottom: 1px solid;
+  border-left: none;
+  border-right: none;
+  color : #333333;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(225, 192, 118);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #666666;
+}
+
+.navbar-bottom{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-bottom a{
+  color: #333333;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-item a{
+  user-select: none;
+  cursor:pointer;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.navbar-expand-md .navbar-nav .nav-item a:hover{
+  color: #e1c076;
+}
+
+/* .nav-box .navbar-toggler-icon{
+      background-image: url(data:image/svg+xml;charset=utf8,%3Csvg
+        viewBox='0 0 30 30' xmlns='http://ww…p='round'
+        stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E);
+} */
+
+
+
+.dropdown-menu{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  /* border: 1px solid rgba(0,0,0,.15); */
+  border-radius: 0rem;
+  border: none;
+  box-shadow: 3px 3px 16px grey;
+
+}
+
+.navbar-expand-md .navbar-nav .nav-item .custom-dropdown-content:hover {
+    color: white;
+    background-color: #e1c076;
+    transition: all 0.2s;
+
+}
+
+.nav-dropdown::after{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .1em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+
+
+.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 40px;
+}
+
+
+/*################################ FOOTER ####################################*/
+.footer{
+  padding: 15px 0px 5px 0px;
+  background-color: #e1c076;
+}
+
+
+.ft-copy-right{
+
+}
+
+.ft-copy-right p{
+  margin-bottom: 0.5rem;
+}
+
+.ft-social{
+
+}
+
+.ft-social .social-link-facebook{
+  border: 1px solid white;
+  padding: 10px 8px 5px 12px;
+  margin: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.ft-social .social-link-twitter{
+  border: 1px solid white;
+  padding: 10px 5px 5px 10px;
+  margin: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.ft-social .social-link-instagram{
+  border: 1px solid white;
+  padding: 10px 10px 5px 10px;
+  margin: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.ft-social .social-link:hover{
+  color:black;
+  text-decoration: none;
+}
+
+
+
+/*=============================================================================
+--------------------------------- PAGE INDEX ----------------------------------
+==============================================================================*/
+
+
+
+
+
+
+/*################################ END PAGE INDEX ####################################*/
+
+
+
+
+/*################################################################################################################
+------------------------------------------------- RESPONSIVE -----------------------------------------------------
+#################################################################################################################*/
+@media (min-width: 1200px)
+{
+  .dropdown:hover > .dropdown-menu {
+      display: block;
+  }
+}
+
+
+@media (max-width: 768px)
+{
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+@media (max-width: 414px)
+{
+  .ft-social{
+      margin-left: 20%;
+  }
+}
+
+@media (max-width: 375px)
+{
+  .ft-social{
+      margin-left: 17%;
+  }
+}
+
+@media (max-width: 320px)
+{
+  .ft-social{
+      margin-left: 10%;
+  }
+}
+
+
+
+/*=============================================================================
+--------------------------------- PAGE INDEX ----------------------------------
+==============================================================================*/
