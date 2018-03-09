@@ -471,7 +471,7 @@ a.wreath_halftoneregular{
     .card-testimonial-wrap {
       position: relative;
       width: 100%;
-      -webkit-animation: bounce 2s infinite;
+      -webkit-animation: bounces 2s infinite;
     }
     .testimnial-box{
       position:absolute;
@@ -479,7 +479,7 @@ a.wreath_halftoneregular{
       right: 30.5%;
     }
 
-    @-webkit-keyframes bounce {
+    @-webkit-keyframes bounces {
       0% { top: 0;}
       50% { top: -5px; }
       100% { top: 0;}
@@ -543,7 +543,7 @@ a.wreath_halftoneregular{
     /*#######envelope type#######*/
 
     .envelope-item-right{
-        height:250px;
+        height:unset;
     }
 
     .envelope-type-title{
@@ -576,7 +576,7 @@ a.wreath_halftoneregular{
     .envelope-testimonial-wrap {
       position: relative;
       width: 100%;
-      -webkit-animation: bounce 2s infinite;
+      -webkit-animation: bounces 2s infinite;
     }
     .envelope-testimnial-box{
       position:absolute;
@@ -593,6 +593,7 @@ a.wreath_halftoneregular{
     }
 
     .envelope-relative {
+      overflow: hidden;
       margin-bottom: 30px;
       cursor: pointer;
       height: 250px;
@@ -601,6 +602,7 @@ a.wreath_halftoneregular{
     }
 
     .envelope-relative-top-left{
+      overflow: hidden;
       margin-bottom: 30px;
       cursor: pointer;
       height: 350px;
@@ -617,7 +619,7 @@ a.wreath_halftoneregular{
     }
 
     .envelope-item-top-left{
-      height:350px;
+      height:unset;
     }
 
     .envelope-item-bottom-left{

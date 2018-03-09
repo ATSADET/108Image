@@ -20,3 +20,4 @@
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.circular-carousel.css">
     <link rel="stylesheet" type="text/css" href="assets/vendor/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="assets/vendor/lightGallery/css/lightgallery.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animatecss/animate.css">
