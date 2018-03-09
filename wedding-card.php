@@ -399,42 +399,6 @@
                                   </div>
 
 
-                                  <div class="col-sm-12">
-                                    <div class="mx-5 all-list-mx-5">
-                                      <img class="all-list-icon-001 mx-4 my-4" src="assets/images/001.png"><b>โปรโมชั่นที่ 3</b>
-                                      <div class="mx-4">- สั่ทำการ์ดแต่งงาน ขนาด 5x7 นิ้ว แถมฟรี* Thank You Card(การ์ดของคุณ)</div>
-                                      <div class="mx-4">- ทำการ์ดแต่งงาน 350 ใบ แถมการ์ดขอบคุร(Thank You Card 350 ใบ)</div>
-                                    </div>
-                                  </div>
-
-                                  <div class="col-sm-12">
-                                    <div class="mx-5 all-list-mx-5">
-                                      <img class="all-list-icon-001 mx-4 my-4" src="assets/images/001.png"><b>โปรโมชั่นที่ 4</b>
-                                      <div class="mx-4">- สั่ทำการ์ดแต่งงาน ขนาด 5x7 นิ้ว แถมฟรี* Thank You Card(การ์ดของคุณ)</div>
-                                      <div class="mx-4">- ทำการ์ดแต่งงาน 350 ใบ แถมการ์ดขอบคุร(Thank You Card 350 ใบ)</div>
-                                    </div>
-                                  </div>
-
-                                  <div class="col-sm-12">
-                                    <div class="mx-5 all-list-mx-5">
-                                      <img class="all-list-icon-001 mx-4 my-4" src="assets/images/001.png"><b>โปรโมชั่นที่ 5</b>
-                                      <div class="mx-4">- สั่ทำการ์ดแต่งงาน ขนาด 5x7 นิ้ว แถมฟรี* Thank You Card(การ์ดของคุณ)</div>
-                                      <div class="mx-4">- ทำการ์ดแต่งงาน 350 ใบ แถมการ์ดขอบคุร(Thank You Card 350 ใบ)</div>
-                                    </div>
-                                  </div>
-
-
-
-                                <div class="row">
-                                  <div class="col-sm-12">
-                                    <div class="text-center"><img class="img-responsive mx-4 my-4 all-list-mx-5" src="assets/images/002.png"></div>
-                                  </div>
-                                  <div class="col-sm-12">
-                                    <div class="text-center">
-                                      <font>สั่งซื้อจำนวน 500 เครื่อง แถมฟรี! เข็มนาฬิกา, เข็มนาฬิแฟนซี (เข็มชั่วโมง, เข็มนาที, เข็มวินาที</font>
-                                    </div>
-                                  </div>
-                                </div>
                       </div>
 
           </div>

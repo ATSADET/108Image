@@ -777,7 +777,7 @@
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
                   <h5 class="m-auto" style="padding-top:40%;">
-                    การ์ดแต่งงาน
+                    จิ๊กซอว์
                   </h5>
                   <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
                     การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
