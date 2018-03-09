@@ -36,33 +36,33 @@
 
                 <div class="col-12"><!-- Promotion Right top-->
                   <div class="promotion-right-top">
-                    <a href="single-promotion.php">
                       <div class="promotion-text-1 d-block w-100 text-center">
-                        <label class="index-promotion">
-                          Promotion 1 : 2 March 2018
-                        </label>
+                        <h5 class="index-promotion" style="line-height: 0px;">
+                          โปรโมชั่นปรำจำเดือน กุมภาพันธ์
+                        </h5>
                         <br>
-                        <label class="index-promotion">
-                          Promotion description
-                        </label>
+                        <a href="single-promotion.php">
+                          <label class="index-promotion">
+                            คลิ๊กดูรายละเอียดเพิ่มเติม
+                          </label>
+                        </a>
                       </div>
-                    </a>
                   </div>
                 </div><!-- END Promotion Right top-->
 
                 <div class="col-12"><!-- Promotion Right bottom-->
                   <div class="promotion-right-bottom">
-                    <a href="single-promotion.php">
                     <div class="promotion-text-1 d-block w-100 text-center">
-                      <label class="index-promotion">
-                        Promotion 1 : 2 March 2018
-                      </label>
+                      <h5 class="index-promotion" style="line-height: 0px;">
+                        โปรโมชั่นปรำจำเดือน มีนาคม
+                      </h5>
                       <br>
-                      <label class="index-promotion">
-                        Promotion description
-                      </label>
+                      <a href="single-promotion.php">
+                        <label class="index-promotion">
+                          คลิ๊กดูรายละเอียดเพิ่มเติม
+                        </label>
+                      </a>
                     </div>
-                    </a>
                   </div>
                 </div><!-- END Promotion Right bottom-->
 
