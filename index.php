@@ -112,7 +112,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Card type items-->
               <img class="d-block w-100 card-item" src="assets/images/card/18.jpg" alt="card item">
-              <a href="#">
+              <a href="card-type.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -120,7 +120,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Card type items-->
               <img class="d-block w-100 card-item" src="assets/images/card/19.jpg" alt="card item">
-              <a href="#">
+              <a href="card-type.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -128,7 +128,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Card type items-->
               <img class="d-block w-100 card-item" src="assets/images/card/23.jpg" alt="card item">
-              <a href="#">
+              <a href="card-type.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -136,7 +136,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Card type items-->
               <img class="d-block w-100 card-item" src="assets/images/card/21.jpg" alt="card item">
-              <a href="#">
+              <a href="card-type.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -144,7 +144,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Card type items-->
               <img class="d-block w-100 card-item" src="assets/images/card/22.jpg" alt="card item">
-              <a href="#">
+              <a href="card-type.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -152,7 +152,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Card type items-->
               <img class="d-block w-100 card-item" src="assets/images/card/10.jpg" alt="card item">
-              <a href="#">
+              <a href="card-type.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -160,7 +160,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Card type items-->
               <img class="d-block w-100 card-item" src="assets/images/card/12.jpg" alt="card item">
-              <a href="#">
+              <a href="card-type.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -168,7 +168,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Card type items-->
               <img class="d-block w-100 card-item" src="assets/images/card/6.jpg" alt="card item">
-              <a href="#">
+              <a href="card-type.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -181,7 +181,7 @@
 
         <div class="row" style="margin-top:20px"><!-- See more-->
             <div class="col-12" style="text-align: center;">
-              <a href="#" class="btn-custom">ดูทั้งหมด</a>
+              <a href="card-type.php" class="btn-custom">ดูทั้งหมด</a>
             </div>
         </div><!-- END See more-->
 
@@ -233,7 +233,7 @@
 
                   <div class="col-12 col-lg-12 envelope-relative-top-left"><!-- envelope type items-->
                     <img class="d-block w-100 envelope-item-top-left" src="assets/images/envelope/evl2.jpg" alt="card item">
-                    <a href="#">
+                    <a href="card-type.php">
                       <div class="envelope-type-overlay">
                       </div>
                     </a>
@@ -245,7 +245,7 @@
 
                       <div class="col-12 col-lg-4 envelope-relative-bottom-left"><!-- envelope type items-->
                         <img class="d-block w-100 envelope-item-bottom-left" src="assets/images/envelope/evl1.jpg" alt="card item">
-                        <a href="#">
+                        <a href="card-type.php">
                           <div class="envelope-type-overlay">
                           </div>
                         </a>
@@ -253,7 +253,7 @@
 
                       <div class="col-12 col-lg-4 envelope-relative-bottom-left"><!-- envelope type items-->
                         <img class="d-block w-100 envelope-item-bottom-left" src="assets/images/envelope/evl3.jpg" alt="card item">
-                        <a href="#">
+                        <a href="card-type.php">
                           <div class="envelope-type-overlay">
                           </div>
                         </a>
@@ -261,7 +261,7 @@
 
                       <div class="col-12 col-lg-4 envelope-relative-bottom-left"><!-- envelope type items-->
                         <img class="d-block w-100 envelope-item-bottom-left" src="assets/images/envelope/evl4.jpg" alt="card item">
-                        <a href="#">
+                        <a href="card-type.php">
                           <div class="envelope-type-overlay">
                           </div>
                         </a>
@@ -280,7 +280,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- envelope type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/envelope/evl5.jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -288,7 +288,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- envelope type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/envelope/evl6.jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -296,7 +296,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- envelope type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/envelope/evl7.jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -304,7 +304,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- envelope type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/envelope/evl8.jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -318,7 +318,7 @@
 
         <div class="row" style="margin-top:20px"><!-- See more-->
             <div class="col-12" style="text-align: center;">
-              <a href="#" class="btn-custom">ดูทั้งหมด</a>
+              <a href="card-type.php" class="btn-custom">ดูทั้งหมด</a>
             </div>
         </div><!-- END See more-->
 
@@ -366,7 +366,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- Souvenir type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/souvenirs/sv8.jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -374,7 +374,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- Souvenir type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/souvenirs/sv2.jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -382,7 +382,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- Souvenir type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/souvenirs/sv3.jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -390,7 +390,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- Souvenir type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/souvenirs/sv4.jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -406,7 +406,7 @@
 
                   <div class="col-12 col-lg-12 envelope-relative-top-left"><!-- Souvenir type items-->
                     <img class="d-block w-100 envelope-item-top-left" src="assets/images/souvenirs/sv1.jpg" alt="card item">
-                    <a href="#">
+                    <a href="card-type.php">
                       <div class="envelope-type-overlay">
                       </div>
                     </a>
@@ -418,7 +418,7 @@
 
                       <div class="col-12 col-lg-4 envelope-relative-bottom-left"><!-- Souvenir type items-->
                         <img class="d-block w-100 envelope-item-bottom-left" src="assets/images/souvenirs/sv6.jpg" alt="card item">
-                        <a href="#">
+                        <a href="card-type.php">
                           <div class="envelope-type-overlay">
                           </div>
                         </a>
@@ -426,7 +426,7 @@
 
                       <div class="col-12 col-lg-4 envelope-relative-bottom-left"><!-- Souvenir type items-->
                         <img class="d-block w-100 envelope-item-bottom-left" src="assets/images/souvenirs/sv7.jpg" alt="card item">
-                        <a href="#">
+                        <a href="card-type.php">
                           <div class="envelope-type-overlay">
                           </div>
                         </a>
@@ -434,7 +434,7 @@
 
                       <div class="col-12 col-lg-4 envelope-relative-bottom-left"><!-- Souvenir type items-->
                         <img class="d-block w-100 envelope-item-bottom-left" src="assets/images/souvenirs/sv10.jpg" alt="card item">
-                        <a href="#">
+                        <a href="card-type.php">
                           <div class="envelope-type-overlay">
                           </div>
                         </a>
@@ -454,7 +454,7 @@
 
         <div class="row" style="margin-top:20px"><!-- See more-->
             <div class="col-12" style="text-align: center;">
-              <a href="#" class="btn-custom">ดูทั้งหมด</a>
+              <a href="card-type.php" class="btn-custom">ดูทั้งหมด</a>
             </div>
         </div><!-- END See more-->
 
@@ -510,7 +510,7 @@
 
                   <div class="col-12 col-lg-12 envelope-relative-top-left"><!-- envelope type items-->
                     <img class="d-block w-100 envelope-item-top-left" src="assets/images/brochour/brochour (7).jpg" alt="card item">
-                    <a href="#">
+                    <a href="card-type.php">
                       <div class="envelope-type-overlay">
                       </div>
                     </a>
@@ -522,7 +522,7 @@
 
                       <div class="col-12 col-lg-4 envelope-relative-bottom-left"><!-- envelope type items-->
                         <img class="d-block w-100 envelope-item-bottom-left" src="assets/images/brochour/brochour (1).jpg" alt="card item">
-                        <a href="#">
+                        <a href="card-type.php">
                           <div class="envelope-type-overlay">
                           </div>
                         </a>
@@ -530,7 +530,7 @@
 
                       <div class="col-12 col-lg-4 envelope-relative-bottom-left"><!-- envelope type items-->
                         <img class="d-block w-100 envelope-item-bottom-left" src="assets/images/brochour/brochour (2).jpg" alt="card item">
-                        <a href="#">
+                        <a href="card-type.php">
                           <div class="envelope-type-overlay">
                           </div>
                         </a>
@@ -538,7 +538,7 @@
 
                       <div class="col-12 col-lg-4 envelope-relative-bottom-left"><!-- envelope type items-->
                         <img class="d-block w-100 envelope-item-bottom-left" src="assets/images/brochour/brochour (3).jpg" alt="card item">
-                        <a href="#">
+                        <a href="card-type.php">
                           <div class="envelope-type-overlay">
                           </div>
                         </a>
@@ -557,7 +557,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- envelope type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/brochour/brochour (4).jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -565,7 +565,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- envelope type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/brochour/brochour (5).jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -573,7 +573,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- envelope type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/brochour/brochour (6).jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -581,7 +581,7 @@
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- envelope type items-->
                       <img class="d-block w-100 envelope-item-right" src="assets/images/brochour/brochour (7).jpg" alt="card item">
-                      <a href="#">
+                      <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>
                       </a>
@@ -596,7 +596,7 @@
 
         <div class="row" style="margin-top:20px"><!-- See more-->
             <div class="col-12" style="text-align: center;">
-              <a href="#" class="btn-custom">ดูทั้งหมด</a>
+              <a href="card-type.php" class="btn-custom">ดูทั้งหมด</a>
             </div>
         </div><!-- END See more-->
 
@@ -643,7 +643,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Clock engine  type items-->
               <img class="d-block w-100 card-item" src="assets/images/clock/clock (1).jpg" alt="card item">
-              <a href="#">
+              <a href="all-list.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -651,7 +651,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Clock engine  type items-->
               <img class="d-block w-100 card-item" src="assets/images/clock/clock (2).jpg" alt="card item">
-              <a href="#">
+              <a href="all-list.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -659,7 +659,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Clock engine  type items-->
               <img class="d-block w-100 card-item" src="assets/images/clock/clock (3).jpg" alt="card item">
-              <a href="#">
+              <a href="all-list.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -667,7 +667,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Clock engine  type items-->
               <img class="d-block w-100 card-item" src="assets/images/clock/clock (4).jpg" alt="card item">
-              <a href="#">
+              <a href="all-list.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -675,7 +675,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Clock engine  type items-->
               <img class="d-block w-100 card-item" src="assets/images/clock/clock (5).jpg" alt="card item">
-              <a href="#">
+              <a href="all-list.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -683,7 +683,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Clock engine  type items-->
               <img class="d-block w-100 card-item" src="assets/images/clock/clock (6).jpg" alt="card item">
-              <a href="#">
+              <a href="all-list.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -691,7 +691,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Clock engine  type items-->
               <img class="d-block w-100 card-item" src="assets/images/clock/clock (7).jpg" alt="card item">
-              <a href="#">
+              <a href="all-list.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -699,7 +699,7 @@
 
             <div class="col-6 col-lg-3 relative"><!-- Clock engine  type items-->
               <img class="d-block w-100 card-item" src="assets/images/clock/clock (8).jpg" alt="card item">
-              <a href="#">
+              <a href="all-list.php">
                 <div class="card-type-overlay">
                 </div>
               </a>
@@ -712,7 +712,7 @@
 
         <div class="row" style="margin-top:20px"><!-- See more-->
             <div class="col-12" style="text-align: center;">
-              <a href="#" class="btn-custom">ดูทั้งหมด</a>
+              <a href="all-list.php" class="btn-custom">ดูทั้งหมด</a>
             </div>
         </div><!-- END See more-->
 
@@ -761,7 +761,13 @@
             <div class="col-12 col-lg-4 folio-relative"><!-- Folio type items-->
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (1).jpg" alt="card item">
               <a onclick="gal()">
-                <div class="folio-type-overlay">
+                <div class="folio-type-overlay text-center">
+                  <h5 class="m-auto" style="padding-top:40%;">
+                    การ์ดแต่งงาน
+                  </h5>
+                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                    การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
+                  </label>
                 </div>
               </a>
             </div><!-- END Folio type items-->
@@ -769,7 +775,13 @@
             <div class="col-12 col-lg-4 folio-relative"><!-- Folio type items-->
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (2).jpg" alt="card item">
               <a onclick="gal()">
-                <div class="folio-type-overlay">
+                <div class="folio-type-overlay text-center">
+                  <h5 class="m-auto" style="padding-top:40%;">
+                    การ์ดแต่งงาน
+                  </h5>
+                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                    การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
+                  </label>
                 </div>
               </a>
             </div><!-- END Folio type items-->
@@ -777,7 +789,13 @@
             <div class="col-12 col-lg-4 folio-relative"><!-- Folio type items-->
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (3).jpg" alt="card item">
               <a onclick="gal()">
-                <div class="folio-type-overlay">
+                <div class="folio-type-overlay text-center">
+                  <h5 class="m-auto" style="padding-top:40%;">
+                    การ์ดแต่งงาน
+                  </h5>
+                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                    การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
+                  </label>
                 </div>
               </a>
             </div><!-- END Folio type items-->
@@ -785,7 +803,13 @@
             <div class="col-12 col-lg-4 folio-relative"><!-- Folio type items-->
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (4).jpg" alt="card item">
               <a onclick="gal()">
-                <div class="folio-type-overlay">
+                <div class="folio-type-overlay text-center">
+                  <h5 class="m-auto" style="padding-top:40%;">
+                    การ์ดแต่งงาน
+                  </h5>
+                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                    การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
+                  </label>
                 </div>
               </a>
             </div><!-- END Folio type items-->
@@ -793,7 +817,13 @@
             <div class="col-12 col-lg-4 folio-relative"><!-- Folio type items-->
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (5).jpg" alt="card item">
               <a onclick="gal()">
-                <div class="folio-type-overlay">
+                <div class="folio-type-overlay text-center">
+                  <h5 class="m-auto" style="padding-top:40%;">
+                    การ์ดแต่งงาน
+                  </h5>
+                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                    การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
+                  </label>
                 </div>
               </a>
             </div><!-- END Folio type items-->
@@ -801,7 +831,13 @@
             <div class="col-12 col-lg-4 folio-relative"><!-- Folio type items-->
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (6).jpg" alt="card item">
               <a onclick="gal()">
-                <div class="folio-type-overlay">
+                <div class="folio-type-overlay text-center">
+                  <h5 class="m-auto" style="padding-top:40%;">
+                    การ์ดแต่งงาน
+                  </h5>
+                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                    การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
+                  </label>
                 </div>
               </a>
             </div><!-- END Folio type items-->
@@ -809,7 +845,13 @@
             <div class="col-12 col-lg-4 folio-relative"><!-- Folio type items-->
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (7).jpg" alt="card item">
               <a onclick="gal()">
-                <div class="folio-type-overlay">
+                <div class="folio-type-overlay text-center">
+                  <h5 class="m-auto" style="padding-top:40%;">
+                    การ์ดแต่งงาน
+                  </h5>
+                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                    การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
+                  </label>
                 </div>
               </a>
             </div><!-- END Folio type items-->
@@ -817,7 +859,13 @@
             <div class="col-12 col-lg-4 folio-relative"><!-- Folio type items-->
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (8).jpg" alt="card item">
               <a onclick="gal()">
-                <div class="folio-type-overlay">
+                <div class="folio-type-overlay text-center">
+                  <h5 class="m-auto" style="padding-top:40%;">
+                    การ์ดแต่งงาน
+                  </h5>
+                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                    การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
+                  </label>
                 </div>
               </a>
             </div><!-- END Folio type items-->
@@ -825,7 +873,13 @@
             <div class="col-12 col-lg-4 folio-relative"><!-- Folio type items-->
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (9).jpg" alt="card item">
               <a onclick="gal()">
-                <div class="folio-type-overlay">
+                <div class="folio-type-overlay text-center">
+                  <h5 class="m-auto" style="padding-top:40%;">
+                    การ์ดแต่งงาน
+                  </h5>
+                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                    การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
+                  </label>
                 </div>
               </a>
             </div><!-- END Folio type items-->
@@ -837,7 +891,7 @@
 
         <div class="row" style="margin-top:20px"><!-- See more-->
             <div class="col-12" style="text-align: center;">
-              <a href="#" class="btn-custom">ดูทั้งหมด</a>
+              <a href="gallery.php" class="btn-custom">ดูทั้งหมด</a>
             </div>
         </div><!-- END See more-->
 

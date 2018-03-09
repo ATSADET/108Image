@@ -38,6 +38,11 @@
             <div class="cardtype-styled-select cardtype-slate">
               <select>
                 <option>แบบการ์ดแต่งงานลายกราฟฟิก</option>
+                <option>แบบที่ 1</option>
+                <option>แบบที่ 2</option>
+                <option>แบบที่ 3</option>
+                <option>แบบที่ 4</option>
+
               </select>
             </div>
           </div>
