@@ -47,6 +47,8 @@
                           </label>
                         </a>
                       </div>
+                      <div class="promotion-overlay">
+                      </div>
                   </div>
                 </div><!-- END Promotion Right top-->
 
@@ -62,6 +64,8 @@
                           คลิ๊กดูรายละเอียดเพิ่มเติม
                         </label>
                       </a>
+                    </div>
+                    <div class="promotion-overlay">
                     </div>
                   </div>
                 </div><!-- END Promotion Right bottom-->
@@ -279,7 +283,7 @@
               <div class="row">
 
                     <div class="col-6 col-lg-6 envelope-relative"><!-- envelope type items-->
-                      <img class="d-block w-100 envelope-item-right" src="assets/images/envelope/evl5.jpg" alt="card item">
+                      <img class="d-block w-100 envelope-item-right" src="assets/images/envelope/evl9.jpg" alt="card item">
                       <a href="card-type.php">
                         <div class="envelope-type-overlay">
                         </div>

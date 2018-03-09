@@ -403,16 +403,45 @@ a.wreath_halftoneregular{
     .promotion-text-1{
       max-height:172px;
       padding:60px 48px 48px 48px;
-      border:2px solid black;
+      border:2px solid #e5c888;
     }
 
     .promotion{
       margin-top: 50px;
     }
 
+    .promotion-right-top{
+      position:relative;
+    }
+
+    .promotion-right-bottom{
+      position:relative;
+    }
+
     .promotion-title{
       position: relative;
       margin-bottom: 35px;
+    }
+
+    .promotion-overlay{
+      opacity: 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #ffc10738;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+    }
+
+    .promotion-right-top:hover .promotion-overlay{
+      opacity: 1;
+    }
+
+    .promotion-right-bottom:hover .promotion-overlay{
+      opacity: 1;
     }
 
     .dash{
@@ -776,6 +805,7 @@ a.wreath_halftoneregular{
     }
 
     .folio-relative {
+        overflow: hidden;
         margin-bottom: 30px;
         cursor: pointer;
         height: 320px;
@@ -784,7 +814,7 @@ a.wreath_halftoneregular{
     }
 
     .folio-item {
-      height: 320px;
+      height: 100%;
     }
 
     .folio-relative .folio-type-overlay {
