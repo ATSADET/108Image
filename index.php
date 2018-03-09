@@ -762,10 +762,10 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (1).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
                     การ์ดแต่งงาน
                   </h5>
-                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                  <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
                     การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
                   </label>
                 </div>
@@ -776,10 +776,10 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (2).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
                     จิ๊กซอว์
                   </h5>
-                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                  <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
                     การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
                   </label>
                 </div>
@@ -790,10 +790,10 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (3).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
                     การ์ดแต่งงาน
                   </h5>
-                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                  <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
                     การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
                   </label>
                 </div>
@@ -804,10 +804,10 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (4).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
                     การ์ดแต่งงาน
                   </h5>
-                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                  <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
                     การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
                   </label>
                 </div>
@@ -818,10 +818,10 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (5).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
                     การ์ดแต่งงาน
                   </h5>
-                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                  <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
                     การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
                   </label>
                 </div>
@@ -832,10 +832,10 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (6).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
                     การ์ดแต่งงาน
                   </h5>
-                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                  <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
                     การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
                   </label>
                 </div>
@@ -846,10 +846,10 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (7).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
                     การ์ดแต่งงาน
                   </h5>
-                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                  <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
                     การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
                   </label>
                 </div>
@@ -860,10 +860,10 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (8).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
                     การ์ดแต่งงาน
                   </h5>
-                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                  <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
                     การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
                   </label>
                 </div>
@@ -874,10 +874,10 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (9).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
                     การ์ดแต่งงาน
                   </h5>
-                  <label class="m-auto" style="padding-top:0%;color:black;font-weight:bold;">
+                  <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
                     การ์ดแต่งงานมีหลากหลายรูปแบบให้คุณลูกค้าเลือกได้ตามต้องการ
                   </label>
                 </div>
