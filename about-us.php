@@ -92,7 +92,7 @@
                   <div class="row">
                     <div class="col-12 col-sm-6">
                       <div class="studio-relative">
-                        <img class="studio-img-100  my-4" src="assets/images/img-demo/983b6d9dbeaf7caf8cbeeecf98ecc312.jpg">
+                        <img class="studio-img-100 about-us-center  my-4" src="assets/images/img-demo/983b6d9dbeaf7caf8cbeeecf98ecc312.jpg">
                         <div class="aboutus-border-img"></div>
                       </div>
                     </div>
@@ -101,7 +101,7 @@
                         <div class="col-sm-12 mx-3 my-4"><h3 class="about-us-h3-rosponsive">ที่มาของ Image Studio</h3></div>
                         <div class="col-sm-12 mx-3"><hr class="studio-hr-left"></div>
                         <div class="col-sm-12 mx-3">
-                           <p class="aboutus-font-left"><font class="studio-space ">Image Studio</font> คือ เนื้อคือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์ และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960</p>
+                           <p class="aboutus-font-left studio-magin-prot"><font class="studio-space ">Image Studio</font> คือ เนื้อคือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์ และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960</p>
                         </div>
                       </div>
                     </div>
@@ -120,13 +120,13 @@
                       <div class="col-sm-12 mx-3 my-4"><h3 class="text-right about-us-h3-rosponsive">ออกแบบการ์ดแต่งงานด้วยกราฟฟิหดีไซน์ ระดับมืออาชีพ</h3></div>
                       <div class="col-sm-12 mx-3"><hr class="studio-hr-right "></div>
                       <div class="col-sm-12 mx-3">
-                          <p class="text-right aboutus-font-left"><font class="studio-space">Image Studio</font> คือ เนื้อคือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum</p>
+                          <p class="text-right aboutus-font-left studio-magin-prot"><font class="studio-space">Image Studio</font> คือ เนื้อคือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum</p>
                       </div>
                       </div>
                     </div>
                     <div class="col-12 col-sm-6">
                       <div class="studio-relative">
-                        <img class="studio-img-100  my-4" src="assets/images/img-demo/9a892a68f8df95e3e2f7f2ca9b60cafe-2.jpg">
+                        <img class="studio-img-100 about-us-center  my-4" src="assets/images/img-demo/9a892a68f8df95e3e2f7f2ca9b60cafe-2.jpg">
                       <div class="aboutus-border-img"></div>
                     </div>
                     </div>

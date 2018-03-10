@@ -27,7 +27,7 @@
             <div class='card-testimonial-wrap'>
               <div class='wedding-card-title'>
                   <span class="testimonials-icon">&quot;</span>
-                    <label class="wedding-testimonial-text custom-text-768 custom-text-1024">เข็มนาฬิการสวยๆ มากมายกว่า 100 แบบให้เลือกสรร จำหน่ายในราคาส่ง มีให้เลือกตามความต้องการ</label>
+                    <label class="wedding-testimonial-text custom-text-768 custom-text-1024">สตูดิโอของ ImageStudio</label>
                   <span class="testimonials-icon">&quot;</span>
               </div>
         </div>

@@ -20,7 +20,7 @@
                 <div class='card-testimonial-wrap'>
                   <div class='wedding-card-title'>
                       <span class="testimonials-icon">&quot;</span>
-                        <label class="wedding-testimonial-text custom-text-768 custom-text-1024" style="max-width:300px;overflow:hidden;">เข็มนาฬิกาสวย ๆ มากมายกว่า 100 แบบให้เลือกสรร จำหน่ายในราคาส่ง มีให้เลือกตามความต้องการ </label>
+                        <label class="wedding-testimonial-text custom-text-768 custom-text-1024" style="max-width:300px;overflow:hidden;">เข็มนาฬิกาสวย ๆ มากมายกว่า 100 แบบให้เลือกสรร</label>
                       <span class="testimonials-icon">&quot;</span>
                   </div>
             </div>
@@ -128,7 +128,7 @@
               </div><!-- END Left wedding-card -->
 
               <div class="col-12 col-lg-4"><!-- Right wedding-card -->
-                <div class="wedding-view-right offset-1"style="background:url('assets/images/wedding-card-view.jpg')no-repeat;background-size: 100% auto;background-position: 50% 30%;">
+                <div class="wedding-view-right offset-1"style="background-size: 100% auto;background-position: 50% 30%;">
                   <div class="inner-wedding-view-right">
                   </div>
 
@@ -148,7 +148,7 @@
                       คลิ๊กที่นี่
                     </a>
 
-                    <a  class="wedding-card-view-position d-block d-md-none d-lg-block" href="card-type.php">
+                    <a  class="wedding-card-view-position clock-view-position d-block d-md-none d-lg-block" href="card-type.php">
                       ดูแบบนาฬิกา
                     </a>
 

@@ -115,6 +115,11 @@ a{
 
 }
 
+
+a:hover{
+  text-decoration: none;
+}
+
 footer{
     margin-top: 30px;
 }
@@ -532,6 +537,7 @@ a.wreath_halftoneregular{
 
 
     .relative {
+      overflow: hidden;
         margin-bottom: 30px;
         cursor: pointer;
         height: 250px;
@@ -813,6 +819,10 @@ a.wreath_halftoneregular{
         width: 100%;
     }
 
+    .undo-overflow{
+      overflow: unset;
+    }
+
     .folio-item {
       height: 100%;
     }
@@ -931,7 +941,9 @@ a.wreath_halftoneregular{
     .contact-right{
       margin-right: 10%;
     }
-
+    .contact-from-input {
+          margin-top: 90px;
+    }
     .btn-custom-2 {
         background-color: #e1c076;
         color: white;
@@ -1196,8 +1208,9 @@ a.wreath_halftoneregular{
     padding:120px;
     padding-bottom: 150px;
     margin:0px 50px 0px 0px;
+    border: 1px solid #e1c076;
+    background-color: #f7d468;
   }
-
   .inner-wedding-view-left {
       top: 30px;
       right: 45px;
@@ -1295,43 +1308,34 @@ a.wreath_halftoneregular{
   }
 
   .second-inner-wedding-view-right {
-      top: 120px;
+      top: 110px;
       left: 110px;
       right: 140px;
       position: absolute;
   }
 
   .wedding-card-view-position {
-    background-color: #e1c076;
+    box-shadow: 3px 2px 0px white;
+    letter-spacing: 2px;
+    background-color: #82765b;
     color: white;
     border-radius: 0px;
-    padding: 15px 55px 15px 55px;
+    padding: 10px 0px 10px 12px;
     font-size: 20px;
     text-decoration: none;
     margin-bottom: 70px;
     transition: all 0.5s;
+    font-weight: 900;
   }
 
-  .wedding-card-view-position {
-      background-color: #e1c076;
-      color: white;
-      border-radius: 0px;
-      padding: 5px 0px 5px 20px;
-      font-size: 20px;
-      text-decoration: none;
-      margin-bottom: 70px;
-      transition: all 0.5s;
-  }
 
+  .clock-view-position{
+    padding: 10px 0px 10px 17px;
+  }
 
   .wedding-card-view-position:hover {
       background-color: white;
       color: black;
-      border-radius: 0px;
-      padding: 5px 0px 5px 20px;
-      font-size: 20px;
-      text-decoration: none;
-      margin-bottom: 70px;
       transition: all 0.5s;
       border:1px solid #e1c076;
   }
@@ -1614,6 +1618,10 @@ hr.aboutus-border {
     border-top: 3px solid rgb(225, 192, 118);
     width: 20%;
 }
+p.studio-magin-prot {
+    margin-top: 15px;
+    margin-left: -40px;
+}
 .aboutus-background {
     height: 80px;
     width: 80%;
@@ -1680,7 +1688,7 @@ hr.aboutus-border {
    width: 240px;
 }
 .cardtype-styled-select.cardtype-slate {
-    background: url(../../assets/images/imgpeplo/set-select.jpg.) no-repeat right center;
+    background: url(../../assets/images/imgpeplo/set-select.jpg) no-repeat right center;
     height: 34px;
     width: 50%;
     margin: auto;
@@ -2801,7 +2809,7 @@ hr.all-list-hr-center {
       }
 
       .custom-wedding-page{
-        height: 1070px !important;
+        height: 600px !important;
       }
 
   /*###########################################################################
@@ -3364,7 +3372,7 @@ hr.all-list-hr-center {
 
 
       .custom-wedding-page{
-        height: 1310px  !important;
+        height: 700px  !important;
       }
 
   /*###########################################################################
@@ -3442,8 +3450,39 @@ hr.all-list-hr-center {
     font-size: 23px;
     line-height: 28px;
   }
+  .studio-topcenter {
+    text-align: center!important;
+}
+.studio-space {
+    margin-left: 0px;
+}
+h3.about-us-h3-rosponsive {
+    font-size: 18px;
+    line-height: 30px;
+    /* text-align: center; */
+    margin-left: -50px;
+}
+hr.studio-hr-left {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 4px solid #e1c076;
+    width: 28%;
+    margin-left: 29%;
+}
+hr.studio-hr-right {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 4px solid #e1c076;
+    width: 28%;
+    margin-left: 29%;
+}
   .aboutus-img-50 {
     width: 50%;
+  }
+  .about-us-center {
+    margin-left: 13px;
   }
   .aboutus-border-background {
     border: 2px solid #eee;
@@ -3560,7 +3599,7 @@ hr.all-list-hr-center {
   }
   /*---------- Card -Type --------------*/
   .cardtype-styled-select.cardtype-slate {
-    background: url(http://localhost/108Image/assets/images/img/imgpeplo/set-select.jpg.) no-repeat right center;
+    background: url(workbythai-commerce.com/108image_demoview/assets/images/img/imgpeplo/set-select.jpg) no-repeat right center;
     height: 34px;
     width: 100%;
     margin: auto;
@@ -4143,7 +4182,7 @@ hr.all-list-hr-center {
       }
 
       .custom-wedding-page{
-        height: 1600px  !important;
+        height: 750px  !important;
       }
 
   /*###########################################################################

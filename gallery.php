@@ -38,7 +38,7 @@
     <div class="card-type-content mt-5"><!--  Card Type  content-->
       <div class="row">
 
-        <div class="col-12 col-lg-4 folio-relative mb-5 my-lg-5"><!-- Card type items-->
+        <div class="col-12 col-lg-4 folio-relative undo-overflow my-5"><!-- Card type items-->
           <img class="d-block w-100 folio-item" src="assets/images/card/18.jpg" alt="card item">
           <a onclick="gal()">
             <div class="folio-type-overlay">
@@ -52,7 +52,7 @@
           </div>
         </div><!-- END Card type items-->
 
-        <div class="col-12 col-lg-4 folio-relative my-5"><!-- Card type items-->
+        <div class="col-12 col-lg-4 folio-relative undo-overflow my-5"><!-- Card type items-->
           <img class="d-block w-100 folio-item" src="assets/images/card/19.jpg" alt="card item">
           <a onclick="gal()">
             <div class="folio-type-overlay">
@@ -66,7 +66,7 @@
           </div>
         </div><!-- END Card type items-->
 
-        <div class="col-12 col-lg-4 folio-relative my-5"><!-- Card type items-->
+        <div class="col-12 col-lg-4 folio-relative undo-overflow my-5"><!-- Card type items-->
           <img class="d-block w-100 folio-item" src="assets/images/card/23.jpg" alt="card item">
           <a onclick="gal()">
             <div class="folio-type-overlay">
@@ -80,7 +80,7 @@
           </div>
         </div><!-- END Card type items-->
 
-        <div class="col-12 col-lg-4 folio-relative my-5"><!-- Card type items-->
+        <div class="col-12 col-lg-4 folio-relative undo-overflow my-5"><!-- Card type items-->
           <img class="d-block w-100 folio-item" src="assets/images/card/21.jpg" alt="card item">
           <a onclick="gal()">
             <div class="folio-type-overlay">
@@ -94,7 +94,7 @@
           </div>
         </div><!-- END Card type items-->
 
-        <div class="col-12 col-lg-4 folio-relative my-5"><!-- Card type items-->
+        <div class="col-12 col-lg-4 folio-relative undo-overflow my-5"><!-- Card type items-->
           <img class="d-block w-100 folio-item" src="assets/images/card/22.jpg" alt="card item">
           <a onclick="gal()">
             <div class="folio-type-overlay">
@@ -108,7 +108,7 @@
           </div>
         </div><!-- END Card type items-->
 
-        <div class="col-12 col-lg-4 folio-relative my-5"><!-- Card type items-->
+        <div class="col-12 col-lg-4 folio-relative undo-overflow my-5"><!-- Card type items-->
           <img class="d-block w-100 folio-item" src="assets/images/card/10.jpg" alt="card item">
           <a onclick="gal()">
             <div class="folio-type-overlay">
@@ -122,7 +122,7 @@
           </div>
         </div><!-- END Card type items-->
 
-        <div class="col-12 col-lg-4 folio-relative my-5"><!-- Card type items-->
+        <div class="col-12 col-lg-4 folio-relative undo-overflow my-5"><!-- Card type items-->
           <img class="d-block w-100 folio-item" src="assets/images/card/12.jpg" alt="card item">
           <a onclick="gal()">
             <div class="folio-type-overlay">
@@ -136,7 +136,7 @@
           </div>
         </div><!-- END Card type items-->
 
-        <div class="col-12 col-lg-4 folio-relative my-5"><!-- Card type items-->
+        <div class="col-12 col-lg-4 folio-relative undo-overflow my-5"><!-- Card type items-->
           <img class="d-block w-100 folio-item" src="assets/images/card/6.jpg" alt="card item">
           <a onclick="gal()">
             <div class="folio-type-overlay">
@@ -150,7 +150,7 @@
           </div>
         </div><!-- END Card type items-->
 
-        <div class="col-12 col-lg-4 folio-relative my-5"><!-- Card type items-->
+        <div class="col-12 col-lg-4 folio-relative undo-overflow my-5"><!-- Card type items-->
           <img class="d-block w-100 folio-item" src="assets/images/card/6.jpg" alt="card item">
           <a onclick="gal()">
             <div class="folio-type-overlay">

@@ -49,7 +49,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row contact-from-input">
           <div class="col-12 col-sm-6">
             <div class="mx-4 mt-5">
 
@@ -229,7 +229,7 @@
                 </div>
               </div>
 
-              
+
               <div class="col-6 col-sm-4 contact-col-6">
                 <div class="mx-3 my-3">
                   <div><img class="contact-img-100 studio-relative contact-img-reponsive" src="assets/images/imgpeplo/3.jpg">

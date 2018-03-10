@@ -36,37 +36,37 @@
 
                 <div class="col-12"><!-- Promotion Right top-->
                   <div class="promotion-right-top">
+                    <a href="single-promotion.php">
                       <div class="promotion-text-1 d-block w-100 text-center">
                         <h5 class="index-promotion" style="line-height: 0px;">
-                          โปรโมชั่นปรำจำเดือน กุมภาพันธ์
+                          โปรโมชั่นประจำเดือน กุมภาพันธ์
                         </h5>
                         <br>
-                        <a href="single-promotion.php">
                           <label class="index-promotion">
                             คลิ๊กดูรายละเอียดเพิ่มเติม
                           </label>
-                        </a>
                       </div>
                       <div class="promotion-overlay">
                       </div>
+                    </a>
                   </div>
                 </div><!-- END Promotion Right top-->
 
                 <div class="col-12"><!-- Promotion Right bottom-->
                   <div class="promotion-right-bottom">
-                    <div class="promotion-text-1 d-block w-100 text-center">
-                      <h5 class="index-promotion" style="line-height: 0px;">
-                        โปรโมชั่นปรำจำเดือน มีนาคม
-                      </h5>
-                      <br>
-                      <a href="single-promotion.php">
-                        <label class="index-promotion">
-                          คลิ๊กดูรายละเอียดเพิ่มเติม
-                        </label>
-                      </a>
-                    </div>
-                    <div class="promotion-overlay">
-                    </div>
+                    <a href="single-promotion.php">
+                      <div class="promotion-text-1 d-block w-100 text-center">
+                        <h5 class="index-promotion" style="line-height: 0px;">
+                          โปรโมชั่นประจำเดือน มีนาคม
+                        </h5>
+                        <br>
+                          <label class="index-promotion">
+                            คลิ๊กดูรายละเอียดเพิ่มเติม
+                          </label>
+                      </div>
+                      <div class="promotion-overlay">
+                      </div>
+                    </a>
                   </div>
                 </div><!-- END Promotion Right bottom-->
 
@@ -119,6 +119,12 @@
               <a href="card-type.php">
                 <div class="card-type-overlay">
                 </div>
+                <!-- <div class="card-type-overlay-ripple">
+                </div>
+                <div class="card-type-overlay-ripple-2">
+                </div>
+                <div class="card-type-overlay-ripple-3">
+                </div> -->
               </a>
             </div><!-- END Card type items-->
 
