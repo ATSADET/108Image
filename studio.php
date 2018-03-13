@@ -26,9 +26,9 @@
       <div class="col-12" style="text-align:center;">
             <div class='card-testimonial-wrap'>
               <div class='wedding-card-title'>
-                  <span class="testimonials-icon">&quot;</span>
+                <span class="testimonials-icon float-l-testimonial">&quot;</span>
                     <label class="wedding-testimonial-text custom-text-768 custom-text-1024">สตูดิโอของ ImageStudio</label>
-                  <span class="testimonials-icon">&quot;</span>
+                <span class="testimonials-icon float-r-testimonial">&quot;</span>
               </div>
         </div>
       </div>

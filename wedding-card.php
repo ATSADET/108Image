@@ -13,15 +13,15 @@
 
 
         <div class="row">
-          <div class="col-12" style="text-align:center;">
+          <div class="col-12 margin-wedding-head" style="text-align:center;">
               <h5>งานพิมพ์การ์ดแต่งงาน</h5>
           </div>
           <div class="col-12" style="text-align:center;">
                 <div class='card-testimonial-wrap'>
                   <div class='wedding-card-title'>
-                      <span class="testimonials-icon">&quot;</span>
-                        <label class="wedding-testimonial-text custom-text-768 custom-text-1024">ออกแบบการ์ดแต่งงานเองได้ไม่จำกัดแบบ ออกแบบการ์ดแต่งงานตามสไตล์ของคุณ</label>
-                      <span class="testimonials-icon">&quot;</span>
+                      <span class="testimonials-icon float-l-testimonial">&quot;</span>
+                        <label class="wedding-testimonial-text custom-text-768 custom-text-1024">ออกแบบการ์ดแต่งงานเองได้ไม่จำกัดแบบ</label>
+                      <span class="testimonials-icon float-r-testimonial">&quot;</span>
                   </div>
             </div>
           </div>
@@ -97,43 +97,26 @@
             <div class="col-12 col-lg-8" style="position:relative;"> <!-- Left wedding-card -->
                 <div class="wedding-view-left"style="background:url('assets/images/envelope/evl9.jpg')no-repeat;background-size: 100% auto;background-position: 50% 30%;">
                 </div>
-                <div class="inner-wedding-view-left">
+
+                <div class="second-inner-wedding-view-left" style="position:absolute;max-width: 480px;">
+
+                          <span class="testimonials-icon left-testimonial">&quot;</span>
+                          <span class="testimonials-icon right-testimonial">&quot;</span>
+
+                          <label class="wedding-testimonial-text wedding-testimonial-text-2">
+                              บริการพิมพ์การ์ดแตงงาน รับประกันราคาถูกที่สุดในโลกเพียงใบละ 2.5บาท พิมพ์การ์ดแต่งงานได้ไม่จำกัดแบบ 1,000 ใบ 1,000 แบบก็ทำได้..
+                          </label>
+
+
                 </div>
-                <div class="second-inner-wedding-view-left">
-                  <div class="row" style="position:relative">
-                    <span class="testimonials-icon left-testimonial">&quot;</span>
-                    <span class="testimonials-icon right-testimonial">&quot;</span>
-                      <div class="col-12 third-inner-wedding-view-left">
 
-                          <div class="hidden-inner d-sm-none d-none d-md-block d-lg-none">
-                          </div>
 
-                          <label class="d-none d-md-block d-lg-block d-xl-block wedding-testimonial-text wedding-testimonial-text-2">
-                              บริการพิมพ์การ์ดแตงงาน รับประกันราคาถูกที่สุดในโลกเพียงใบละ 2.5บาท
-                          </label>
-                          <label class="d-none d-md-block d-lg-block d-xl-block wedding-testimonial-text wedding-testimonial-text-2">
-                              พิมพ์การ์ดแต่งงานได้ไม่จำกัดแบบ 1,000 ใบ 1,000 แบบก็ทำได้..
-                          </label>
-
-                          <label class="d-block d-md-none d-lg-none d-xl-none wedding-testimonial-text wedding-testimonial-text-2">
-                              บริการพิมพ์การ์ดแตงงาน <br>รับประกันราคาถูกที่สุดในโลกเพียง<br>ใบละ 2.5บาท
-                              พิมพ์การ์ดแต่งงานได้<br>ไม่จำกัดแบบ 1,000 ใบ 1,000<br> แบบก็ทำได้..
-                          </label>
-
-                      </div>
-                  </div>
-                </div>
               </div><!-- END Left wedding-card -->
 
               <div class="col-12 col-lg-4"><!-- Right wedding-card -->
-                <div class="wedding-view-right offset-1"style="background:url('assets/images/wedding-card-view.jpg')no-repeat;background-size: 100% auto;background-position: 50% 30%;">
-                  <div class="inner-wedding-view-right">
-                  </div>
+                <div class="wedding-view-right offset-1"style="background-color: #f7d468;;background-size: 100% auto;background-position: 50% 30%;">
 
                   <div class="hidden-inner-right d-sm-none d-none d-md-block d-lg-none">
-                  </div>
-
-                  <div class="hidden-inner-right-2 d-sm-none d-none d-md-block d-lg-none">
                   </div>
 
                   <div class="second-inner-wedding-view-right">
@@ -146,9 +129,9 @@
                       คลิ๊กที่นี่
                     </a>
 
-                    <a  class="wedding-card-view-position d-block d-md-none d-lg-block" href="card-type.php">
+                    <label class="wedding-card-view-position d-block d-md-none d-lg-block" href="card-type.php">
                       ดูรูปแบบการ์ด
-                    </a>
+                    </label>
 
                   </div>
                 </div>
@@ -407,19 +390,19 @@
         <div class="container mt-5">
 
           <div class="row m-0">
-            <div class="col-12" style="text-align:center;margin-top:80px;">
+            <div class="col-12 margin-wedding-head" style="text-align:center;margin-top:80px;">
                 <h5>ขั้นตอนการ Order</h5>
             </div>
             <div class="col-12" style="text-align:center;">
               <div class='card-testimonial-wrap'>
                     <div class='wedding-card-title'>
-                        <span class="testimonials-icon">&quot;</span>
+                      <span class="testimonials-icon float-l-testimonial">&quot;</span>
                           <label class="wedding-testimonial-text custom-text-768 custom-text-1024">เราใส่ใจทุกขั้นตอนการทำงาน เพื่อให้เป็นที่พอใจกับลูกค้าทุกท่าน</label>
-                        <span class="testimonials-icon">&quot;</span>
+                      <span class="testimonials-icon float-r-testimonial">&quot;</span>
                     </div>
               </div>
             </div>
-            <div class="col-12" style="text-align:center;">
+            <div class="col-12 order-step" style="text-align:center;">
               <div style="padding-left:10px;padding-right:10px;margin-top:30px;">
                 <img class="img-fluid" src="assets/images/purchase.jpg" alt="Responsive image">
               </div>

@@ -13,15 +13,15 @@
 
 
         <div class="row">
-          <div class="col-12" style="text-align:center;">
+          <div class="col-12 margin-wedding-head" style="text-align:center;">
               <h5>รายการทั้งหมด</h5>
           </div>
           <div class="col-12" style="text-align:center;">
                 <div class='card-testimonial-wrap'>
                   <div class='wedding-card-title'>
-                      <span class="testimonials-icon">&quot;</span>
-                        <label class="wedding-testimonial-text custom-text-768 custom-text-1024" style="max-width:300px;overflow:hidden;">เข็มนาฬิกาสวย ๆ มากมายกว่า 100 แบบให้เลือกสรร</label>
-                      <span class="testimonials-icon">&quot;</span>
+                      <span class="testimonials-icon float-l-testimonial">&quot;</span>
+                        <label class="wedding-testimonial-text custom-text-768 custom-text-1024">เข็มนาฬิกาสวย ๆ มากมายกว่า 100 แบบให้เลือกสรร</label>
+                      <span class="testimonials-icon float-r-testimonial">&quot;</span>
                   </div>
             </div>
           </div>
@@ -94,38 +94,25 @@
 
           <div class="row" style="margin:0px 0px 0px 0px;">
 
-            <div class="col-12 col-lg-8" style="position:relative;"> <!-- Left wedding-card -->
-                <div class="wedding-view-left"style="background:url('assets/images/envelope/evl9.jpg')no-repeat;background-size: 100% auto;background-position: 50% 30%;">
-                </div>
-                <div class="inner-wedding-view-left">
-                </div>
-                <div class="second-inner-wedding-view-left">
-                  <div class="row" style="position:relative">
-                    <span class="testimonials-icon left-testimonial">&quot;</span>
-                    <span class="testimonials-icon right-testimonial">&quot;</span>
-                      <div class="col-12 third-inner-wedding-view-left">
 
-                          <div class="hidden-inner d-sm-none d-none d-md-block d-lg-none">
-                          </div>
-
-                          <label class="d-none d-md-block d-lg-block d-xl-block wedding-testimonial-text wedding-testimonial-text-2">
-                            สัพพะทานัง ธัมมะทานัง ชินาติ การให้ธรรมเป็นทาน ย่อมชนะการให้ทั้งปวง
-                          </label>
-                          <label class="d-none d-md-block d-lg-block d-xl-block wedding-testimonial-text wedding-testimonial-text-2">
-                              <!-- บรรทัด 2 ถ้ามี ถ้าไม่มีใส่ ใช้ตัวอักษรล่องหน  &zwnj;&zwnj;-->&zwnj;&zwnj;
-                          </label>
-
-
-                          <label class="d-block d-md-none d-lg-none d-xl-none wedding-testimonial-text wedding-testimonial-text-2">
-                            สัพพะทานัง ธัมมะทานัง ชินาติ<br>
-                            การให้ธรรมเป็นทานย่อมชนะการ<br>
-                            ให้ทั้งปวง
-                          </label>
-
-                      </div>
+              <div class="col-12 col-lg-8" style="position:relative;"> <!-- Left wedding-card -->
+                  <div class="wedding-view-left"style="background:url('assets/images/envelope/evl9.jpg')no-repeat;background-size: 100% auto;background-position: 50% 30%;">
                   </div>
-                </div>
-              </div><!-- END Left wedding-card -->
+
+                  <div class="second-inner-wedding-view-left" style="position:absolute;max-width: 480px;">
+
+                            <span class="testimonials-icon left-testimonial">&quot;</span>
+                            <span class="testimonials-icon right-testimonial">&quot;</span>
+
+                            <label class="wedding-testimonial-text wedding-testimonial-text-2">
+                              สัพพะทานัง ธัมมะทานัง ชินาติ การให้ธรรมเป็นทาน ย่อมชนะการให้ทั้งปวง
+                            </label>
+
+
+                  </div>
+
+
+                </div><!-- END Left wedding-card -->
 
               <div class="col-12 col-lg-4"><!-- Right wedding-card -->
                 <div class="wedding-view-right offset-1"style="background-size: 100% auto;background-position: 50% 30%;">
@@ -148,9 +135,9 @@
                       คลิ๊กที่นี่
                     </a>
 
-                    <a  class="wedding-card-view-position clock-view-position d-block d-md-none d-lg-block" href="card-type.php">
+                    <label  class="wedding-card-view-position clock-view-position d-block d-md-none d-lg-block" href="card-type.php">
                       ดูแบบนาฬิกา
-                    </a>
+                    </label>
 
                   </div>
                 </div>
@@ -321,19 +308,21 @@
         <div class="container mt-5">
 
           <div class="row m-0">
-            <div class="col-12" style="text-align:center;margin-top:80px;">
+            <div class="col-12 margin-wedding-head" style="text-align:center;margin-top:80px;">
                 <h5>ขั้นตอนการ Order</h5>
             </div>
+
             <div class="col-12" style="text-align:center;">
-              <div class='card-testimonial-wrap'>
+                  <div class='card-testimonial-wrap'>
                     <div class='wedding-card-title'>
-                        <span class="testimonials-icon">&quot;</span>
+                        <span class="testimonials-icon float-l-testimonial">&quot;</span>
                           <label class="wedding-testimonial-text custom-text-768 custom-text-1024">เราใส่ใจทุกขั้นตอนการทำงาน เพื่อให้เป็นที่พอใจกับลูกค้าทุกท่าน</label>
-                        <span class="testimonials-icon">&quot;</span>
+                        <span class="testimonials-icon float-r-testimonial">&quot;</span>
                     </div>
               </div>
             </div>
-            <div class="col-12" style="text-align:center;">
+
+            <div class="col-12 order-step" style="text-align:center;">
               <div style="padding-left:10px;padding-right:10px;margin-top:30px;">
                 <img class="img-fluid" src="assets/images/purchase.jpg" alt="Responsive image">
               </div>

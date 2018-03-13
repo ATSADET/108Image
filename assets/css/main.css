@@ -986,8 +986,96 @@ a.wreath_halftoneregular{
 ############################# END INDEX PAGE ################################
 ##############################################################################*/
 
+/*=============================================================================
+----------------------------- Single-News PAGE ------------------------------
+==============================================================================*/
+
+  
+
+/*=============================================================================
+----------------------------- END Single-News PAGE ----------------------------
+==============================================================================*/
 
 
+
+
+/*=============================================================================
+----------------------------- NEWS  PAGE -----------------------------
+==============================================================================*/
+
+  .news-megaphone{
+    width:8% !important;
+  }
+
+
+  .news-title{
+    font-size:25px;
+  }
+
+  .news-text {
+    font-size:20px;
+    font-weight: bold;
+  }
+
+  .news-img-reponsive{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+  }
+
+  .news-img-reponsive-mobile{
+    width: 100%;
+    height: 250px;;
+  }
+
+  .news-row-height{
+    height:250px;
+  }
+
+  .page-link{
+    border-radius: 0px !important;
+    color:black;
+    border: 1px solid #e1c076;
+    transition: all 0.3s;
+  }
+
+  .page-link:hover{
+    color: #fff;
+    background-color: #e1c076;
+    border-color: #e1c076;
+  }
+
+  .page-item.active .page-link {
+    color: #fff;
+    background-color: #e1c076;
+    border-color: #e1c076;
+  }
+
+  .news-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e1c0767a;
+  }
+
+  .news-container:hover .news-overlay {
+    opacity: 1;
+  }
+
+
+
+
+/*=============================================================================
+----------------------------- END NEWS  PAGE -----------------------------
+==============================================================================*/
 
 
 
@@ -1199,38 +1287,26 @@ a.wreath_halftoneregular{
 
 
   .wedding-view-left{
+    outline-offset: -28px;
+    outline: 2px solid white;
     padding:120px;
     padding-bottom: 150px;
     margin:0px 0px 0px 60px;
   }
 
   .wedding-view-right{
+    position:relative;
     padding:120px;
     padding-bottom: 150px;
     margin:0px 50px 0px 0px;
     border: 1px solid #e1c076;
     background-color: #f7d468;
-  }
-  .inner-wedding-view-left {
-      top: 30px;
-      right: 45px;
-      border: 2px solid white;
-      position: absolute;
-      padding: 105px 290px 105px 290px;
-  }
-
-  .second-inner-wedding-view-left {
-      top: 85px;
-      left: 160px;
-      right: 100px;
-      background-color: #f9f9f9c2;
-      position: absolute;
-      white-space: normal;
+    outline:2px solid white;
+    outline-offset: -30px;
   }
 
   .wedding-testimonial-text{
-    white-space: nowrap;
-    margin-bottom: 0px;
+    margin: 10px;
   }
 
   .p-ab{
@@ -1240,29 +1316,16 @@ a.wreath_halftoneregular{
 
   .right-testimonial {
       position: absolute;
-      top: -12px;
-      right: 27px;
+      top: -20px;
+      right: 0px;
   }
 
   .left-testimonial {
       position: absolute;
-      top: -12px;
-      left: 27px;
+      top: -20px;
+      left: 0px;
   }
 
-
-  .third-inner-wedding-view-left{
-    padding: 30px 0px 20px 60px;
-  }
-
-
-  .inner-wedding-view-left {
-      top: 30px;
-      right: 45px;
-      border: 2px solid white;
-      position: absolute;
-      padding: 105px 290px 105px 290px;
-  }
 
   .second-inner-wedding-view-left {
       top: 85px;
@@ -1270,47 +1333,22 @@ a.wreath_halftoneregular{
       right: 100px;
       background-color: #f9f9f9c2;
       position: absolute;
-      white-space: normal;
   }
 
   .wedding-testimonial-text{
-    white-space: nowrap;
-    margin-bottom: 0px;
+    position:relative;left: 0px;
+    margin: 30px;
   }
 
   .p-ab{
     top:0;
     right:0;
-  }
-
-  .right-testimonial {
-      position: absolute;
-      top: -12px;
-      right: 27px;
-  }
-
-  .left-testimonial {
-      position: absolute;
-      top: -12px;
-      left: 27px;
-  }
-
-  .third-inner-wedding-view-left{
-    padding: 30px 0px 20px 60px;
-  }
-
-  .inner-wedding-view-right {
-      top: 30px;
-      left: 44px;
-      border: 2px solid white;
-      position: absolute;
-      padding: 105px 115px 105px 120px;
   }
 
   .second-inner-wedding-view-right {
-      top: 110px;
-      left: 110px;
-      right: 140px;
+      top: 40%;
+      left: 30%;
+      right: 30%;
       position: absolute;
   }
 
@@ -1325,8 +1363,11 @@ a.wreath_halftoneregular{
     text-decoration: none;
     margin-bottom: 70px;
     transition: all 0.5s;
+    padding:8px;
     font-weight: 900;
   }
+
+
 
 
   .clock-view-position{
@@ -1336,8 +1377,6 @@ a.wreath_halftoneregular{
   .wedding-card-view-position:hover {
       background-color: white;
       color: black;
-      transition: all 0.5s;
-      border:1px solid #e1c076;
   }
 
   .card-size-relative{
@@ -1727,7 +1766,7 @@ hr.all-list-hr {
     display: inline-block;
     font-weight: 400;
     text-align: center;
-    white-space: nowrap;
+
     vertical-align: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -2028,13 +2067,6 @@ hr.all-list-hr-center {
   ############################# WEDDING-CARD RESPONSIVE 1366 #################
   ############################################################################*/
 
-      .inner-wedding-view-left {
-        top: 30px;
-        right: 45px;
-        border: 2px solid white;
-        position: absolute;
-        padding: 105px 345px 105px 345px;
-      }
 
       .wedding-testimonial-text {
         font-size: 24px;
@@ -2042,10 +2074,6 @@ hr.all-list-hr-center {
 
       .wedding-view-left {
           padding-bottom: 201px;
-      }
-
-      .inner-wedding-view-left {
-          padding: 105px 435px 155px 345px;
       }
 
       .second-inner-wedding-view-left {
@@ -2057,14 +2085,11 @@ hr.all-list-hr-center {
           margin: 0px 85px 0px 0px;
       }
 
-      .inner-wedding-view-right {
-          padding: 135px 115px 125px 175px;
-      }
 
       .second-inner-wedding-view-right {
-        top: 140px;
-        left: 140px;
-        right: 200px;
+        top: 40%;
+        left: 30%;
+        right: 30%;
       }
 
 
@@ -2103,6 +2128,19 @@ hr.all-list-hr-center {
 @media (max-width: 1024px)
 {
 
+
+  /*=============================================================================
+  ----------------------------- NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+    .news-text {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+  /*=============================================================================
+  ----------------------------- END NEWS  PAGE -----------------------------
+  ==============================================================================*/
 
 
   /*###########################################################################
@@ -2274,19 +2312,10 @@ hr.all-list-hr-center {
           transition: all 1s;
       }
 
-      .inner-wedding-view-left {
-          padding: 105px 220px 105px 290px;
-      }
-
-      .inner-wedding-view-right {
-        padding: 105px 115px 105px 90px;
-        left: 36px;
-      }
-
       .second-inner-wedding-view-right {
-        top: 120px;
-        left: 85px;
-        right: 125px;
+        top: 40%;
+        left: 25%;
+        right: 25%;
         position: absolute;
       }
 
@@ -2314,8 +2343,8 @@ hr.all-list-hr-center {
           right: 50px;
       }
 
-      .custom-wedding-page{
-        height: 1070px !important;
+      .custom-wedding-page {
+          height: 550px !important;
       }
 
   /*###########################################################################
@@ -2453,6 +2482,23 @@ hr.all-list-hr-center {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
+
+  /*=============================================================================
+  ----------------------------- NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+    .news-row-height{
+      height:200px;
+    }
+
+    .news-text {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+  /*=============================================================================
+  ----------------------------- END NEWS  PAGE -----------------------------
+  ==============================================================================*/
 
 
   /*###########################################################################
@@ -2636,27 +2682,24 @@ hr.all-list-hr-center {
         margin: 20px 410px 20px 0px;
       }
 
-      .inner-wedding-view-left {
-        top: 37px;
-        left: 30px;
-        right: 440px;
-        padding: 125px 0px 105px 0px;
-      }
-
       .second-inner-wedding-view-left {
         top: 100px;
         left: 205px;
         right: 70px;
         background-color: #e1c076e3;
         position: absolute;
-        white-space: normal;
+
       }
 
       .left-testimonial {
+        left:10px;
+        top:-12px;
         color: white;
       }
 
       .right-testimonial {
+        right:10px;
+        top:-12px;
         color: white;
       }
 
@@ -2679,34 +2722,24 @@ hr.all-list-hr-center {
         margin: 0px 50px 0px 360px;
       }
 
-      .inner-wedding-view-right {
-        top: 17px;
-        left: unset;
-        right: 80px;
-        padding: 115px 130px 115px 130px;
-      }
-
       .second-inner-wedding-view-right {
-        top: 125px;
-        left: 70px;
+          position: absolute;
+          top: 45%;
+          left: -90%;
+          right: 0%;
       }
 
       .hidden-inner-right {
+        outline: 2px solid white;
+        outline-offset: -20px;
         background-color: #e1c076e3;
         padding: 55px 165px 45px 215px;
         position: absolute;
         border: 2px solid white;
         top: 90px;
-        left: 57px;
+        right: 235px;
       }
 
-      .hidden-inner-right-2 {
-          padding: 45px 155px 35px 205px;
-          position: absolute;
-          border: 2px solid white;
-          top: 100px;
-          left: 68px;
-      }
 
       .wedding-card-view-position {
           top: -1px;
@@ -2810,6 +2843,12 @@ hr.all-list-hr-center {
 
       .custom-wedding-page{
         height: 600px !important;
+      }
+
+      .second-inner-wedding-view-left{
+        margin:15px;
+        outline:2px solid white;;
+        outline-offset:-10px;
       }
 
   /*###########################################################################
@@ -3041,6 +3080,23 @@ hr.all-list-hr-center {
   .text-white{
     text-align: center;
   }
+
+  /*=============================================================================
+  ----------------------------- NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+    .news-row-height{
+      height:unset;
+    }
+
+    .news-overlay {
+      left: 16px;
+      width: 92%;
+    }
+
+  /*=============================================================================
+  ----------------------------- END NEWS  PAGE -----------------------------
+  ==============================================================================*/
 
 
 
@@ -3290,41 +3346,21 @@ hr.all-list-hr-center {
       }
 
       .wedding-view-left {
+        position:relative;
         padding: 120px;
         padding-bottom: 150px;
         margin: 70px 0px 30px 0px;
       }
 
-      .inner-wedding-view-left {
-        top: 90px;
-        left: 30px;
-        right: 35px;
-        padding: 125px 0px 105px 0px;
-      }
-
       .second-inner-wedding-view-left {
-        top: 115px;
-        bottom: 70px;
-        left: 70px;
-        right: 70px;
+        left: 40px;
+        right: 40px;
+        position:absolute;
         background-color: #e1c076e3;
-        position: absolute;
-        white-space: normal;
-      }
-
-      .third-inner-wedding-view-left {
-        padding: 30px 0px 20px 56px;
       }
 
       .wedding-view-right {
         margin: unset;
-      }
-
-      .inner-wedding-view-right {
-        top: 17px;
-        left: unset;
-        right: 34px;
-        padding: 115px 165px 115px 150px;
       }
 
       .wedding-card-view-position {
@@ -3357,23 +3393,34 @@ hr.all-list-hr-center {
       }
 
       .second-inner-wedding-view-right {
-        right: -5px;
-        top: 115px;
-        left: 130px;
+          top: 40%;
+          left: 105px;
+          right: -50px;
       }
 
       .custom-text-768 {
-          font-size: 14px;
+          font-size: 19px;
       }
 
       .hide-768{
           display:none;
       }
 
-
       .custom-wedding-page{
         height: 700px  !important;
       }
+
+      .float-l-testimonial{
+        position: absolute;
+        top:-7px;
+        left:0px;
+      }
+
+       .float-r-testimonial{
+         position: absolute;
+         top:-7px;
+         right:0px;
+       }
 
   /*###########################################################################
   ########################## END WEDDING-CARD RESPONSIVE 414 #################
@@ -3616,11 +3663,27 @@ hr.studio-hr-right {
       margin-left: 15%;
   }
 
+  /*=============================================================================
+  ----------------------------- NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+    .news-overlay {
+      left: 15px;
+      width: 91.5%;
+    }
+
+  /*=============================================================================
+  ----------------------------- END NEWS  PAGE -----------------------------
+  ==============================================================================*/
 
 
   /*###########################################################################
   ############################# PAGE INDEX RESPONSIVE 375 #####################
   ############################################################################*/
+
+      .margin-content{
+        margin-top:15%;
+      }
 
       .testimonial-text {
         font-size: 16.5px;
@@ -3735,7 +3798,9 @@ hr.studio-hr-right {
           border: 2px solid #e1c076;
       }
 
-
+      .custom-text-768 {
+          font-size: 18px;
+      }
 
   /*###########################################################################
   ############################# END PAGE INDEX RESPONSIVE 375 #################
@@ -3776,24 +3841,6 @@ hr.studio-hr-right {
         padding: 5px;
       }
 
-      .third-inner-wedding-view-left {
-        padding: 34px 0px 20px 43px;
-      }
-
-      .inner-wedding-view-right {
-        top: 17px;
-        left: unset;
-        right: 34px;
-        padding: 115px 125px 115px 150px;
-      }
-
-      .inner-wedding-view-right {
-        top: 17px;
-        left: unset;
-        right: 34px;
-        padding: 115px 125px 115px 150px;
-      }
-
       .wedding-card-view-position {
         width: 55%;
       }
@@ -3803,24 +3850,27 @@ hr.studio-hr-right {
       }
 
       .second-inner-wedding-view-right {
-        right: 15px;
-        top: 115px;
-        left: 115px;
+        right: -30px;
+        top: 40%;
+        left: 90px;
       }
 
       .wedding-testimonial-text-2 {
         color: white;
-        font-size: 17px;
+        font-size: 15px;
       }
 
-      .third-inner-wedding-view-left {
-        padding: 34px 0px 20px 39px;
+      .margin-wedding-head{
+        margin-bottom:25px;
       }
 
-      .custom-text-768 {
-          font-size: 13px;
+      #slider{
+        margin-top:30px;
       }
 
+      .order-step{
+        margin-top: 30px;
+      }
 
   /*###########################################################################
   ########################## END WEDDING-CARD RESPONSIVE 375 #################
@@ -3986,9 +4036,28 @@ hr.studio-hr-right {
   }
 
 
+  /*=============================================================================
+  ----------------------------- NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+    .news-overlay {
+      left: 15px;
+      width: 90%;
+    }
+
+  /*=============================================================================
+  ----------------------------- END NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+
   /*###########################################################################
   ############################# PAGE INDEX RESPONSIVE 320 #####################
   ############################################################################*/
+
+      .margin-content{
+        margin-top:18%;
+      }
+
 
       .testimonial-text {
           font-size: 13.5px;
@@ -4104,6 +4173,10 @@ hr.studio-hr-right {
           font-size: 15px;
       }
 
+      .custom-text-768 {
+          font-size: 15x;
+      }
+
   /*###########################################################################
   ############################# END PAGE INDEX RESPONSIVE 320 #################
   ############################################################################*/
@@ -4142,10 +4215,6 @@ hr.studio-hr-right {
           padding: 2px;
       }
 
-      .custom-text-768 {
-          font-size: 10px;
-      }
-
       .second-inner-wedding-view-left {
         top: 105px;
         bottom: 58px;
@@ -4153,18 +4222,7 @@ hr.studio-hr-right {
         right: 47px;
         background-color: #e1c076e3;
         position: absolute;
-        white-space: normal;
-      }
 
-      .third-inner-wedding-view-left {
-        padding: 40px 0px 20px 32px;
-      }
-
-      .inner-wedding-view-right {
-        top: 17px;
-        left: unset;
-        right: 33px;
-        padding: 115px 90px 115px 130px;
       }
 
       .wedding-card-view-position {
@@ -4176,15 +4234,26 @@ hr.studio-hr-right {
       }
 
       .second-inner-wedding-view-right {
-        right: 45px;
-        top: 115px;
-        left: 90px;
+        right: 20px;
+        top: 40%;
+        left: 60px;
       }
 
       .custom-wedding-page{
         height: 750px  !important;
       }
 
+      .margin-wedding-head{
+        margin-bottom: 20px;
+      }
+
+      #slider{
+        margin-top:10%;
+      }
+
+      .order-step{
+        margin-top:60px;
+      }
   /*###########################################################################
   ########################## END WEDDING-CARD RESPONSIVE 320 #################
   ############################################################################*/
