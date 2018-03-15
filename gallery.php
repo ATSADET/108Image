@@ -8,7 +8,7 @@
 
 
 
-    <section class="promotion"><!-- Promotion Section-->
+    <section class="promotion mb-0"><!-- Promotion Section-->
       <div class="container"><!-- Promotion container-->
 
 
@@ -16,15 +16,17 @@
           <div class="col-12" style="text-align:center;">
               <h5>ผลงานที่ผ่านมา</h5>
           </div>
-          <div class="col-12" style="text-align:center;">
+
+          <div class="col-12 mt-2" style="text-align:center;">
                 <div class='card-testimonial-wrap'>
                   <div class='wedding-card-title'>
-                      <span class="testimonials-icon">&quot;</span>
+                      <span class="testimonials-icon float-l-testimonial">&quot;</span>
                         <label class="wedding-testimonial-text custom-text-768 custom-text-1024">ผลงานสวยๆ จากทีมงาน image studio</label>
-                      <span class="testimonials-icon">&quot;</span>
+                      <span class="testimonials-icon float-r-testimonial">&quot;</span>
                   </div>
             </div>
           </div>
+
         </div>
 
 
@@ -35,7 +37,7 @@
 
 
 <div class="container">
-    <div class="card-type-content mt-5"><!--  Card Type  content-->
+    <div class="card-type-content"><!--  Card Type  content-->
       <div class="row">
 
         <div class="col-12 col-lg-4 folio-relative undo-overflow my-5"><!-- Card type items-->

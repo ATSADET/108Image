@@ -21,7 +21,7 @@
           </div>
         </div><!-- END  Promotion Title-->
 
-        <div class="promotion-content"><!-- Promotion content-->
+        <div class="promotion-content margin-content"><!-- Promotion content-->
           <div class="row">
 
             <div class="col-12 col-lg-7 promotion-left"><!-- Promotion Left-->
@@ -54,14 +54,14 @@
 
                 <div class="col-12"><!-- Promotion Right bottom-->
                   <div class="promotion-right-bottom">
-                    <a href="single-promotion.php">
+                    <a href="news.php">
                       <div class="promotion-text-1 d-block w-100 text-center">
                         <h5 class="index-promotion" style="line-height: 0px;">
-                          โปรโมชั่นประจำเดือน มีนาคม
+                          ข่าวสาร
                         </h5>
                         <br>
                           <label class="index-promotion">
-                            คลิ๊กดูรายละเอียดเพิ่มเติม
+                            คลิ๊กเพื่ออ่านข่าวสารเพิ่มเติม
                           </label>
                       </div>
                       <div class="promotion-overlay">
@@ -95,23 +95,18 @@
         </div><!-- END   Card Type  Title-->
 
 
-
-        <div class="row">
-        <div class="col-12">
-          <div class="card-testimonial">
-              <div class='card-testimonial-wrap'>
-                <div class='testimnial-box'>
-                    <span class="testimonials-icon">&quot;</span>
-                      <label class="testimonial-text">รูปแบบการ์ดสามารถเลือกได้ตามความต้องการของคุณลูกค้า</label>
-                    <span class="testimonials-icon">&quot;</span>
+        <div class="col-12" style="text-align:center;">
+          <div class='card-testimonial-wrap'>
+                <div class='wedding-card-title'>
+                  <span class="testimonials-icon float-l-testimonial">&quot;</span>
+                      <label class="wedding-testimonial-text custom-text-768 custom-text-1024">รูปแบบการ์ดสามารถเลือกได้ตามความต้องการของคุณลูกค้า</label>
+                  <span class="testimonials-icon float-r-testimonial">&quot;</span>
                 </div>
-              </div>
           </div>
         </div>
-        </div>
 
 
-        <div class="card-type-content"><!--  Card Type  content-->
+        <div class="card-type-content margin-content"><!--  Card Type  content-->
           <div class="row">
 
             <div class="col-6 col-lg-3 relative"><!-- Card type items-->
@@ -218,23 +213,18 @@
           </div>
         </div><!-- END  envelope Type  Title-->
 
-        <div class="row">
-        <div class="col-12">
-          <div class="envelope-testimonial">
-              <div class='envelope-testimonial-wrap'>
-                <div class='envelope-testimnial-box'>
-                    <span class="testimonials-icon">&quot;</span>
-                      <label class="envelope-testimonial-text">รูปแบบซองดีไซน์เรียบหรู ดูอบอุ่น ให้ผู้ได้รับซองรู้สึกดีทุกครั้งที่ได้รับ</label>
-                    <span class="testimonials-icon">&quot;</span>
+        <div class="col-12" style="text-align:center;">
+          <div class='card-testimonial-wrap'>
+                <div class='wedding-card-title'>
+                  <span class="testimonials-icon float-l-testimonial">&quot;</span>
+                      <label class="wedding-testimonial-text custom-text-768 custom-text-1024">รูปแบบซองดีไซน์เรียบหรู ดูอบอุ่น ให้ผู้ได้รับซองรู้สึกดีทุกครั้งที่ได้รับ</label>
+                  <span class="testimonials-icon float-r-testimonial">&quot;</span>
                 </div>
-              </div>
           </div>
         </div>
-        </div>
 
 
-
-        <div class="envelope-type-content"><!--  envelope Type  content-->
+        <div class="envelope-type-content margin-content"><!--  envelope Type  content-->
           <div class="row">
 
             <div class="col-12 col-lg-6">
@@ -352,23 +342,19 @@
           </div>
         </div><!-- END  Souvenir Type  Title-->
 
-        <div class="row">
-        <div class="col-12">
-          <div class="envelope-testimonial">
-              <div class='envelope-testimonial-wrap'>
-                <div class='souvenir-testimnial-box'>
-                    <span class="testimonials-icon">&quot;</span>
-                      <label class="envelope-testimonial-text">สร้างความประทับใจให้กับแขกที่มาในงานด้วยของขำร่วยแสนพิเศษ</label>
-                    <span class="testimonials-icon">&quot;</span>
+
+        <div class="col-12" style="text-align:center;">
+          <div class='card-testimonial-wrap'>
+                <div class='wedding-card-title'>
+                  <span class="testimonials-icon float-l-testimonial">&quot;</span>
+                      <label class="wedding-testimonial-text custom-text-768 custom-text-1024">สร้างความประทับใจให้กับแขกที่มาในงานด้วยของขำร่วยแสนพิเศษ</label>
+                  <span class="testimonials-icon float-r-testimonial">&quot;</span>
                 </div>
-              </div>
           </div>
         </div>
-        </div>
 
 
-
-        <div class="envelope-type-content"><!--  Souvenir Type  content-->
+        <div class="envelope-type-content margin-content"><!--  Souvenir Type  content-->
           <div class="row">
 
             <div class="col-12 col-lg-6"><!--  Souvenir Type Left content-->
@@ -495,23 +481,19 @@
           </div>
         </div><!-- END  envelope Type  Title-->
 
-        <div class="row">
-        <div class="col-12">
-          <div class="envelope-testimonial">
-              <div class='envelope-testimonial-wrap'>
-                <div class='brochour-testimnial-box'>
-                    <span class="testimonials-icon">&quot;</span>
-                      <label class="envelope-testimonial-text">พิมพ์ใบปลิว พิมพืโบชัวร์ ราคาถูกที่สุด งานพิมพ์คุณภาพสูง</label>
-                    <span class="testimonials-icon">&quot;</span>
+
+        <div class="col-12" style="text-align:center;">
+          <div class='card-testimonial-wrap'>
+                <div class='wedding-card-title'>
+                  <span class="testimonials-icon float-l-testimonial">&quot;</span>
+                      <label class="wedding-testimonial-text custom-text-768 custom-text-1024">พิมพ์ใบปลิว พิมพืโบชัวร์ ราคาถูกที่สุด งานพิมพ์คุณภาพสูง</label>
+                  <span class="testimonials-icon float-r-testimonial">&quot;</span>
                 </div>
-              </div>
           </div>
         </div>
-        </div>
 
 
-
-        <div class="envelope-type-content"><!--  envelope Type  content-->
+        <div class="envelope-type-content margin-content"><!--  envelope Type  content-->
           <div class="row">
 
             <div class="col-12 col-lg-6">
@@ -632,23 +614,18 @@
         </div><!-- END Clock engine  Type  Title-->
 
 
-
-        <div class="row">
-        <div class="col-12">
-          <div class="card-testimonial">
-              <div class='card-testimonial-wrap'>
-                <div class='clock-testimnial-box'>
-                    <span class="testimonials-icon">&quot;</span>
-                      <label class="testimonial-text">เครื่องนาฬืกา เข๋มนาฬิกา มีให้เลือกมากกว่า 100 แบบ</label>
-                    <span class="testimonials-icon">&quot;</span>
+        <div class="col-12" style="text-align:center;">
+          <div class='card-testimonial-wrap'>
+                <div class='wedding-card-title'>
+                  <span class="testimonials-icon float-l-testimonial">&quot;</span>
+                      <label class="wedding-testimonial-text custom-text-768 custom-text-1024">เครื่องนาฬืกา เข๋มนาฬิกา มีให้เลือกมากกว่า 100 แบบ</label>
+                  <span class="testimonials-icon float-r-testimonial">&quot;</span>
                 </div>
-              </div>
           </div>
         </div>
-        </div>
 
 
-        <div class="card-type-content"><!--  Clock engine  Type  content-->
+        <div class="card-type-content margin-content"><!--  Clock engine  Type  content-->
           <div class="row">
 
             <div class="col-6 col-lg-3 relative"><!-- Clock engine  type items-->
@@ -749,30 +726,25 @@
         </div><!-- END Folio engine  Type  Title-->
 
 
-
-        <div class="row">
-        <div class="col-12">
-          <div class="card-testimonial">
-              <div class='card-testimonial-wrap'>
-                <div class='folio-testimnial-box'>
-                    <span class="testimonials-icon">&quot;</span>
-                      <label class="testimonial-text">รวมผลงานจากทางร้านทั้งหมด</label>
-                    <span class="testimonials-icon">&quot;</span>
+        <div class="col-12" style="text-align:center;">
+          <div class='card-testimonial-wrap'>
+                <div class='wedding-card-title'>
+                  <span class="testimonials-icon float-l-testimonial">&quot;</span>
+                      <label class="wedding-testimonial-text custom-text-768 custom-text-1024">รวมผลงานจากทางร้านทั้งหมด</label>
+                  <span class="testimonials-icon float-r-testimonial">&quot;</span>
                 </div>
-              </div>
           </div>
         </div>
-        </div>
 
 
-        <div class="card-type-content"><!--  Folio Type  content-->
+        <div class="card-type-content margin-content"><!--  Folio Type  content-->
           <div class="row">
 
             <div class="col-12 col-lg-4 folio-relative"><!-- Folio type items-->
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (1).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top: 35%;">
                     การ์ดแต่งงาน
                   </h5>
                   <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
@@ -786,7 +758,7 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (2).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top: 35%;">
                     จิ๊กซอว์
                   </h5>
                   <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
@@ -800,7 +772,7 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (3).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top: 35%;">
                     การ์ดแต่งงาน
                   </h5>
                   <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
@@ -814,7 +786,7 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (4).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top: 35%;">
                     การ์ดแต่งงาน
                   </h5>
                   <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
@@ -828,7 +800,7 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (5).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top: 35%;">
                     การ์ดแต่งงาน
                   </h5>
                   <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
@@ -842,7 +814,7 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (6).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top: 35%;">
                     การ์ดแต่งงาน
                   </h5>
                   <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
@@ -856,7 +828,7 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (7).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top: 35%;">
                     การ์ดแต่งงาน
                   </h5>
                   <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
@@ -870,7 +842,7 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (8).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top: 35%;">
                     การ์ดแต่งงาน
                   </h5>
                   <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
@@ -884,7 +856,7 @@
               <img class="d-block w-100 folio-item" src="assets/images/portfolio/folio (9).jpg" alt="card item">
               <a onclick="gal()">
                 <div class="folio-type-overlay text-center">
-                  <h5 class="m-auto folio-overlay-text" style="padding-top:40%;">
+                  <h5 class="m-auto folio-overlay-text" style="padding-top: 35%;">
                     การ์ดแต่งงาน
                   </h5>
                   <label class="m-auto px-5" style="padding-top:0%;color:black;font-weight:bold;">
@@ -926,23 +898,17 @@
         </div><!-- END Feed Type  Title-->
 
 
-
-        <div class="row">
-        <div class="col-12">
-          <div class="card-testimonial">
-              <div class='card-testimonial-wrap'>
-                <div class='feed-testimnial-box'>
-                    <span class="testimonials-icon">&quot;</span>
-                      <label class="feed-testimonial-text">เสียงตอบรับจากลูกค้าที่ไว้ใจเลือกใช้บริการกับทาง image studio</label>
-                    <span class="testimonials-icon">&quot;</span>
+        <div class="col-12" style="text-align:center;">
+          <div class='card-testimonial-wrap'>
+                <div class='wedding-card-title'>
+                  <span class="testimonials-icon float-l-testimonial">&quot;</span>
+                      <label class="wedding-testimonial-text custom-text-768 custom-text-1024">เสียงตอบรับจากลูกค้าที่ไว้ใจเลือกใช้บริการกับทาง image studio</label>
+                  <span class="testimonials-icon float-r-testimonial">&quot;</span>
                 </div>
-              </div>
           </div>
         </div>
-        </div>
 
-
-        <div class="card-type-content"><!--  Feed Type  content-->
+        <div class="card-type-content margin-content"><!--  Feed Type  content-->
           <div class="row">
 
             <div class="col-12 col-lg-6 feed-relative"><!-- Feed type items-->
@@ -1017,24 +983,17 @@
           </div>
         </div><!-- END Contact  Type  Title-->
 
-
-
-        <div class="row">
-        <div class="col-12">
-          <div class="card-testimonial">
-              <div class='card-testimonial-wrap'>
-                <div class='contact-testimnial-box'>
-                    <span class="testimonials-icon">&quot;</span>
-                      <label class="feed-testimonial-text">ติดต่อสอบภามช้อมูลเพิ่มติมได้ที่นี่</label>
-                    <span class="testimonials-icon">&quot;</span>
+        <div class="col-12" style="text-align:center;">
+          <div class='card-testimonial-wrap'>
+                <div class='wedding-card-title'>
+                  <span class="testimonials-icon float-l-testimonial">&quot;</span>
+                      <label class="wedding-testimonial-text custom-text-768 custom-text-1024">ติดต่อสอบภามช้อมูลเพิ่มติมได้ที่นี่</label>
+                  <span class="testimonials-icon float-r-testimonial">&quot;</span>
                 </div>
-              </div>
           </div>
         </div>
-        </div>
 
-
-        <div class="card-type-content"><!--  Folio Type  content-->
+        <div class="card-type-content margin-content"><!--  Folio Type  content-->
           <div class="row">
 
               <div class="col-12 col-lg-6">
