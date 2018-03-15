@@ -95,7 +95,7 @@
           <div class="row" style="margin:0px 0px 0px 0px;">
 
             <div class="col-12 col-lg-8" style="position:relative;"> <!-- Left wedding-card -->
-                <div class="wedding-view-left"style="background:url('assets/images/envelope/evl9.jpg')no-repeat;background-size: 100% auto;background-position: 50% 30%;">
+                <div class="wedding-view-left" style="background:url('assets/images/envelope/evl9.jpg')no-repeat;background-size: 100% auto;background-position: 50% 30%;">
                 </div>
                 <div class="inner-wedding-view-left">
                 </div>
