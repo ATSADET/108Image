@@ -10,22 +10,29 @@
     <div class="container ">
       <div class="aboutus-container-magint-button">
         <div class="row">
-          <div class="col-sm-12 text-center mt-5">
-            <h3>เกี่ยวกับ Image Studio</h3>
+
+          <div class="col-12" style="text-align:center;">
+            <h5>เกี่ยวกับ Image Studio</h5>
+          </div>
+          <div class="col-12" style="text-align:center;">
+                <div class='card-testimonial-wrap'>
+                  <div class='wedding-card-title'>
+                      <span class="testimonials-icon">&quot;</span>
+                        <label class="wedding-testimonial-text custom-text-768 custom-text-1024">รู้จัก Imgage Studio ให้มากขึ้น</label>
+                      <span class="testimonials-icon">&quot;</span>
+                  </div>
+            </div>
           </div>
 
-          <div class="col-sm-12 text-center">
-            <i class="fa fa-quote-left studio-quote-left" aria-hidden="true"></i>
-            <font>รู้จัก Imgage Studio ให้มากขึ้น</font>
-            <i class="fa fa-quote-right studio-quote-right" aria-hidden="true"></i>
-          </div>
+
+
 
           <div class=" col-sm-4"></div>
           <div class="col-sm-4">
             <div class="text-center">
                <img class="aboutus-img-50 mx-4 my-4" src="assets/images/logo.png">
             </div>
-          </div> 
+          </div>
           <div class=" col-sm-4"></div>
 
 
@@ -39,10 +46,10 @@
           <div class="col-sm-3"></div>
             <div class="col-sm-6">
               <div class="text-center">
-                <div>คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ 
-                มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16  
-                เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum 
-                อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์ 
+                <div>คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์
+                มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16
+                เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum
+                อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์
                 และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960</div>
               </div>
             </div>
@@ -52,14 +59,13 @@
 
 
 
-
       <div class="row">
         <div class="col-sm-12">
           <div class="my-3">
             <div class="aboutus-background">
               <div class="text-center aboutus-border-fff">
                 <div class="aboutus-border-background">
-                  <i class="fa fa-quote-left aboutus-quote-left" aria-hidden="true"></i>
+                   <i class="fa fa-quote-left aboutus-quote-left" aria-hidden="true"></i>
                   <font class="aboutus-font-size">ออกแบบ & พิมพ์ การ์ดแต่งาน โปสการ์ด นามบัตร และฉลากสินค้า ด้วยระบบดิจิตอลออฟเซ็ท 4 สี </font>
                   <i class="fa fa-quote-right aboutus-quote-right" aria-hidden="true"></i>
                 </div>
@@ -81,18 +87,18 @@
 
 
 
-            <div class="aboutus-background-footer">
-              <div class="aboutus-container">
-                  <div class="row abouts-magin-crad">
+    <div class="aboutus-background-footer">
+      <div class="aboutus-container">
+                  <div class="row">
                     <div class="col-12 col-sm-6">
                       <div class="studio-relative">
-                        <img class="studio-img-100 about-us-center my-4" src="assets/images/img/img-demo/983b6d9dbeaf7caf8cbeeecf98ecc312.jpg">
+                        <img class="studio-img-100 about-us-center  my-4" src="assets/images/img-demo/983b6d9dbeaf7caf8cbeeecf98ecc312.jpg">
                         <div class="aboutus-border-img"></div>
                       </div>
                     </div>
                     <div class="col-12 col-sm-6">
                       <div class="studio-topcenter">
-                        <div class="col-sm-12 mx-3 my-4"><h3 class="about-us-h3-rosponsive studio-center-line">ที่มาของ Image Studio</h3></div>
+                        <div class="col-sm-12 mx-3 my-4"><h3 class="about-us-h3-rosponsive">ที่มาของ Image Studio</h3></div>
                         <div class="col-sm-12 mx-3"><hr class="studio-hr-left"></div>
                         <div class="col-sm-12 mx-3">
                            <p class="aboutus-font-left studio-magin-prot"><font class="studio-space ">Image Studio</font> คือ เนื้อคือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์ และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960</p>
@@ -120,13 +126,13 @@
                     </div>
                     <div class="col-12 col-sm-6">
                       <div class="studio-relative">
-                        <img class="studio-img-100 about-us-center  my-4" src="assets/images/img/img-demo/9a892a68f8df95e3e2f7f2ca9b60cafe-2.jpg">
+                        <img class="studio-img-100 about-us-center  my-4" src="assets/images/img-demo/9a892a68f8df95e3e2f7f2ca9b60cafe-2.jpg">
                       <div class="aboutus-border-img"></div>
                     </div>
                     </div>
                   </div>
-              </div>
-            </div>
+      </div>
+    </div>
 
 
 
@@ -164,7 +170,7 @@
 <!--                   <div class="col-sm-12"><h4>ช่องทางการติดต่อที่สะดวกยิ่งขึ้น</h4></div> -->
                   <!-- <div class="my-4"></div> -->
                   <div class="col-4 col-sm-4">
-                    <img class="contact-img-100 " src="assets/images/img/imagestudio/Addd(6).gif">
+                    <img class="contact-img-100" src="assets/images/imagestudio/Addd(6).gif">
                   </div>
                   <div class="col-8 col-sm-8">
                     <div class="aboutus-font0size-line15">
@@ -186,7 +192,7 @@
 
 
 
-    
+
 
 
     <section class="promotion">

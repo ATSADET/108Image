@@ -11,36 +11,36 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav navbar-bottom">
-      <li class="nav-item active ml-auto mr-auto">
+      <li class="nav-item ml-auto mr-auto active">
         <a class="nav-link" href="index.php">หน้าแรก</a>
         <!-- <p class="nav-link"> หน้าแรก</p> -->
       </li>
       <li class="nav-item ml-auto mr-auto">
-        <a class="nav-link" href="about.php">เกี่ยวกับเรา</a>
+        <a class="nav-link" href="about-us.php">เกี่ยวกับเรา</a>
       </li>
       <li class="nav-item ml-auto mr-auto">
 				<div class="dropdown">
-					<a class="nav-link nav-dropdown" data-toggle="dropdown">งานพิมพ์การ์ด</a>
+					<a href="wedding-card.php"  class="nav-link nav-dropdown" data-toggle="dropdown">งานพิมพ์การ์ด</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item custom-dropdown-content" href="#">พิมพ์การ์ดแต่งงาน</a>
-						<a class="dropdown-item custom-dropdown-content" href="#">พิมพ์โปสเตอร์</a>
-						<a class="dropdown-item custom-dropdown-content" href="#">พิมพ์นามบัตร</a>
-						<a class="dropdown-item custom-dropdown-content" href="#">พิมพ์ใบปลิว โบชัวร์</a>
-						<a class="dropdown-item custom-dropdown-content" href="#">พิมพ์ซองการแต่งงาน</a>
+						<a class="dropdown-item custom-dropdown-content" href="wedding-card.php">พิมพ์การ์ดแต่งงาน</a>
+						<a class="dropdown-item custom-dropdown-content" href="wedding-card.php">พิมพ์โปสเตอร์</a>
+						<a class="dropdown-item custom-dropdown-content" href="wedding-card.php">พิมพ์นามบัตร</a>
+						<a class="dropdown-item custom-dropdown-content" href="wedding-card.php">พิมพ์ใบปลิว โบชัวร์</a>
+						<a class="dropdown-item custom-dropdown-content" href="wedding-card.php">พิมพ์ซองการแต่งงาน</a>
 					</div>
 				</div>
       </li>
       <li class="nav-item ml-auto mr-auto">
 				<div class="dropdown">
-					<a class="nav-link nav-dropdown" data-toggle="dropdown">งานทั้งหมด</a>
+					<a href="all-list.php" class="nav-link nav-dropdown" data-toggle="dropdown">รายการทั้งหมด</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item custom-dropdown-content" href="#">เครื่องนาฬิกา</a>
-						<a class="dropdown-item custom-dropdown-content" href="#">ซองใส่การ์ด</a>
-						<a class="dropdown-item custom-dropdown-content" href="#">กล่องรับซอง</a>
-						<a class="dropdown-item custom-dropdown-content" href="#">โลโก้งานแต่ง</a>
-						<a class="dropdown-item custom-dropdown-content" href="#">แสตนด์ดี้</a>
-						<a class="dropdown-item custom-dropdown-content" href="#">สติี๊กเกอร์</a>
-						<a class="dropdown-item custom-dropdown-content" href="#">ของที่ละลึก</a>
+						<a class="dropdown-item custom-dropdown-content" href="all-list.php">เครื่องนาฬิกา</a>
+						<a class="dropdown-item custom-dropdown-content" href="all-list.php">ซองใส่การ์ด</a>
+						<a class="dropdown-item custom-dropdown-content" href="all-list.php">กล่องรับซอง</a>
+						<a class="dropdown-item custom-dropdown-content" href="all-list.php">โลโก้งานแต่ง</a>
+						<a class="dropdown-item custom-dropdown-content" href="all-list.php">แสตนด์ดี้</a>
+						<a class="dropdown-item custom-dropdown-content" href="all-list.php">สติี๊กเกอร์</a>
+						<a class="dropdown-item custom-dropdown-content" href="all-list.php">ของที่ละลึก</a>
 					</div>
 				</div>
       </li>
@@ -48,7 +48,7 @@
         <a class="nav-link" href="studio.php">สตูดิโอ</a>
       </li>
       <li class="nav-item ml-auto mr-auto">
-        <a class="nav-link" href="portfolio.php">ผลงานที่ผ่านมา</a>
+        <a class="nav-link" href="gallery.php">ผลงานที่ผ่านมา</a>
       </li>
       <li class="nav-item ml-auto mr-auto">
         <a class="nav-link" href="contact.php">ติดต่อเรา</a>

@@ -44,10 +44,10 @@
 
 }
 
-
 /*################################################################################################################
 ------------------------------------------------- General --------------------------------------------------------
 #################################################################################################################*/
+
 
 html,body{
   height:100%;
@@ -101,17 +101,38 @@ h6 {
     line-height: 24px;
 }
 
+.subh6 {
+    font-family: KunlasatriRegular;
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 18px;
+}
+
 a{
 
+}
+
+
+a:hover{
+  text-decoration: none;
+}
+
+footer{
+    margin-top: 30px;
 }
 
 section{
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 a.wreath_halftoneregular{
   font-family: 'wreath_halftoneregular';
 }
+
 .font-normal {
     font-weight: normal;
 }
@@ -124,6 +145,52 @@ a.wreath_halftoneregular{
   color: #808080;
 }
 
+.btn-custom{
+  background-color: #e1c076;
+  color:white;
+  border-radius: 0px;
+  width: 15%;
+  padding: 10px 40px 10px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.5s;
+  text-decoration: none;
+  margin-bottom: 70px;
+
+}
+
+.btn-custom:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid #e1c076;
+  text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #e1c076;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
+.text-dark{
+  color: #808080;
+}
 
 
 /*################################ HEADER ####################################*/
@@ -229,13 +296,26 @@ a.wreath_halftoneregular{
     margin-left: .255em;
     vertical-align: .1em;
     content: "";
-    border-top: .3em solid;
+    border-top: .4em solid;
     border-right: .3em solid transparent;
     border-bottom: 0;
     border-left: .3em solid transparent;
+    transition: all 0.5s ;
 }
 
-
+.nav-dropdown:hover::after{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .1em;
+    content: "";
+    border-top: 0;
+    border-right: .3em solid transparent;
+    border-bottom: 0.4em solid;
+    border-left: .3em solid transparent;
+    color: #e1c076;
+}
 
 .dropdown > .dropdown-toggle:active {
     pointer-events: none;
@@ -249,7 +329,7 @@ a.wreath_halftoneregular{
 
 /*################################ FOOTER ####################################*/
 .footer{
-  padding: 15px 0px 5px 0px;
+  padding: 22px 0px 0px 0px;
   background-color: #e1c076;
 }
 
@@ -272,7 +352,15 @@ a.wreath_halftoneregular{
   margin: 6px;
   color: #fff;
   text-decoration: none;
+  transition: all 0.4s;
 }
+
+
+.ft-social .social-link-facebook:hover{
+  border: 1px solid #000;
+  color: #000;
+}
+
 
 .ft-social .social-link-twitter{
   border: 1px solid white;
@@ -280,6 +368,13 @@ a.wreath_halftoneregular{
   margin: 6px;
   color: #fff;
   text-decoration: none;
+  transition: all 0.4s;
+
+}
+
+.ft-social .social-link-twitter:hover{
+  border: 1px solid #000;
+  color: #000;
 }
 
 .ft-social .social-link-instagram{
@@ -288,12 +383,1098 @@ a.wreath_halftoneregular{
   margin: 6px;
   color: #fff;
   text-decoration: none;
+  transition: all 0.4s;
+
+}
+
+.ft-social .social-link-instagram:hover{
+  border: 1px solid #000;
+  color: #000;
 }
 
 .ft-social .social-link:hover{
   color:black;
   text-decoration: none;
 }
+
+
+
+/*=============================================================================
+--------------------------------- INDEX  PAGE ----------------------------------
+==============================================================================*/
+
+    /*#######promotion#######*/
+
+    .promotion-text-1{
+      max-height:172px;
+      padding:60px 48px 48px 48px;
+      border:2px solid #e5c888;
+    }
+
+    .promotion{
+      margin-top: 50px;
+    }
+
+    .promotion-right-top{
+      position:relative;
+    }
+
+    .promotion-right-bottom{
+      position:relative;
+    }
+
+    .promotion-title{
+      position: relative;
+      margin-bottom: 35px;
+    }
+
+    .promotion-overlay{
+      opacity: 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #ffc10738;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+    }
+
+    .promotion-right-top:hover .promotion-overlay{
+      opacity: 1;
+    }
+
+    .promotion-right-bottom:hover .promotion-overlay{
+      opacity: 1;
+    }
+
+    .dash{
+      border-top: 1px solid;
+      border-bottom: 1px solid;
+      padding:3px;
+    }
+
+    .testimonial-text{
+      user-select: none;
+      font-weight: bolder;
+      font-size: 20px;
+      color:#949494;
+    }
+
+    .title-text{
+      position: absolute;
+      top: -15px;
+      background-color: white;
+      right: 50%;
+      margin: 0px -45px 0px 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .promotion-content{
+      margin: 30px 0px 0px 0px;
+    }
+
+    .promotion-right-top{
+      margin-bottom: 7%;
+    }
+
+
+    /*#######card type#######*/
+    .card-type-title{
+      position: relative;
+      margin-bottom: 35px;
+      margin-top: 35px;
+    }
+
+    .card-type-title-text{
+      position: absolute;
+      top: -15px;
+      background-color: white;
+      right: 50%;
+      margin: 0px -65px 0px 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .card-testimonial{
+      position:relative;
+      margin-bottom: 40px;
+    }
+    .card-testimonial-wrap {
+      position: relative;
+      width: 100%;
+      -webkit-animation: bounces 2s infinite;
+    }
+    .testimnial-box{
+      position:absolute;
+      top: -40px;
+      right: 30.5%;
+    }
+
+    @-webkit-keyframes bounces {
+      0% { top: 0;}
+      50% { top: -5px; }
+      100% { top: 0;}
+    }
+
+    .testimonials-icon {
+    	display: inline-block;
+    	margin: 0 4px 4px 0;
+    	font-family: 'Coustard', serif;
+    	font-weight: 900;
+    	font-size: 72px;
+    	height: 46px;
+    	line-height: 109px;
+    	overflow: hidden;
+    	color: #e1c076;
+    }
+
+    .card-item{
+        height:250px;
+    }
+
+
+    .relative {
+      overflow: hidden;
+        margin-bottom: 30px;
+        cursor: pointer;
+        height: 250px;
+        position: relative;
+        width: 100%;
+    }
+
+     .relative img {
+        left: 0;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+    }
+
+
+    .relative .card-type-overlay {
+      background-color: #e8d19b63;
+      position: absolute;
+      top: 0;
+      left: 14px;
+      color: #fff;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+      opacity: 0;
+      width: 90%;
+      height: 250px;
+    }
+
+    .relative:hover .card-type-overlay {
+        opacity: 1;
+    }
+
+    /*#######envelope type#######*/
+
+    .envelope-item-right{
+        height:unset;
+    }
+
+    .envelope-type-title{
+      position: relative;
+      margin-bottom: 35px;
+      margin-top: 35px;
+    }
+
+    .envelope-testimonial-text{
+      user-select: none;
+      font-weight: bolder;
+      font-size: 20px;
+      color:#949494;
+    }
+
+    .envelope-type-title-text{
+      position: absolute;
+      top: -15px;
+      background-color: white;
+      right: 50.5%;
+      margin: 0px -65px 0px 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .envelope-testimonial{
+      position:relative;
+      margin-bottom: 40px;
+    }
+    .envelope-testimonial-wrap {
+      position: relative;
+      width: 100%;
+      -webkit-animation: bounces 2s infinite;
+    }
+    .envelope-testimnial-box{
+      position:absolute;
+      top: -40px;
+      right: 27%;
+    }
+
+    .envelope-item{
+      height:250px;
+    }
+
+    .envelope-item:hover{
+      background-color:red;
+    }
+
+    .envelope-relative {
+      overflow: hidden;
+      margin-bottom: 30px;
+      cursor: pointer;
+      height: 250px;
+      position: relative;
+      width: 100%;
+    }
+
+    .envelope-relative-top-left{
+      overflow: hidden;
+      margin-bottom: 30px;
+      cursor: pointer;
+      height: 350px;
+      position: relative;
+      width: 100%;
+    }
+
+    .envelope-relative-bottom-left{
+      margin-bottom: 30px;
+      cursor: pointer;
+      height: 150px;
+      position: relative;
+      width: 100%;
+    }
+
+    .envelope-item-top-left{
+      height:unset;
+    }
+
+    .envelope-item-bottom-left{
+      height:150px;
+    }
+
+    .envelope-relative img {
+      left: 0;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+    }
+
+    .envelope-relative-top-left img {
+      left: 0;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+    }
+
+    .envelope-relative-bottom-left img {
+      left: 0;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+    }
+
+    .envelope-relative-top-left .envelope-type-overlay {
+      background-color: #e8d19b63;
+      position: absolute;
+      top: 0;
+      left: 14px;
+      color: #fff;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+      opacity: 0;
+      width: 95%;
+      height: 350px;
+    }
+
+    .envelope-relative-bottom-left .envelope-type-overlay {
+      background-color: #e8d19b63;
+      position: absolute;
+      top: 0;
+      left: 14px;
+      color: #fff;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+      opacity: 0;
+      width: 85%;
+      height: 150px;
+    }
+
+    .envelope-relative .envelope-type-overlay {
+      background-color: #e8d19b63;
+      position: absolute;
+      top: 0;
+      left: 14px;
+      color: #fff;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+      opacity: 0;
+      width: 90%;
+      height: 250px;
+    }
+
+    .envelope-relative:hover .envelope-type-overlay {
+        opacity: 1;
+    }
+
+    .envelope-relative-top-left:hover .envelope-type-overlay {
+        opacity: 1;
+    }
+
+    .envelope-relative-bottom-left:hover .envelope-type-overlay {
+        opacity: 1;
+    }
+
+    /*#######Souvenir type#######*/
+
+    .souvenir-type-title-text {
+      position: absolute;
+      top: -15px;
+      background-color: white;
+      right: 51%;
+      margin: 0px -65px 0px 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .souvenir-testimnial-box {
+        position: absolute;
+        top: -40px;
+        right: 29.5%;
+    }
+
+
+    .brochour-type-title-text {
+        position: absolute;
+        top: -15px;
+        background-color: white;
+        right: 50.1%;
+        margin: 0px -65px 0px 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .brochour-testimnial-box {
+        position: absolute;
+        top: -40px;
+        right: 31%;
+    }
+
+    .clock-testimnial-box {
+      position: absolute;
+      top: -40px;
+      right: 32.5%;
+    }
+
+    /*#######clock#######*/
+
+
+    /*#######Port Folio#######*/
+
+    .folio-type-title-text{
+      position: absolute;
+      top: -15px;
+      background-color: white;
+      right: 49.8%;
+      margin: 0px -65px 0px 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .folio-testimnial-box {
+        position: absolute;
+        top: -40px;
+        right: 38%;
+    }
+
+    .folio-relative {
+        overflow: hidden;
+        margin-bottom: 30px;
+        cursor: pointer;
+        height: 320px;
+        position: relative;
+        width: 100%;
+    }
+
+    .undo-overflow{
+      overflow: unset;
+    }
+
+    .folio-item {
+      height: 100%;
+    }
+
+    .folio-relative .folio-type-overlay {
+        background-color: #e1c076c7;
+        position: absolute;
+        top: 0;
+        left: 14px;
+        color: #fff;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+        opacity: 0;
+        width: 92.5%;
+        height: 320px;
+    }
+
+    .folio-relative:hover .folio-type-overlay {
+      opacity: 1;
+    }
+
+
+    /*####### Feed #######*/
+
+
+    .feed-type-title-text {
+        position: absolute;
+        top: -15px;
+        background-color: white;
+        right: 47.5%;
+        margin: 0px -65px 0px 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+    .feed-testimnial-box {
+        user-select: none;
+        font-weight: bolder;
+        font-size: 20px;
+        color: #949494;
+        position: absolute;
+        top: -40px;
+        right: 29.6%;
+    }
+
+    .feed-item {
+        height: 180px;
+    }
+
+    .feed-relative {
+        margin-bottom: 30px;
+        cursor: pointer;
+        height: 150px;
+        position: relative;
+        width: 100%;
+    }
+
+    .feed-relative:hover {
+      cursor:default;
+    }
+
+    .feed-relative:hover img{
+      cursor:default;
+    }
+
+    .banner-relative {
+        margin-bottom: 30px;
+        cursor: pointer;
+        height: 400px;
+        position: relative;
+        width: 100%;
+    }
+
+    .banner-item {
+        height: 400px;
+    }
+
+    .banner-item:hover {
+      cursor:default;
+    }
+
+    /*####### Contact #######*/
+
+    .contact-type-title-text {
+        position: absolute;
+        top: -15px;
+        background-color: white;
+        right: 51.2%;
+        margin: 0px -65px 0px 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contact-testimnial-box {
+        user-select: none;
+        font-weight: bolder;
+        font-size: 20px;
+        color: #949494;
+        position: absolute;
+        top: -40px;
+        right: 37.4%;
+    }
+
+    .contact-left{
+      margin-left: 10%;
+      margin-top: 38px;
+      padding: 30px 0px 7px 35px;
+      border: 2px solid #e1c076;
+    }
+
+    .contact-right{
+      margin-right: 10%;
+    }
+    .contact-from-input {
+          margin-top: 90px;
+    }
+    .btn-custom-2 {
+        background-color: #e1c076;
+        color: white;
+        border-radius: 0px;
+        width: 35%;
+        padding: 5px 20px 5px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        transition: all 0.5s;
+        text-decoration: none;
+        margin-bottom: 70px;
+        transition: all 1s;
+    }
+
+    .btn-custom-2:hover {
+        background-color: white;
+        color: black;
+        border-radius: 0px;
+        width: 35%;
+        padding: 5px 20px 5px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        transition: all 0.5s;
+        text-decoration: none;
+        margin-bottom: 70px;
+        border: 1px solid #e1c076;
+    }
+
+    .change-color{
+      color:#e1c076;
+    }
+
+    .folio-overlay-text{
+      color:#674801
+    }
+
+
+
+/*###########################################################################
+############################# END INDEX PAGE ################################
+##############################################################################*/
+
+/*=============================================================================
+----------------------------- Single-News PAGE ------------------------------
+==============================================================================*/
+
+  
+
+/*=============================================================================
+----------------------------- END Single-News PAGE ----------------------------
+==============================================================================*/
+
+
+
+
+/*=============================================================================
+----------------------------- NEWS  PAGE -----------------------------
+==============================================================================*/
+
+  .news-megaphone{
+    width:8% !important;
+  }
+
+
+  .news-title{
+    font-size:25px;
+  }
+
+  .news-text {
+    font-size:20px;
+    font-weight: bold;
+  }
+
+  .news-img-reponsive{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+  }
+
+  .news-img-reponsive-mobile{
+    width: 100%;
+    height: 250px;;
+  }
+
+  .news-row-height{
+    height:250px;
+  }
+
+  .page-link{
+    border-radius: 0px !important;
+    color:black;
+    border: 1px solid #e1c076;
+    transition: all 0.3s;
+  }
+
+  .page-link:hover{
+    color: #fff;
+    background-color: #e1c076;
+    border-color: #e1c076;
+  }
+
+  .page-item.active .page-link {
+    color: #fff;
+    background-color: #e1c076;
+    border-color: #e1c076;
+  }
+
+  .news-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e1c0767a;
+  }
+
+  .news-container:hover .news-overlay {
+    opacity: 1;
+  }
+
+
+
+
+/*=============================================================================
+----------------------------- END NEWS  PAGE -----------------------------
+==============================================================================*/
+
+
+
+/*=============================================================================
+----------------------------- WEDDING-CARD  PAGE -----------------------------
+==============================================================================*/
+
+  .index-promotion{
+    font-family: KunlasatriRegular;
+    font-weight: bold;
+  }
+
+
+  .wedding-card-title{
+    user-select: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #949494;
+  }
+
+  .item{
+    width: 350px;
+    height: 250px;
+    background-size: 100%;
+    vertical-align: middle;
+    line-height: 150px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  }
+
+  [type=radio] {
+    display: none;
+  }
+
+  #slider {
+    height: 35vw;
+    position: relative;
+    perspective: 500px;
+    transform-style: preserve-3d;
+  }
+
+  #slider label {
+    margin: auto;
+    width: 25%;
+    height: 70%;
+    border-radius: 0px;
+    position: absolute;
+    left: 0; right: 0;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+  }
+
+  #s1:checked ~ #slide1, #s2:checked ~ #slide2,
+  #s3:checked ~ #slide3, #s4:checked ~ #slide4,
+  #s5:checked ~ #slide5, #s6:checked ~ #slide6,
+  #s7:checked ~ #slide7,#s8:checked ~ #slide8,
+  #s9:checked ~ #slide9 {
+    box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+    transform: translate3d(0,0,0);
+  }
+
+  #s1:checked ~ #slide2, #s2:checked ~ #slide3,
+  #s3:checked ~ #slide4, #s4:checked ~ #slide5,
+  #s5:checked ~ #slide6, #s6:checked ~ #slide7,
+  #s7:checked ~ #slide8, #s8:checked ~ #slide9,
+  #s9:checked ~ #slide1 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(75%,0,-100px);
+  }
+
+  #s1:checked ~ #slide3, #s2:checked ~ #slide4,
+  #s3:checked ~ #slide5, #s4:checked ~ #slide6,
+  #s5:checked ~ #slide7, #s6:checked ~ #slide8,
+  #s7:checked ~ #slide9, #s8:checked ~ #slide1,
+  #s9:checked ~ #slide2 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(75%,0,-200px);
+  }
+
+  #s1:checked ~ #slide4, #s2:checked ~ #slide5,
+  #s3:checked ~ #slide6, #s4:checked ~ #slide7,
+  #s5:checked ~ #slide8, #s6:checked ~ #slide9,
+  #s7:checked ~ #slide1, #s8:checked ~ #slide2,
+  #s9:checked ~ #slide3 {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+    transform: translate3d(-75%,0,-200px);
+  }
+
+  #s1:checked ~ #slide5, #s2:checked ~ #slide6,
+  #s3:checked ~ #slide7, #s4:checked ~ #slide8,
+  #s5:checked ~ #slide9, #s6:checked ~ #slide1,
+  #s7:checked ~ #slide2, #s8:checked ~ #slide3,
+  #s9:checked ~ #slide4 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(-75%,0,-100px);
+  }
+
+  #s1:checked ~ #slide6, #s2:checked ~ #slide7,
+  #s3:checked ~ #slide8, #s4:checked ~ #slide9,
+  #s5:checked ~ #slide1, #s6:checked ~ #slide2,
+  #s7:checked ~ #slide3, #s8:checked ~ #slide4,
+  #s9:checked ~ #slide5 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(-75%,0,-200px);
+  }
+
+  #s1:checked ~ #slide7, #s2:checked ~ #slide8,
+  #s3:checked ~ #slide9, #s4:checked ~ #slide1,
+  #s5:checked ~ #slide2, #s6:checked ~ #slide3,
+  #s7:checked ~ #slide4, #s8:checked ~ #slide5,
+  #s9:checked ~ #slide6{
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(-75%,0,-100px);
+  }
+
+  #s1:checked ~ #slide8, #s2:checked ~ #slide9,
+  #s3:checked ~ #slide1, #s4:checked ~ #slide2,
+  #s5:checked ~ #slide3, #s6:checked ~ #slide4,
+  #s7:checked ~ #slide5, #s8:checked ~ #slide6,
+  #s9:checked ~ #slide7{
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(-75%,0,-100px);
+  }
+
+  #s1:checked ~ #slide9, #s2:checked ~ #slide1,
+  #s3:checked ~ #slide2, #s4:checked ~ #slide3,
+  #s5:checked ~ #slide4, #s6:checked ~ #slide5,
+  #s7:checked ~ #slide6, #s8:checked ~ #slide7,
+  #s9:checked ~ #slide8 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+    transform: translate3d(-75%,0,-100px);
+  }
+
+  .slide-image {
+    width: 100%;
+    height:100%;
+  }
+
+  .slide-label{
+    position:relative;
+    background-size: 100% 100%;
+  }
+
+  .previous{
+    position: absolute;
+    left: 22%;
+    top: 35%;
+  }
+
+  .previous-button{
+    z-index: 200;
+    padding:10px;
+    border:solid #e1c076;
+    background-color: #e1c076;
+    transition: all 1s;
+  }
+
+  .previous-button:hover{
+    padding:10px;
+    border:solid #e1c076;
+    background-color: white;
+  }
+
+  .next{
+    position: absolute;
+    right: 22%;
+    top: 35%;
+  }
+
+  .next-button{
+    z-index: 200;
+    padding:10px;
+    border:solid #e1c076;
+    background-color: #e1c076;
+    transition: all 1s;
+  }
+
+  .next-button:hover{
+    padding:10px;
+    border:solid #e1c076;
+    background-color: white;
+  }
+
+  .display-none{
+    opacity: 0;
+    transition: opacity 1s, height 0;
+  }
+
+  .arrow{
+      color:white;
+  }
+
+  .next-button:hover .arrow{
+      color:black;
+  }
+
+  .previous-button:hover .arrow{
+      color:black;
+  }
+
+  .opacity{
+    opacity: 0.4;
+    transition: all 5s;
+  }
+
+  .opacity:hover{
+    transition: all 5s;
+    opacity: 0.7;
+  }
+
+
+  .wedding-view-left{
+    outline-offset: -28px;
+    outline: 2px solid white;
+    padding:120px;
+    padding-bottom: 150px;
+    margin:0px 0px 0px 60px;
+  }
+
+  .wedding-view-right{
+    position:relative;
+    padding:120px;
+    padding-bottom: 150px;
+    margin:0px 50px 0px 0px;
+    border: 1px solid #e1c076;
+    background-color: #f7d468;
+    outline:2px solid white;
+    outline-offset: -30px;
+  }
+
+  .wedding-testimonial-text{
+    margin: 10px;
+  }
+
+  .p-ab{
+    top:0;
+    right:0;
+  }
+
+  .right-testimonial {
+      position: absolute;
+      top: -20px;
+      right: 0px;
+  }
+
+  .left-testimonial {
+      position: absolute;
+      top: -20px;
+      left: 0px;
+  }
+
+
+  .second-inner-wedding-view-left {
+      top: 85px;
+      left: 160px;
+      right: 100px;
+      background-color: #f9f9f9c2;
+      position: absolute;
+  }
+
+  .wedding-testimonial-text{
+    position:relative;left: 0px;
+    margin: 30px;
+  }
+
+  .p-ab{
+    top:0;
+    right:0;
+  }
+
+  .second-inner-wedding-view-right {
+      top: 40%;
+      left: 30%;
+      right: 30%;
+      position: absolute;
+  }
+
+  .wedding-card-view-position {
+    box-shadow: 3px 2px 0px white;
+    letter-spacing: 2px;
+    background-color: #82765b;
+    color: white;
+    border-radius: 0px;
+    padding: 10px 0px 10px 12px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 70px;
+    transition: all 0.5s;
+    padding:8px;
+    font-weight: 900;
+  }
+
+
+
+
+  .clock-view-position{
+    padding: 10px 0px 10px 17px;
+  }
+
+  .wedding-card-view-position:hover {
+      background-color: white;
+      color: black;
+  }
+
+  .card-size-relative{
+    position:relative;
+
+  }
+
+  .card-size-absolute{
+    position:absolute;
+  }
+
+  .card-size-text {
+      color: white;
+      font-weight: unset;
+      position: absolute;
+      top: 75px;
+      right: 43px;
+  }
+
+  .card-four-six {
+      right: 19px;
+      width: 115px;
+      height: 180px;
+      background-color: #a570c1;
+      outline: 1px solid white;
+      outline-offset: -6px;
+      transition: all 0.5s;
+  }
+
+  .card-four-six:hover {
+      right: 19px;
+      width: 115px;
+      height: 180px;
+      background-color: #e1c076;
+      outline: 1px solid white;
+      outline-offset: -6px;
+  }
+
+  .card-size-text-2 {
+      color: white;
+      font-weight: unset;
+      position: absolute;
+      top: 80px;
+      right: 68px;
+  }
+
+  .card-five-seven {
+    width: 140px;
+    height: 200px;
+    background-color: #a570c1;
+    outline: 1px solid white;
+    outline-offset: -6px;
+    transition: all 0.5s;
+  }
+
+  .card-five-seven:hover {
+    width: 140px;
+    height: 200px;
+    background-color: #e1c076;
+    outline: 1px solid white;
+    outline-offset: -6px;
+  }
+
+  .card-size-text-3 {
+      color: white;
+      font-weight: unset;
+      position: absolute;
+      top: 100px;
+      right: 80px;
+  }
+
+  .card-four-nine {
+      width: 115px;
+      height: 230px;
+      background-color: #a570c1;
+      outline: 1px solid white;
+      outline-offset: -6px;
+      transition: all 0.5s;
+  }
+
+  .card-four-nine:hover {
+      width: 115px;
+      height: 230px;
+      background-color: #e1c076;
+      outline: 1px solid white;
+      outline-offset: -6px;
+  }
+
+  .shadow{
+    box-shadow: 7px -4px 0px 0px black;
+  }
+
+
+/*###########################################################################
+############################# END WEDDING-CARD ################################
+##############################################################################*/
+
+
 
 
 /*-------------------- Studio #PARK ----------------------------*/
@@ -373,7 +1554,7 @@ p.studio-magin-prot {
     right: 147px;
 }
 .contact-img-50 {
-   width: 50%; 
+   width: 50%;
 }
 .contact-img-100 {
   width: 100%;
@@ -476,6 +1657,10 @@ hr.aboutus-border {
     border-top: 3px solid rgb(225, 192, 118);
     width: 20%;
 }
+p.studio-magin-prot {
+    margin-top: 15px;
+    margin-left: -40px;
+}
 .aboutus-background {
     height: 80px;
     width: 80%;
@@ -542,7 +1727,7 @@ hr.aboutus-border {
    width: 240px;
 }
 .cardtype-styled-select.cardtype-slate {
-    background: url(http://localhost/108Image/assets/images/img/imgpeplo/set-select.jpg.) no-repeat right center;
+    background: url(../../assets/images/imgpeplo/set-select.jpg) no-repeat right center;
     height: 34px;
     width: 50%;
     margin: auto;
@@ -568,6 +1753,7 @@ hr.aboutus-border {
   width: 100%;
 }
 /*------------- All-List #PARK ---------------------*/
+a
 hr.all-list-hr {
     margin-top: 0rem;
     margin-bottom: 0rem;
@@ -580,7 +1766,7 @@ hr.all-list-hr {
     display: inline-block;
     font-weight: 400;
     text-align: center;
-    white-space: nowrap;
+
     vertical-align: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -630,26 +1816,307 @@ hr.all-list-hr-center {
 }
 .all-list-icon-001 {
     width: 4%;
-}
-
-
-/*=============================================================================
---------------------------------- PAGE INDEX ----------------------------------
-==============================================================================*/
-
-
-
-
-
-
-/*################################ END PAGE INDEX ####################################*/
-
+}}
 
 
 
 /*################################################################################################################
 ------------------------------------------------- RESPONSIVE -----------------------------------------------------
 #################################################################################################################*/
+
+@media  (min-width:1920px)
+{
+
+      .container {
+          max-width: 75%;
+      }
+
+  /*###########################################################################
+  ############################# PAGE INDEX RESPONSIVE 1366 #####################
+  ############################################################################*/
+
+      .card-item {
+          height: 300px;
+      }
+
+      .relative {
+          height: 300px;
+      }
+
+      .relative .card-type-overlay {
+          width: 92%;
+          height: 300px;
+      }
+
+      .testimnial-box {
+          position: absolute;
+          top: -40px;
+          right: 34.5%;
+      }
+
+      .envelope-type-title-text {
+        right: 50.5%;
+      }
+
+
+      .envelope-testimnial-box {
+          position: absolute;
+          top: -40px;
+          right: 33%;
+      }
+
+
+      .envelope-relative-bottom-left .envelope-type-overlay {
+          width: 82%;
+          height: 130px;
+      }
+
+      .envelope-item-bottom-left {
+          height: 190px;
+      }
+
+      .envelope-relative-bottom-left {
+          margin-bottom: 30px;
+          cursor: pointer;
+          height: 190px;
+          position: relative;
+          width: 100%;
+      }
+
+      .envelope-relative-bottom-left .envelope-type-overlay {
+          width: 88%;
+          height: 190px;
+      }
+
+      .envelope-relative-top-left .envelope-type-overlay {
+        width: 94%;
+      }
+
+      .envelope-item-right {
+          height: 300px;
+      }
+
+      .envelope-relative .envelope-type-overlay {
+          width: 92%;
+          height: 300px;
+      }
+
+      .envelope-relative {
+          height: 300px;
+      }
+
+      .envelope-relative-top-left {
+          height: 410px;
+      }
+
+      .envelope-item-top-left {
+          height: 410px;
+      }
+
+      .envelope-relative-top-left .envelope-type-overlay {
+          height: 410px;
+          width: 96%;
+      }
+
+      .souvenir-testimnial-box {
+          right: 25.5%;
+      }
+
+
+      .clock-testimnial-box {
+          right: 36%;
+      }
+
+      .souvenir-testimnial-box {
+          right: 33.5%;
+      }
+
+      .brochour-testimnial-box {
+          right: 34.5%;
+      }
+
+      .folio-type-title-text {
+          position: absolute;
+          top: -15px;
+          background-color: white;
+          right: 49.7%;
+          margin: 0px -65px 0px 0px;
+          padding-left: 15px;
+          padding-right: 15px;
+      }
+
+      .folio-testimnial-box {
+          right: 40.5%;
+      }
+
+      .folio-relative {
+          height: 400px;
+      }
+
+      .folio-item {
+        height: 400px;
+      }
+
+      .folio-relative .folio-type-overlay {
+          width: 94%;
+          height: 400px;
+      }
+
+
+      .feed-type-title-text {
+          position: absolute;
+          top: -15px;
+          background-color: white;
+          right: 47.9%;
+          margin: 0px -65px 0px 0px;
+          padding-left: 15px;
+          padding-right: 15px;
+      }
+
+      .feed-testimnial-box{
+        position: absolute;
+        top: -40px;
+        right: 34.6%;
+      }
+
+      .feed-item {
+          height: 200px;
+      }
+
+      .feed-relative {
+          margin-bottom: 30px;
+          cursor: pointer;
+          height: 170px;
+          position: relative;
+          width: 100%;
+      }
+
+      .feed-relative:hover {
+        cursor:default;
+      }
+
+      .feed-relative:hover img{
+        cursor:default;
+      }
+
+      .banner-relative {
+          margin-bottom: 30px;
+          cursor: pointer;
+          height: 400px;
+          position: relative;
+          width: 100%;
+      }
+
+      .banner-item {
+          height: 400px;
+      }
+
+      .banner-item:hover {
+        cursor:default;
+      }
+
+
+     .contact-type-title-text {
+          position: absolute;
+          top: -15px;
+          background-color: white;
+          right: 51.2%;
+          margin: 0px -65px 0px 0px;
+          padding-left: 15px;
+          padding-right: 15px;
+      }
+
+      .contact-testimnial-box {
+          right: 39.9%;
+      }
+
+      .contact-left{
+        margin-left: 10%;
+        margin-top: 38px;
+        padding: 30px 0px 35px 35px;
+        border: 2px solid #e1c076;
+      }
+
+      .contact-right{
+        margin-left: 0%;
+      }
+
+      .btn-custom-2 {
+          background-color: #e1c076;
+          color: white;
+          border-radius: 0px;
+          width: 35%;
+          padding: 5px 20px 5px 20px;
+          font-size: 20px;
+          font-weight: bold;
+          transition: all 0.5s;
+          text-decoration: none;
+          margin-bottom: 70px;
+      }
+
+      .change-color{
+        color:#e1c076;
+      }
+
+  /*###########################################################################
+  ############################# END PAGE INDEX RESPONSIVE 1366 #################
+  ############################################################################*/
+
+
+  /*###########################################################################
+  ############################# WEDDING-CARD RESPONSIVE 1366 #################
+  ############################################################################*/
+
+
+      .wedding-testimonial-text {
+        font-size: 24px;
+      }
+
+      .wedding-view-left {
+          padding-bottom: 201px;
+      }
+
+      .second-inner-wedding-view-left {
+          top: 100px;
+      }
+
+      .wedding-view-right {
+          padding-bottom: 200px;
+          margin: 0px 85px 0px 0px;
+      }
+
+
+      .second-inner-wedding-view-right {
+        top: 40%;
+        left: 30%;
+        right: 30%;
+      }
+
+
+      .card-size-text-2 {
+          color: white;
+          font-weight: unset;
+          position: absolute;
+          top: 80px;
+          right: 115px;
+      }
+
+      .card-size-text-3 {
+          color: white;
+          font-weight: unset;
+          position: absolute;
+          top: 100px;
+          right: 127px;
+      }
+
+  /*###########################################################################
+  ############################# END WEDDING-CARDRESPONSIVE 1366 #################
+  ############################################################################*/
+
+
+}
+
+
 @media (min-width: 1200px)
 {
   .dropdown:hover > .dropdown-menu {
@@ -657,7 +2124,247 @@ hr.all-list-hr-center {
   }
 }
 
-@media (max-width: 1024px) {
+
+@media (max-width: 1024px)
+{
+
+
+  /*=============================================================================
+  ----------------------------- NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+    .news-text {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+  /*=============================================================================
+  ----------------------------- END NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+
+  /*###########################################################################
+  ############################# PAGE INDEX RESPONSIVE 1024 #####################
+  ############################################################################*/
+
+      .card-item {
+        height: 211px;
+      }
+
+      .relative {
+        height: 211px;
+      }
+
+      .relative .card-type-overlay {
+          width: 88%;
+          height: 211px;
+      }
+
+      .testimnial-box {
+          position: absolute;
+          top: -40px;
+          right: 27%;
+      }
+
+      .envelope-type-title-text {
+        right: 50.5%;
+      }
+
+
+      .envelope-testimnial-box {
+          position: absolute;
+          top: -40px;
+          right: 23.5%;
+      }
+
+
+      .envelope-relative-bottom-left .envelope-type-overlay {
+          width: 82%;
+          height: 130px;
+      }
+
+      .envelope-item-bottom-left {
+          height: 130px;
+      }
+
+      .envelope-relative-top-left .envelope-type-overlay {
+        width: 94%;
+      }
+
+      .envelope-item-right{
+          height:210px;
+      }
+
+      .envelope-relative .envelope-type-overlay {
+          width: 88%;
+          height: 210px;
+      }
+
+      .envelope-relative {
+          height: 210px;
+      }
+
+      .envelope-relative-top-left {
+          height: 290px;
+      }
+
+      .envelope-item-top-left {
+          height: 290px;
+      }
+
+      .envelope-relative-top-left .envelope-type-overlay {
+          height: 290px;
+      }
+
+      .souvenir-testimnial-box {
+          right: 25.5%;
+      }
+
+      .brochour-testimnial-box {
+          right: 27.5%;
+      }
+
+      .clock-testimnial-box {
+          right: 30%;
+      }
+
+      .folio-type-title-text {
+          position: absolute;
+          top: -15px;
+          background-color: white;
+          right: 49.7%;
+          margin: 0px -65px 0px 0px;
+          padding-left: 15px;
+          padding-right: 15px;
+      }
+
+      .folio-testimnial-box {
+          right: 37%;
+      }
+
+      .folio-relative .folio-type-overlay {
+          width: 92%;
+      }
+
+      .contact-testimnial-box {
+          right: 35.4%;
+      }
+
+      .feed-type-title-text {
+          right: 47%;
+      }
+
+      .feed-relative {
+          height: 140px;
+      }
+
+      .feed-item {
+          height: 170px;
+      }
+
+  /*###########################################################################
+  ############################# END INDEX PAGE RESPONSIVE 1024 #################
+  ############################################################################*/
+
+
+
+  /*###########################################################################
+  ############################ WEDDING-CARD RESPONSIVE 1024 ###################
+  ############################################################################*/
+
+
+      #slider label {
+        margin: auto;
+        width: 30%;
+        height: 80%;
+        border-radius: 0px;
+        position: absolute;
+        left: 0; right: 0;
+        cursor: pointer;
+        transition: transform 0.4s ease;
+      }
+
+      .previous{
+        position: absolute;
+        left: 17%;
+        top: 37%;
+      }
+
+      .next{
+        position: absolute;
+        right: 17%;
+        top: 37%;
+      }
+
+      .previous-button {
+          z-index: 200;
+          padding: 15px;
+          border: solid #e1c076;
+          background-color: #e1c076;
+          transition: all 1s;
+      }
+
+      .next-button {
+          z-index: 200;
+          padding: 15px;
+          border: solid #e1c076;
+          background-color: #e1c076;
+          transition: all 1s;
+      }
+
+      .second-inner-wedding-view-right {
+        top: 40%;
+        left: 25%;
+        right: 25%;
+        position: absolute;
+      }
+
+      .wedding-testimonial-text {
+        font-size: 15px;
+      }
+
+      .custom-text-1024{
+        font-size:25px;
+      }
+
+      .card-size-text-3 {
+          color: white;
+          font-weight: unset;
+          position: absolute;
+          top: 100px;
+          right: 60px;
+      }
+
+      .card-size-text-2 {
+          color: white;
+          font-weight: unset;
+          position: absolute;
+          top: 80px;
+          right: 50px;
+      }
+
+      .custom-wedding-page {
+          height: 550px !important;
+      }
+
+  /*###########################################################################
+  ########################## END WEDDING-CARD RESPONSIVE 1024 #################
+  ############################################################################*/
+
+  /*###########################################################################
+  ##########################  Gallery RESPONSIVE 1024 #################
+  ############################################################################*/
+
+    .custom-gallery-aboutus{
+      height: 65%!important;
+    }
+
+  /*###########################################################################
+  ########################## END Gallery RESPONSIVE 1024 #################
+  ############################################################################*/
+
+
+
   /*-------- Studio #PARK --------*/
   .studio-border-img {
     position: absolute;
@@ -765,10 +2472,9 @@ hr.all-list-hr-center {
       padding-bottom: 40px;
       background-color: #fff;
   }
+
+
 }
-
-
-
 
 @media (max-width: 768px)
 {
@@ -777,207 +2483,967 @@ hr.all-list-hr-center {
     padding-left: 0.5rem;
   }
 
-/*------- Studio #PARK ----------------*/
-  .studio-border-img {
-      position: absolute;
-      width: 92%;
-      top: 44px;
-      height: 71%;
-      left: 25px;
-  }
-  .studio-border-img-hight {
-      position: absolute;
-      width: 90%;
-      top: 44px;
-      height: 78%;
-      left: 29px;
-  }
-  h2.studio-font-size {
-    font-size: 25px;
-    line-height: 40px;
-  }
-  .studio-topcenter {
-    padding-top: 0%;
-  }
-  .studio-topcenterlong {
-    padding-top: 5%;
-  }
-  .studio-ml-4, .studio-mx-4 {
-    margin-left: 12px!important;
-  }
-/*------------ Contact  #PARK ------------------------------*/
-  .contact-img-50 {
-    width: 92%;
-  }
-  .contacat-from-input {
-      margin-top: 90px;
-  }
- .contact-map-color {
-    height: 308px;
-    width: 100%;
-    background-color: #e1c076;
-  }
-  .contact-background {
-      /* height: 238px; */
-      width: 76%;
-      background-color: #e1c076;
-      position: absolute;
-      top: 322px;
-      right: 71px;
-  }
-  .contact-border-background {
-    border: 2px solid;
-    margin-top: 15px;
-  }
-  .contact-border-img {
-    border: 2px solid #fff;
-    position: absolute;
-    width: 86%;
-    top: 44px;
-    height: 82%;
-    left: 45px;
-  }
-  .contact-col-sm-4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 100%;
-    max-width: 50.333333%;
-    margin: auto;
-    margin-top: -18px;
-  }
-  .contact-col-sm-8 {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 66.666667%;
-      flex: 0 0 100%;
-      max-width: 100%;
-      margin-top: -20px;
-      margin-left: 0px;
-  }
-  .contact-textaray {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 2px solid #e1c076;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    height: 80px;
-    resize: none;
-  }
-  .contact-phone {
-      margin-left: 23px;
-      font-size: 22px;
-      margin-top: -11px;
-  }
-  h5.contact-font-h5 {
-    font-size: 23px;
-    line-height: 28px;
-  }
+  /*=============================================================================
+  ----------------------------- NEWS  PAGE -----------------------------
+  ==============================================================================*/
 
-  h3.contact-phone-size-responsive {
-    font-size: 22px;
-    line-height: 30px;
-    margin-top: -25px;
-  }
-  .contact-border-support {
-    border: 2px solid #fff;
-    position: absolute;
-    width: 62%;
-    top: 29px;
-    height: 43%;
-    left: 45px;
-  }
-  /*------------------- About-us ---------------------------*/
-  .aboutus-border-img {
+    .news-row-height{
+      height:200px;
+    }
+
+    .news-text {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+  /*=============================================================================
+  ----------------------------- END NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+
+  /*###########################################################################
+  ############################# PAGE INDEX RESPONSIVE 768 #####################
+  ############################################################################*/
+
+      .testimnial-box {
+        position: absolute;
+        top: -40px;
+        right: 19%;
+      }
+
+      .promotion-right-top{
+        margin-top: 3%;
+        margin-bottom: 3%;
+      }
+
+      .relative .card-type-overlay {
+        width: 92%;
+        height: 311px;
+      }
+
+      .card-item {
+        height: 311px;
+      }
+
+      .relative {
+        height: 311px;
+      }
+
+      .envelope-type-title-text {
+        right: 51%;
+      }
+
+      .envelope-testimnial-box {
+          position: absolute;
+          top: -40px;
+          right: 15%;
+      }
+
+      .envelope-item-top-left {
+          height: 480px;
+      }
+
+      .envelope-relative-top-left {
+          height: 480px;
+      }
+
+      .envelope-relative-top-left .envelope-type-overlay {
+          height: 480px;
+          width:96%;
+      }
+
+      .envelope-item-bottom-left {
+          height: 480px;
+      }
+
+      .envelope-relative-bottom-left .envelope-type-overlay {
+          height: 480px;
+          width:96%;
+      }
+
+      .envelope-relative-bottom-left {
+          height: 480px;
+      }
+
+      .envelope-relative {
+          height: 316px;
+      }
+
+      .envelope-item-right {
+          height: 316px;
+      }
+
+      .envelope-relative .envelope-type-overlay {
+          width: 92%;
+          height: 316px;
+      }
+
+      .souvenir-testimnial-box {
+          right: 16%;
+      }
+
+      .brochour-testimnial-box {
+          right: 20%;
+      }
+
+      .clock-testimnial-box {
+          right: 23%;
+      }
+
+      .folio-testimnial-box {
+          right: 33%;
+      }
+
+      .folio-item {
+          height: 530px;
+      }
+
+      .folio-relative {
+          height: 530px;
+      }
+
+      .folio-relative .folio-type-overlay {
+          width: 96.25%;
+          height: 530px;
+      }
+
+      .feed-type-title-text {
+          right: 46%;
+      }
+
+      .feed-testimnial-box {
+          right: 19.6%;
+      }
+
+      .feed-relative {
+          height: 190px;
+      }
+
+      .feed-item {
+          height: 220px;
+      }
+
+      .banner-relative {
+          height: 290px;
+      }
+
+      .banner-item {
+          height: 330px;
+      }
+
+      .contact-left{
+        margin-left: 8%;
+        margin-right: 10%;
+        margin-bottom: 3%;
+      }
+
+      .contact-testimnial-box {
+          right: 32.4%;
+      }
+
+      .contact-type-title-text {
+          right: 53.2%;
+      }
+
+  /*###########################################################################
+  ############################# END PAGE INDEX RESPONSIVE 768 #################
+  ############################################################################*/
+
+
+  /*###########################################################################
+  ############################ WEDDING-CARD RESPONSIVE 768 ###################
+  ############################################################################*/
+
+
+      #slider label {
+        margin: auto;
+        width: 35%;
+        height: 95%;
+        border-radius: 0px;
+        position: absolute;
+        left: 0; right: 0;
+        cursor: pointer;
+        transition: transform 0.4s ease;
+      }
+      .previous{
+        position: absolute;
+        left: 12%;
+        top: 42%;
+      }
+      .next{
+        position: absolute;
+        right: 12%;
+        top: 42%;
+      }
+
+      .wedding-view-left {
+        padding: 120px;
+        padding-bottom: 150px;
+        margin: 20px 410px 20px 0px;
+      }
+
+      .second-inner-wedding-view-left {
+        top: 100px;
+        left: 205px;
+        right: 70px;
+        background-color: #e1c076e3;
+        position: absolute;
+
+      }
+
+      .left-testimonial {
+        left:10px;
+        top:-12px;
+        color: white;
+      }
+
+      .right-testimonial {
+        right:10px;
+        top:-12px;
+        color: white;
+      }
+
+      .wedding-testimonial-text-2 {
+        color: white;
+        font-size: 18px;
+      }
+
+      .hidden-inner {
+        padding: 45px 230px 45px 215px;
+        position: absolute;
+        border: 2px solid white;
+        top: 5px;
+        left: 22px;
+      }
+
+      .wedding-view-right {
+        padding: 120px;
+        padding-bottom: 150px;
+        margin: 0px 50px 0px 360px;
+      }
+
+      .second-inner-wedding-view-right {
+          position: absolute;
+          top: 45%;
+          left: -90%;
+          right: 0%;
+      }
+
+      .hidden-inner-right {
+        outline: 2px solid white;
+        outline-offset: -20px;
+        background-color: #e1c076e3;
+        padding: 55px 165px 45px 215px;
+        position: absolute;
+        border: 2px solid white;
+        top: 90px;
+        right: 235px;
+      }
+
+
+      .wedding-card-view-position {
+          top: -1px;
+          position: absolute;
+          background-color: #fdfdfdfc;
+          color: #e0c381;
+          padding: 5px 2px 0px 30px;
+          border: 1px solid white;
+          left: 145px;
+          width: 20%;
+      }
+
+      .wedding-card-view-position:hover {
+          top: -1px;
+          position: absolute;
+          background-color: #fdfdfdfc;
+          color: #e0c381;
+          padding: 5px 2px 0px 30px;
+          border: 1px solid white;
+          left: 145px;
+          width: 20%;
+      }
+
+      .wedding-card-view-text{
+        font-size: 25px;
+        color:white;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+
+      .custom-text-768 {
+        font-size: 25px;
+      }
+
+      .card-size-text-2 {
+        color: white;
+        font-weight: unset;
+        position: absolute;
+        top: 80px;
+        right: 128px;
+      }
+
+      .card-five-seven {
+        width: 140px;
+        height: 200px;
+        background-color: #a570c1;
+        outline: 1px solid white;
+        outline-offset: -6px;
+        transition: all 0.5s;
+      }
+
+      .card-size-text-3 {
+        color: white;
+        font-weight: unset;
+        position: absolute;
+        top: 100px;
+        right: 141px;
+      }
+
+      .card-four-nine:hover {
+        width: 115px;
+        height: 230px;
+        background-color: #e1c076;
+        outline: 1px solid white;
+        outline-offset: -6px;
+      }
+
+
+      .four-six-respon-768{
+        left: 105px;
+      }
+
+      .five-seven-respon-768{
+        left: 145px;
+        height: 200px;
+      }
+
+      .four-nine-respon-768{
+        left: 130px;
+        height: 200px;
+      }
+
+      .four-six-shadow-respon-768{
+        height: 200px;
+        left: -17px;
+        top: 50px;
+      }
+
+      .five-seven-shadow-respon-768{
+        height: 200px;
+        top: 48px;
+        left: 23px;
+      }
+
+      .four-nine-shadow-respon-768{
+        top: 48px;
+        left: 11px;
+        height: 200px;
+      }
+
+      .custom-wedding-page{
+        height: 600px !important;
+      }
+
+      .second-inner-wedding-view-left{
+        margin:15px;
+        outline:2px solid white;;
+        outline-offset:-10px;
+      }
+
+  /*###########################################################################
+  ########################## END WEDDING-CARD RESPONSIVE 768 #################
+  ############################################################################*/
+
+
+
+  /*###########################################################################
+  ##########################  Gallery RESPONSIVE 768 #################
+  ############################################################################*/
+
+    .custom-gallery-aboutus{
+      height: 85%!important;
+    }
+
+    .gallery-line{
+      margin-top: 10%;
+    }
+
+  /*###########################################################################
+  ########################## END Gallery RESPONSIVE 768 #################
+  ############################################################################*/
+
+
+
+
+  /*------- Studio #PARK ----------------*/
+    .studio-border-img {
+        position: absolute;
+        width: 92%;
+        top: 44px;
+        height: 71%;
+        left: 25px;
+    }
+    .studio-border-img-hight {
+        position: absolute;
+        width: 90%;
+        top: 44px;
+        height: 78%;
+        left: 29px;
+    }
+    h2.studio-font-size {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .studio-topcenter {
+      padding-top: 0%;
+    }
+    .studio-topcenterlong {
+      padding-top: 5%;
+    }
+    .studio-ml-4, .studio-mx-4 {
+      margin-left: 12px!important;
+    }
+  /*------------ Contact  #PARK ------------------------------*/
+    .contact-img-50 {
+      width: 92%;
+    }
+    .contacat-from-input {
+        margin-top: 90px;
+    }
+   .contact-map-color {
+      height: 308px;
+      width: 100%;
+      background-color: #e1c076;
+    }
+    .contact-background {
+        /* height: 238px; */
+        width: 76%;
+        background-color: #e1c076;
+        position: absolute;
+        top: 322px;
+        right: 71px;
+    }
+    .contact-border-background {
+      border: 2px solid;
+      margin-top: 15px;
+    }
+    .contact-border-img {
       border: 2px solid #fff;
       position: absolute;
-      width: 92%;
-      top: 41px;
-      height: 74%;
-      left: 11px;
-  }
-  .aboutus-background-footer {
-    background: #eee;
-    margin-top: -60px;
-    height: 80%;
-  }
-  .abouts-magin-crad {
-    margin-top: 79px;
-  }
-  h3.about-us-h3-rosponsive {
-      font-size: 18px;
-      line-height: 30px;
-  }
- .aboutus-background {
-    height: 80px;
-    width: 95%;
-    background-color: #e1c076;
-    margin: auto;
-    margin-top: -60px;
-  }
-  .aboutus-border-background {
-    border: 2px solid #eee;
-    width: 96%;
-    margin-left: 2%;
-    height: 58px;
-    padding-top: 5px;
-  }
-  .contact-padding-qrcode {
-    padding-top: 80px;
-    margin-top: -70px;
-  }
-  .aboutus-background-footer {
-    background: #eee;
-    margin-top: -60px;
-    margin-bottom: -60px;
-  }
-
-/*---------------- All-List -------------------------*/
-  .all-list-container {
+      width: 86%;
+      top: 44px;
+      height: 82%;
+      left: 45px;
+    }
+    .contact-col-sm-4 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 100%;
+      max-width: 50.333333%;
+      margin: auto;
+      margin-top: -18px;
+    }
+    .contact-col-sm-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: -20px;
+        margin-left: 0px;
+    }
+    .contact-textaray {
+      display: block;
       width: 100%;
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
-      max-width: 712px;
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #495057;
       background-color: #fff;
-  }
-  .all-list-background {
-      background-color: #eee;
-      padding-top: 90px;
-      padding-bottom: 90px;
-      margin-top: -56px;
+      background-clip: padding-box;
+      border: 2px solid #e1c076;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      height: 80px;
+      resize: none;
     }
-    .all-list-ml-5, .all-list-mx-5 {
-        margin-left: 0rem!important; 
+    .contact-phone {
+        margin-left: 23px;
+        font-size: 22px;
+        margin-top: -11px;
+    }
+    h5.contact-font-h5 {
+      font-size: 23px;
+      line-height: 28px;
     }
 
-    .all-list-mr-5, .all-list-mx-5 {
-         margin-right: 0rem!important; 
+    h3.contact-phone-size-responsive {
+      font-size: 22px;
+      line-height: 30px;
+      margin-top: -25px;
     }
-    .aboutus-background {
+    .contact-border-support {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 62%;
+      top: 29px;
+      height: 43%;
+      left: 45px;
+    }
+    /*------------------- About-us ---------------------------*/
+    .aboutus-border-img {
+        border: 2px solid #fff;
+        position: absolute;
+        width: 92%;
+        top: 41px;
+        height: 74%;
+        left: 11px;
+    }
+    .aboutus-background-footer {
+      background: #eee;
+      margin-top: -60px;
+      height: 80%;
+    }
+    .abouts-magin-crad {
+      margin-top: 79px;
+    }
+    h3.about-us-h3-rosponsive {
+        font-size: 18px;
+        line-height: 30px;
+    }
+   .aboutus-background {
       height: 80px;
       width: 95%;
       background-color: #e1c076;
       margin: auto;
-      margin-top: 0px;
+      margin-top: -60px;
     }
+    .aboutus-border-background {
+      border: 2px solid #eee;
+      width: 96%;
+      margin-left: 2%;
+      height: 58px;
+      padding-top: 5px;
+    }
+    .contact-padding-qrcode {
+      padding-top: 80px;
+      margin-top: -70px;
+    }
+    .aboutus-background-footer {
+      background: #eee;
+      margin-top: -60px;
+      margin-bottom: -60px;
+    }
+
+  /*---------------- All-List -------------------------*/
+    .all-list-container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 712px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #fff;
+    }
+    .all-list-background {
+        background-color: #eee;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        margin-top: -56px;
+      }
+      .all-list-ml-5, .all-list-mx-5 {
+          margin-left: 0rem!important;
+      }
+
+      .all-list-mr-5, .all-list-mx-5 {
+           margin-right: 0rem!important;
+      }
+      .aboutus-background {
+        height: 80px;
+        width: 95%;
+        background-color: #e1c076;
+        margin: auto;
+        margin-top: 0px;
+      }
+
 }
-
-
-
-
 
 @media (max-width: 414px)
 {
-  .ft-social{
-      margin-left: 20%;
+  .ft-copy-right{
+    margin-left: 12%;
   }
+  .ft-social{
+      margin-left: 18%;
+  }
+  .text-white{
+    text-align: center;
+  }
+
+  /*=============================================================================
+  ----------------------------- NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+    .news-row-height{
+      height:unset;
+    }
+
+    .news-overlay {
+      left: 16px;
+      width: 92%;
+    }
+
+  /*=============================================================================
+  ----------------------------- END NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+
+
+  /*###########################################################################
+  ############################# PAGE INDEX RESPONSIVE 414 #####################
+  ############################################################################*/
+
+      .relative {
+          margin-bottom: 30px;
+          cursor: pointer;
+          height: 180px;
+          position: relative;
+          width: 100%;
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+
+      .card-item {
+        height: 196px;
+      }
+
+      .testimnial-box {
+        width: 100%;
+        top: -40px;
+        right: -7px;
+      }
+
+      .testimonial-text {
+          font-size: 19px;
+      }
+
+      .testimonials-icon {
+          font-size: 45px;
+      }
+
+
+      .relative .card-type-overlay {
+        left: 5px;
+        width: 95%;
+        height: 196px;
+     }
+
+     .envelope-type-title-text {
+       right: 52%;
+     }
+
+     .envelope-testimnial-box {
+          position: absolute;
+          top: -40px;
+          right: 2%;
+      }
+
+      .envelope-testimonial-text {
+          font-size: 16px;
+      }
+
+      .envelope-relative-top-left {
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 330px;
+      }
+
+      .envelope-item-top-left {
+          height: 350px;
+      }
+
+      .envelope-relative-top-left .envelope-type-overlay {
+          left:5px;
+          width: 97.5%;
+          height: 350px;
+      }
+
+      .envelope-relative-bottom-left {
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 330px;
+      }
+
+      .envelope-item-bottom-left {
+          height: 350px;
+      }
+
+      .envelope-relative-bottom-left .envelope-type-overlay {
+          left:5px;
+          width: 97.5%;
+          height: 350px;
+      }
+
+      .envelope-relative {
+        margin-bottom: 30px;
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 170px;
+      }
+
+      .envelope-item-right {
+          height: 190px;
+      }
+
+      .envelope-relative .envelope-type-overlay {
+          width: 95%;
+          height: 190px;
+          left: 5px;
+      }
+
+      .souvenir-testimnial-box {
+          right: 0%;
+          left: 5%;
+      }
+
+      .souvenir-type-title-text {
+          right: 52%;
+      }
+
+      .brochour-testimnial-box {
+          right: 0%;
+          left:7.5%;
+      }
+
+      .clock-testimnial-box {
+          right: 0%;
+          left:6%;
+      }
+
+      .folio-testimnial-box {
+          right: 21%;
+      }
+
+      .folio-relative {
+          height: 330px;
+      }
+
+      .folio-item {
+          height: 330px;
+      }
+
+      .folio-relative .folio-type-overlay {
+          width: 93.25%;
+          height: 330px;
+      }
+
+      .banner-relative{
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
+      .feed-type-title-text {
+          right: 43%;
+      }
+
+      .feed-relative{
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
+      .feed-testimnial-box {
+          right: 0;
+          left: 1%;
+      }
+
+      .feed-testimonial-text {
+          user-select: none;
+          font-weight: bolder;
+          color: #949494;
+          font-size: 17px;
+      }
+
+      .feed-relative {
+          height: 120px;
+      }
+
+      .feed-item {
+          height: 150px;
+      }
+
+      .banner-relative {
+          height: 120px;
+      }
+
+      .banner-item {
+          height: 170px;
+      }
+
+
+      .contact-type-title-text {
+        right: 54.2%;
+      }
+
+      .contact-testimnial-box {
+          right: 21.4%;
+      }
+
+      .contact-left {
+          margin-top: 0px;
+          margin-left: 8%;
+          padding: 20px 0px 7px 23px;
+          border: 2px solid #e1c076;
+      }
+
+      .btn-custom-2 {
+          width: 43%;
+          padding: 5px 25px 5px 20px;
+      }
+
+  /*###########################################################################
+  ############################# END PAGE INDEX RESPONSIVE 414 #################
+  ############################################################################*/
+
+
+
+  /*###########################################################################
+  ############################ WEDDING-CARD RESPONSIVE 414 ###################
+  ############################################################################*/
+
+      .wedding-card-title {
+          user-select: none;
+          font-weight: bolder;
+          font-size: 14px;
+          color: #949494;
+      }
+
+      #slider label {
+        width: 40%;
+        height: 110%;
+      }
+
+      .previous{
+        position: absolute;
+        left: 5%;
+        top: 45%;
+      }
+      .next{
+        position: absolute;
+        right: 5%;
+        top: 45%;
+      }
+
+      .previous-button {
+          padding: 5px;
+      }
+
+      .next-button {
+          padding: 5px;
+      }
+
+      .wedding-view-left {
+        position:relative;
+        padding: 120px;
+        padding-bottom: 150px;
+        margin: 70px 0px 30px 0px;
+      }
+
+      .second-inner-wedding-view-left {
+        left: 40px;
+        right: 40px;
+        position:absolute;
+        background-color: #e1c076e3;
+      }
+
+      .wedding-view-right {
+        margin: unset;
+      }
+
+      .wedding-card-view-position {
+        background-color: #e1c076;
+        color: white;
+        border-radius: 0px;
+        padding: 5px 0px 5px 20px;
+        font-size: 20px;
+        text-decoration: none;
+        margin-bottom: 70px;
+        transition: all 0.5s;
+        left: unset;
+        width: 45%;
+      }
+
+
+      .wedding-card-view-position:hover {
+        background-color: white;
+        color: black;
+        border-radius: 0px;
+        padding: 5px 0px 5px 20px;
+        font-size: 20px;
+        text-decoration: none;
+        margin-bottom: 70px;
+        transition: all 0.5s;
+        border:1px solid #e1c076;
+        transition: all 0.5s;
+        left: unset;
+        width: 45%;
+      }
+
+      .second-inner-wedding-view-right {
+          top: 40%;
+          left: 105px;
+          right: -50px;
+      }
+
+      .custom-text-768 {
+          font-size: 19px;
+      }
+
+      .hide-768{
+          display:none;
+      }
+
+      .custom-wedding-page{
+        height: 700px  !important;
+      }
+
+      .float-l-testimonial{
+        position: absolute;
+        top:-7px;
+        left:0px;
+      }
+
+       .float-r-testimonial{
+         position: absolute;
+         top:-7px;
+         right:0px;
+       }
+
+  /*###########################################################################
+  ########################## END WEDDING-CARD RESPONSIVE 414 #################
+  ############################################################################*/
+
+
+  /*###########################################################################
+  ##########################  Gallery RESPONSIVE 414 #################
+  ############################################################################*/
+
+    .custom-gallery-about{
+      height: 130%!important;
+    }
+
+    .gallery-line{
+      margin-top: 10%;
+    }
+
+  /*###########################################################################
+  ########################## END Gallery RESPONSIVE 414 #################
+  ############################################################################*/
+
+
   /*----------- Studio #PARK --------------*/
   .studio-border-img {
       border: 2px solid #fff;
@@ -1007,7 +3473,7 @@ hr.all-list-hr-center {
     border: 0;
     border-top: 4px solid #e1c076;
     width: 28%;
-    margin-left: 37%; 
+    margin-left: 37%;
   }
   .text-right {
     text-align: center!important;
@@ -1018,7 +3484,7 @@ hr.all-list-hr-center {
     border: 0;
     border-top: 4px solid #e1c076;
     width: 28%;
-    margin-left: 37%; 
+    margin-left: 37%;
   }
   .studio-topcenterlong {
     padding-top: 5%;
@@ -1031,8 +3497,39 @@ hr.all-list-hr-center {
     font-size: 23px;
     line-height: 28px;
   }
+  .studio-topcenter {
+    text-align: center!important;
+}
+.studio-space {
+    margin-left: 0px;
+}
+h3.about-us-h3-rosponsive {
+    font-size: 18px;
+    line-height: 30px;
+    /* text-align: center; */
+    margin-left: -50px;
+}
+hr.studio-hr-left {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 4px solid #e1c076;
+    width: 28%;
+    margin-left: 29%;
+}
+hr.studio-hr-right {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 4px solid #e1c076;
+    width: 28%;
+    margin-left: 29%;
+}
   .aboutus-img-50 {
     width: 50%;
+  }
+  .about-us-center {
+    margin-left: 13px;
   }
   .aboutus-border-background {
     border: 2px solid #eee;
@@ -1094,7 +3591,7 @@ hr.all-list-hr-center {
   }
 
   .contact-mb-4, .contact-my-4 {
-     margin-bottom: 0rem!important; 
+     margin-bottom: 0rem!important;
   }
   .contact-padding-qrcode {
     padding-top: 0;
@@ -1127,7 +3624,7 @@ hr.all-list-hr-center {
 
 /*-------------- All-List -------------------------*/
   .all-list-ml-5, .all-list-mx-5 {
-      margin-left: 0rem!important; 
+      margin-left: 0rem!important;
   }
 
   .all-list-mb-3, .all-list-my-3 {
@@ -1149,19 +3646,257 @@ hr.all-list-hr-center {
   }
   /*---------- Card -Type --------------*/
   .cardtype-styled-select.cardtype-slate {
-    background: url(http://localhost/108Image/assets/images/img/imgpeplo/set-select.jpg.) no-repeat right center;
+    background: url(workbythai-commerce.com/108image_demoview/assets/images/img/imgpeplo/set-select.jpg) no-repeat right center;
     height: 34px;
     width: 100%;
     margin: auto;
   }
-/*----------- Single-promotion --------------*/\
+
 }
 
 @media (max-width: 375px)
 {
-  .ft-social{
-      margin-left: 17%;
+  .ft-copy-right{
+    margin-left: 12%;
   }
+  .ft-social{
+      margin-left: 15%;
+  }
+
+  /*=============================================================================
+  ----------------------------- NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+    .news-overlay {
+      left: 15px;
+      width: 91.5%;
+    }
+
+  /*=============================================================================
+  ----------------------------- END NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+
+  /*###########################################################################
+  ############################# PAGE INDEX RESPONSIVE 375 #####################
+  ############################################################################*/
+
+      .margin-content{
+        margin-top:15%;
+      }
+
+      .testimonial-text {
+        font-size: 16.5px;
+      }
+
+      .relative {
+          margin-bottom: 30px;
+          cursor: pointer;
+          height: 160px;
+          position: relative;
+          width: 100%;
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+
+      .card-item {
+          height: 178px;
+      }
+
+      .relative .card-type-overlay {
+          height: 178px;
+      }
+
+      .envelope-type-title-text {
+        right: 52%;
+      }
+
+      .envelope-testimonial-text {
+          font-size: 14px;
+      }
+
+      .envelope-relative-top-left {
+          height: 300px;
+      }
+
+      .envelope-item-top-left {
+          height: 320px;
+      }
+
+      .envelope-relative-top-left .envelope-type-overlay {
+          height: 320px;
+          width: 97.5%;
+      }
+
+      .envelope-relative-bottom-left {
+          height: 300px;
+      }
+
+      .envelope-item-bottom-left {
+          height: 320px;
+      }
+
+      .envelope-relative-bottom-left .envelope-type-overlay {
+          height: 320px;
+          width: 97.5%;
+      }
+
+      .envelope-relative {
+          height: 160px;
+      }
+
+      .envelope-item-right {
+          height: 178px;
+      }
+
+      .envelope-relative .envelope-type-overlay {
+          height: 178px;
+      }
+
+      .souvenir-type-title-text {
+          right: 53%;
+      }
+
+      .folio-relative{
+        height:320px;
+      }
+
+      .folio-relative .folio-type-overlay {
+          width: 92.5%;
+      }
+
+
+      .feed-type-title-text {
+          right: 42.2%;
+      }
+
+      .feed-testimnial-box {
+          right: 0;
+          left: 5%;
+      }
+
+      .feed-testimonial-text {
+          font-size: 14px;
+      }
+
+      .feed-relative {
+          height: 100px;
+      }
+
+      .feed-item {
+          height: 130px;
+      }
+
+      .btn-custom-2 {
+          padding: 5px 25px 5px 14px;
+      }
+
+      .contact-left {
+          margin-top: 0px;
+          margin-left: 8%;
+          padding: 10px 0px 7px 8px;
+          border: 2px solid #e1c076;
+      }
+
+      .custom-text-768 {
+          font-size: 18px;
+      }
+
+  /*###########################################################################
+  ############################# END PAGE INDEX RESPONSIVE 375 #################
+  ############################################################################*/
+
+
+  /*###########################################################################
+  ############################ WEDDING-CARD RESPONSIVE 375 ###################
+  ############################################################################*/
+
+      .wedding-card-title {
+          position: absolute;
+          font-size: 13px;
+          top: -34px;
+          left: -4px;
+          right: 0px;
+      }
+
+      #slider label {
+        width: 40%;
+        height: 110%;
+      }
+
+      .previous{
+        left: 5%;
+        top: 45%;
+      }
+      .next{
+        right: 5%;
+        top: 45%;
+      }
+
+      .previous-button {
+        padding: 5px;
+      }
+
+      .next-button {
+        padding: 5px;
+      }
+
+      .wedding-card-view-position {
+        width: 55%;
+      }
+
+      .wedding-card-view-position:hover {
+        width: 55%;
+      }
+
+      .second-inner-wedding-view-right {
+        right: -30px;
+        top: 40%;
+        left: 90px;
+      }
+
+      .wedding-testimonial-text-2 {
+        color: white;
+        font-size: 15px;
+      }
+
+      .margin-wedding-head{
+        margin-bottom:25px;
+      }
+
+      #slider{
+        margin-top:30px;
+      }
+
+      .order-step{
+        margin-top: 30px;
+      }
+
+  /*###########################################################################
+  ########################## END WEDDING-CARD RESPONSIVE 375 #################
+  ############################################################################*/
+
+
+
+  /*###########################################################################
+  ##########################  Gallery RESPONSIVE 375 #################
+  ############################################################################*/
+
+    .custom-gallery-about{
+      height: 150%!important;
+    }
+
+    .gallery-line{
+      margin-top: 15%;
+    }
+
+  /*###########################################################################
+  ########################## END Gallery RESPONSIVE 375 #################
+  ############################################################################*/
+
+
+
+
   /*----------- Studio #PARK --------------*/
   .studio-border-img {
       border: 2px solid #fff;
@@ -1178,7 +3913,7 @@ hr.all-list-hr-center {
       top: 44px;
       height: 79%;
       left: 24px;
-  } 
+  }
  /*------- Card-type --------------------*/
   .cardtype-styled-select.cardtype-slate {
     /*background: url(http://localhost/108Image/assets/images/img/imgpeplo/set-select.jpg.) no-repeat right center;
@@ -1189,14 +3924,12 @@ hr.all-list-hr-center {
 
   /*--------- About US ----------------------------*/
   .aboutus-border-background {
-      border: 2px solid #eee;
-      width: 97%;
-      padding-left: 1%;
-      height: 66px;
-      padding-top: 5px;
-      margin-top: -4px;
-      padding-right: 1%;
-      margin-left: 4px;
+    border: 2px solid #eee;
+    width: 96%;
+    margin-left: 2%;
+    height: 66px;
+    padding-top: 5px;
+    margin-top: -4px;
   }
   .aboutus-border-img {
     border: 2px solid #fff;
@@ -1238,7 +3971,7 @@ hr.all-list-hr-center {
     -ms-flex: 0 0 50%!important;
      flex: 0 0 100%!important;
     max-width: 100%!important;
-  } 
+  }
   .contact-img-reponsive {
     width: 80%;
     margin-left: 10%;
@@ -1290,9 +4023,10 @@ hr.all-list-hr-center {
     font-size: 0px;
   }
   .all-list-btn-magin-15 {
-      margin-top: 6%;
-      margin-left: 9%;
+    margin-top: 6%;
+    margin-left: 26%;
   }
+
 }
 
 @media (max-width: 320px)
@@ -1300,6 +4034,248 @@ hr.all-list-hr-center {
   .ft-social{
       margin-left: 10%;
   }
+
+
+  /*=============================================================================
+  ----------------------------- NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+    .news-overlay {
+      left: 15px;
+      width: 90%;
+    }
+
+  /*=============================================================================
+  ----------------------------- END NEWS  PAGE -----------------------------
+  ==============================================================================*/
+
+
+  /*###########################################################################
+  ############################# PAGE INDEX RESPONSIVE 320 #####################
+  ############################################################################*/
+
+      .margin-content{
+        margin-top:18%;
+      }
+
+
+      .testimonial-text {
+          font-size: 13.5px;
+      }
+
+      .envelope-testimonial-text {
+        font-size: 11px;
+      }
+
+      .relative {
+          margin-bottom: 30px;
+          cursor: pointer;
+          height: 130px;
+          position: relative;
+          width: 100%;
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+
+      .card-item {
+          height: 150px;
+      }
+
+      .relative .card-type-overlay {
+          left: 4px;
+          width: 95%;
+          height: 150px;
+      }
+
+      .envelope-relative-top-left {
+          height: 240px;
+      }
+
+      .envelope-item-top-left {
+          height: 260px;
+      }
+
+      .envelope-relative-top-left .envelope-type-overlay {
+          height: 260px;
+          width: 97%;
+      }
+
+      .envelope-relative-bottom-left {
+          height: 240px;
+      }
+
+      .envelope-item-bottom-left {
+          height: 260px;
+      }
+
+      .envelope-relative-bottom-left .envelope-type-overlay {
+          height: 260px;
+          width: 97%;
+      }
+
+      .envelope-relative {
+          height: 130px;
+      }
+
+      .envelope-item-right {
+          height: 150px;
+      }
+
+      .envelope-relative .envelope-type-overlay {
+          height: 150px;
+      }
+
+      .brochour-testimnial-box {
+          right: 0%;
+          left:8%;
+      }
+
+      .folio-relative {
+          height: 265px;
+      }
+
+      .folio-item {
+          height: 280px;
+      }
+
+      .folio-relative .folio-type-overlay {
+          width: 91%;
+          height: 280px;
+      }
+
+      .feed-type-title-text {
+          right: 42.2%;
+      }
+
+      .feed-testimnial-box {
+          right: 0;
+          left: 0;
+      }
+
+      .feed-testimonial-text {
+          font-size: 12px;
+      }
+
+      .feed-relative {
+          height: 90px;
+      }
+
+      .feed-item {
+          height: 120px;
+      }
+
+
+      .btn-custom-2 {
+          padding: 5px 25px 5px 16px;
+      }
+
+      .btn-custom-2 {
+          font-size: 15px;
+      }
+
+      .custom-text-768 {
+          font-size: 15x;
+      }
+
+  /*###########################################################################
+  ############################# END PAGE INDEX RESPONSIVE 320 #################
+  ############################################################################*/
+
+
+
+  /*###########################################################################
+  ############################ WEDDING-CARD RESPONSIVE 320 ###################
+  ############################################################################*/
+
+      .wedding-card-title {
+          font-size: 10px;
+          left: 0px;
+          right: 0px;
+      }
+
+      #slider label {
+        width: 40%;
+        height: 115%;
+      }
+
+      .previous{
+        left: 5%;
+        top: 45%;
+      }
+      .next{
+        right: 5%;
+        top: 45%;
+      }
+
+      .previous-button {
+          padding: 2px;
+      }
+
+      .next-button {
+          padding: 2px;
+      }
+
+      .second-inner-wedding-view-left {
+        top: 105px;
+        bottom: 58px;
+        left: 40px;
+        right: 47px;
+        background-color: #e1c076e3;
+        position: absolute;
+
+      }
+
+      .wedding-card-view-position {
+        width: 77%;
+      }
+
+      .wedding-card-view-position:hover {
+        width: 77%;
+      }
+
+      .second-inner-wedding-view-right {
+        right: 20px;
+        top: 40%;
+        left: 60px;
+      }
+
+      .custom-wedding-page{
+        height: 750px  !important;
+      }
+
+      .margin-wedding-head{
+        margin-bottom: 20px;
+      }
+
+      #slider{
+        margin-top:10%;
+      }
+
+      .order-step{
+        margin-top:60px;
+      }
+  /*###########################################################################
+  ########################## END WEDDING-CARD RESPONSIVE 320 #################
+  ############################################################################*/
+
+  /*###########################################################################
+  ##########################  Gallery RESPONSIVE 320 #################
+  ############################################################################*/
+
+    .custom-gallery-about{
+      height: 190%!important;
+    }
+
+    .gallery-line{
+      margin-top: 15%;
+    }
+
+  /*###########################################################################
+  ########################## END Gallery RESPONSIVE 320 #################
+  ############################################################################*/
+
+
+
   /*----------- Studio #PARK --------------*/
   .studio-img-100 {
     width: 90%;
@@ -1406,7 +4382,7 @@ hr.all-list-hr-center {
     margin-left: 28%;
     height: 40px;
   }
-  
+
   h4.contact-font-h4 {
     font-size: 19px;
     line-height: 28px;
@@ -1445,12 +4421,8 @@ hr.all-list-hr-center {
     margin-left: 0%;
   }
   .all-list-ml-5, .all-list-mx-5 {
-     margin-left: 0rem!important; 
+     margin-left: 0rem!important;
   }
+
+
 }
-
-
-
-/*=============================================================================
---------------------------------- PAGE INDEX ----------------------------------
-==============================================================================*/

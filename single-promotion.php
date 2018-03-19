@@ -35,9 +35,6 @@
 
 
 
-<!-- ################################## Promotion ##################################### -->
-
-
     <div class="all-list-background">
       <div class="all-list-container all-list-box-shadow">
 
@@ -84,17 +81,6 @@
 
 
 
-
-
-<!-- ################################## #END# Promotion ##################################### -->
-
-
-
-
-
-
-<!-- ##################################### Contact Line ###################################### -->
-
     <div class="container">
           <div class="row">
             <div class=" col-sm-2"></div>
@@ -102,7 +88,7 @@
                   <div class="mx-4 all-list-mx-5 contact-padding-qrcode text-center">
                     <div class="row">
                       <div class="col-4 col-sm-4">
-                        <img class="contact-img-100" src="assets/images/img/imagestudio/Addd(6).gif">
+                        <img class="contact-img-100" src="assets/images/line.gif">
                       </div>
                       <div class="col-8 col-sm-8">
                         <div class="aboutus-font0size-line15">
@@ -120,9 +106,9 @@
       </div>
 
 
-<!-- ##################################### #END# Contact Line ###################################### -->
 
-<!-- ##################################### #END# PAGE ############################################### -->
+
+
     <section class="promotion">
 
     </section>
