@@ -28,6 +28,23 @@
          url('../fonts/kunlasatri/kunlasatri-bold-webfont.svg#kunlasatribold') format('svg');
 }
 
+/*------------------------------------------------------------------------------
+  Writing fonts
+--------------------------------------------------------------------------------*/
+@font-face {
+    font-family: 'wreath_halftoneregular';
+    src: url('../fonts/wreath halftone Medium/wreathhalftoneregular-webfont.eot');
+    src: url('../fonts/wreath halftone Medium/wreathhalftoneregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/wreath halftone Medium/wreathhalftoneregular-webfont.woff2') format('woff2'),
+         url('../fonts/wreath halftone Medium/wreathhalftoneregular-webfont.woff') format('woff'),
+         url('../fonts/wreath halftone Medium/wreathhalftoneregular-webfont.ttf') format('truetype'),
+         url('../fonts/wreath halftone Medium/wreathhalftoneregular-webfont.svg#wreath_halftoneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 /*################################################################################################################
 ------------------------------------------------- General --------------------------------------------------------
 #################################################################################################################*/
@@ -92,7 +109,9 @@ section{
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
+a.wreath_halftoneregular{
+  font-family: 'wreath_halftoneregular';
+}
 .font-normal {
     font-weight: normal;
 }
@@ -277,6 +296,342 @@ section{
 }
 
 
+/*-------------------- Studio #PARK ----------------------------*/
+
+
+
+
+.studio-img-100 {
+  width: 100%;
+}
+.studio-border-img {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 93%;
+    top: 44px;
+    height: 80%;
+    left: 45px;
+}
+.studio-border-img-hight {
+  border: 2px solid #fff;
+  position: absolute;
+  width: 93%;
+  top: 44px;
+  height: 86%;
+  left: 45px;
+}
+.studio-relative {
+  position: relative;
+}
+hr.studio-hr-left {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 4px solid #e1c076;
+    width: 28%;
+    margin-left: 0px;
+}
+hr.studio-hr-right {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 4px solid #e1c076;
+    width: 28%;
+    margin-right: 0px;
+}
+.studio-space {
+    margin-left: 40px;
+}
+.studio-topcenter {
+    padding-top: 17%;
+}
+.studio-topcenterlong {
+    padding-top: 29%;
+}
+.studio-quote-left {
+    font-size: 1px;
+    padding-right: 8px;
+    color: #e1c076;
+}
+.studio-quote-right {
+    font-size: 1px;
+    padding-left: 8px;
+    color: #e1c076;
+}
+p.studio-magin-prot {
+    margin-top: 15px;
+}
+
+
+/*--------------- Contact #PARK ----------------*/
+.contact-background {
+    height: 269px;
+    width: 50%;
+    background-color: #e1c076;
+    position: absolute;
+    top: 84px;
+    right: 147px;
+}
+.contact-img-50 {
+   width: 50%; 
+}
+.contact-img-100 {
+  width: 100%;
+}
+.contact-border-img {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 47%;
+    top: 44px;
+    height: 81%;
+    left: 45px;
+}
+.contact-cor-fff {
+    color: #fff;
+}.contact-border-background {
+    border: 2px solid;
+    margin-top: 15px;
+    height: 88%;
+    padding-top: 15px;
+}
+
+
+.contact-fromcontrol {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #e1c076;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 40px;
+}
+.contact-textaray {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #e1c076;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 150px;
+    resize:none;
+}
+.contact-padding-qrcode {
+    padding-top: 80px;
+}
+.contact-id-line-top {
+    margin-top: 30px;
+}
+.contact-button-glode {
+    background-color: #e1c076;
+    margin-left: 38%;
+    height: 40px;
+    border-radius: 0px!important;
+    margin-top: 25px;
+}
+.contact-map-color {
+    height: 300px;
+    width: 100%;
+    background-color: #e1c076
+}
+.contact-map-border {
+    border: 2px solid #fff;
+    width: 90%;
+    margin-left: 26px;
+    height: 100%;
+    color: #fff
+}
+.contact-phone {
+    margin-left: 50px;
+}
+.contact-box-shadow {
+    box-shadow: 4px 5px 8px 0px #eee;
+}
+.contact-border-support {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 77%;
+    top: 29px;
+    height: 60%;
+    left: 45px;
+}
+/*----------------- About-us #PARK ------------------------*/
+.aboutus-size {
+    font-size: 40px;
+}
+.aboutus-container-magint-button {
+    margin-bottom: 60px;
+}
+hr.aboutus-border {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid rgb(225, 192, 118);
+    width: 20%;
+}
+.aboutus-background {
+    height: 80px;
+    width: 80%;
+    background-color: #e1c076;
+    margin: auto;
+}
+.abotus-bg-mb-5
+{
+  margin-top: -60px;
+}
+.aboutus-quote-left {
+    font-size: 1px;
+    padding-right: 8px;
+    color: #fff;
+}
+.aboutus-quote-right {
+    font-size: 1px;
+    padding-left: 8px;
+    color: #fff;
+    margin-top: 3%;
+}
+.aboutus-font-size {
+   color: #fff;
+   font-size: 20px;
+}
+.aboutus-border-background {
+  border: 2px solid #eee;
+  width: 96%;
+  margin-left: 2%;
+  height: 58px;
+}
+.aboutus-border-fff {
+  padding-top: 11px;
+}
+.aboutus-background-footer{
+  background: #eee;
+  margin-top: -60px;
+}
+.aboutus-container {
+    width: 97%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.aboutus-border-img {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 93%;
+    top: 44px;
+    height: 80%;
+    left: 18px;
+  }
+
+
+/*---------- cardtype ---------------------*/
+.cardtype-styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat  100% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+.cardtype-styled-select.cardtype-slate {
+    background: url(http://localhost/108Image/assets/images/img/imgpeplo/set-select.jpg.) no-repeat right center;
+    height: 34px;
+    width: 50%;
+    margin: auto;
+
+}
+.cardtype-slate   { background-color: #ddd; }
+.cardtype-styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 100%;
+   -webkit-appearance: none;
+}
+.cardtype-styled-select.cardtype-slate select {
+    border: 2px solid #e1c076;
+    font-size: 16px;
+    height: 34px;
+    width: 100%;
+}
+.cardtype-img-100 {
+  width: 100%;
+}
+/*------------- All-List #PARK ---------------------*/
+hr.all-list-hr {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border: 0;
+    border-top: 2px solid #e1c076;
+    width: 100px;
+    margin-left: 0;
+}
+.all-list-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color: #e1c076;
+    color: #fff;
+}
+.all-list-btn-magin-15 {
+    margin-top: 10%;
+}
+.all-list-line-hight {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.all-list-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+.all-list-background {
+    background-color: #eee;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin-top: -58px;
+}
+.all-list-box-shadow {
+    box-shadow: 6px 6px 8px -4px #b1b1b1;
+}
+hr.all-list-hr-center {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border: 0;
+    border-top: 2px solid #e1c076;
+    width: 100px;
+}
+.all-list-icon-001 {
+    width: 4%;
+}
+
 
 /*=============================================================================
 --------------------------------- PAGE INDEX ----------------------------------
@@ -302,6 +657,118 @@ section{
   }
 }
 
+@media (max-width: 1024px) {
+  /*-------- Studio #PARK --------*/
+  .studio-border-img {
+    position: absolute;
+    width: 93%;
+    top: 44px;
+    height: 78%;
+    left: 42px;
+  }
+  .studio-border-img-hight {
+    position: absolute;
+    width: 93%;
+    top: 44px;
+    height: 84%;
+    left: 42px;
+  }
+  h2.studio-font-size {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .studio-center-line {
+    margin-top: -50px;
+  }
+  /*------------ Contact #PARK ------------------*/
+  .contact-background {
+      height: 290px;
+      width: 50%;
+      background-color: #e1c076;
+      position: absolute;
+      top: 36px;
+      right: 147px;
+  }
+  .contact-border-img {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 46%;
+      top: 38px;
+      height: 80%;
+      left: 45px;
+  }
+  .contact-border-background {
+    border: 2px solid;
+    margin-top: 15px;
+    height: 89%;
+    padding-top: 15px;
+  }
+  .contact-textaray {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #e1c076;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 110px;
+    resize: none;
+  }
+  .contact-map-border {
+      border: 2px solid #fff;
+      width: 92%;
+      margin-left: 14px;
+      height: 100%;
+      color: #fff;
+  }
+  .contact-border-support {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 71%;
+    top: 29px;
+    height: 54%;
+    left: 45px;
+  }
+  /*-------------------- About-us ----------------------------*/
+  h3.about-us-h3-rosponsive {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .aboutus-border-img {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 93%;
+    top: 41px;
+    height: 80%;
+    left: 14px;
+  }
+    .aboutus-background-footer {
+    background: #eee;
+    margin-top: -60px;
+    height: 70%;
+  }
+  .abouts-magin-crad {
+        margin-top: 35px;
+  }
+/*---------- All- List -----------------------*/
+  .all-list-container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 1000px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #fff;
+  }
+}
+
+
+
 
 @media (max-width: 768px)
 {
@@ -309,13 +776,385 @@ section{
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
+
+/*------- Studio #PARK ----------------*/
+  .studio-border-img {
+      position: absolute;
+      width: 92%;
+      top: 44px;
+      height: 71%;
+      left: 25px;
+  }
+  .studio-border-img-hight {
+      position: absolute;
+      width: 90%;
+      top: 44px;
+      height: 78%;
+      left: 29px;
+  }
+  h2.studio-font-size {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .studio-topcenter {
+    padding-top: 0%;
+  }
+  .studio-topcenterlong {
+    padding-top: 5%;
+  }
+  .studio-ml-4, .studio-mx-4 {
+    margin-left: 12px!important;
+  }
+/*------------ Contact  #PARK ------------------------------*/
+  .contact-img-50 {
+    width: 92%;
+  }
+  .contacat-from-input {
+      margin-top: 90px;
+  }
+ .contact-map-color {
+    height: 308px;
+    width: 100%;
+    background-color: #e1c076;
+  }
+  .contact-background {
+      /* height: 238px; */
+      width: 76%;
+      background-color: #e1c076;
+      position: absolute;
+      top: 322px;
+      right: 71px;
+  }
+  .contact-border-background {
+    border: 2px solid;
+    margin-top: 15px;
+  }
+  .contact-border-img {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 86%;
+    top: 44px;
+    height: 82%;
+    left: 45px;
+  }
+  .contact-col-sm-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 100%;
+    max-width: 50.333333%;
+    margin: auto;
+    margin-top: -18px;
+  }
+  .contact-col-sm-8 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-top: -20px;
+      margin-left: 0px;
+  }
+  .contact-textaray {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #e1c076;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 80px;
+    resize: none;
+  }
+  .contact-phone {
+      margin-left: 23px;
+      font-size: 22px;
+      margin-top: -11px;
+  }
+  h5.contact-font-h5 {
+    font-size: 23px;
+    line-height: 28px;
+  }
+
+  h3.contact-phone-size-responsive {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: -25px;
+  }
+  .contact-border-support {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 62%;
+    top: 29px;
+    height: 43%;
+    left: 45px;
+  }
+  /*------------------- About-us ---------------------------*/
+  .aboutus-border-img {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 92%;
+      top: 41px;
+      height: 74%;
+      left: 11px;
+  }
+  .aboutus-background-footer {
+    background: #eee;
+    margin-top: -60px;
+    height: 80%;
+  }
+  .abouts-magin-crad {
+    margin-top: 79px;
+  }
+  h3.about-us-h3-rosponsive {
+      font-size: 18px;
+      line-height: 30px;
+  }
+ .aboutus-background {
+    height: 80px;
+    width: 95%;
+    background-color: #e1c076;
+    margin: auto;
+    margin-top: -60px;
+  }
+  .aboutus-border-background {
+    border: 2px solid #eee;
+    width: 96%;
+    margin-left: 2%;
+    height: 58px;
+    padding-top: 5px;
+  }
+  .contact-padding-qrcode {
+    padding-top: 80px;
+    margin-top: -70px;
+  }
+  .aboutus-background-footer {
+    background: #eee;
+    margin-top: -60px;
+    margin-bottom: -60px;
+  }
+
+/*---------------- All-List -------------------------*/
+  .all-list-container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 712px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #fff;
+  }
+  .all-list-background {
+      background-color: #eee;
+      padding-top: 90px;
+      padding-bottom: 90px;
+      margin-top: -56px;
+    }
+    .all-list-ml-5, .all-list-mx-5 {
+        margin-left: 0rem!important; 
+    }
+
+    .all-list-mr-5, .all-list-mx-5 {
+         margin-right: 0rem!important; 
+    }
+    .aboutus-background {
+      height: 80px;
+      width: 95%;
+      background-color: #e1c076;
+      margin: auto;
+      margin-top: 0px;
+    }
 }
+
+
+
+
 
 @media (max-width: 414px)
 {
   .ft-social{
       margin-left: 20%;
   }
+  /*----------- Studio #PARK --------------*/
+  .studio-border-img {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 85%;
+      top: 44px;
+      height: 74%;
+      left: 26px;
+  }
+  .studio-border-img-hight {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 85%;
+      top: 44px;
+      height: 81%;
+      left: 27px;
+  }
+  .studio-img-100 {
+      width: 93%;
+  }
+  .studio-topcenter {
+    text-align: center!important;
+  }
+  hr.studio-hr-left {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 4px solid #e1c076;
+    width: 28%;
+    margin-left: 37%; 
+  }
+  .text-right {
+    text-align: center!important;
+  }
+  hr.studio-hr-right {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 4px solid #e1c076;
+    width: 28%;
+    margin-left: 37%; 
+  }
+  .studio-topcenterlong {
+    padding-top: 5%;
+    text-align: center;
+  }
+
+
+/*---------------- About-us ---------------------*/
+  h5.aboutus-h5-rosponsive  {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .aboutus-img-50 {
+    width: 50%;
+  }
+  .aboutus-border-background {
+    border: 2px solid #eee;
+    width: 96%;
+    margin-left: 2%;
+    height: 63px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .aboutus-border-img {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 86%;
+      top: 41px;
+      height: 74%;
+      left: 25px;
+  }
+  .aboutus-background-footer {
+    background: #eee;
+    margin-top: -60px;
+    height: 186%;
+  }
+  .about-us-center {
+    margin-left: 13px;
+  }
+/*------------------ Contact ------------------------*/
+  .contact-background {
+      height: 353px;
+      width: 86%;
+      background-color: #e1c076;
+      /* position: absolute; */
+      top: 295px;
+      right: 18px;
+  }
+  .contact-magin-padding-ii {
+      padding-top: 267px;
+  }
+  .contact-border-img {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 81%;
+      top: 40px;
+      height: 75%;
+      left: 29px;
+  }
+  .contact-map-color {
+    height: 274px;
+    width: 100%;
+    background-color: #e1c076;
+    margin-bottom: 25px;
+  }
+  .contact-phone {
+    margin-left: 41px;
+    font-size: 22px;
+    margin-top: -11px;
+  }
+  .contact-ml-4, .contact-mx-4 {
+      margin-left: 9px!important;
+  }
+
+  .contact-mb-4, .contact-my-4 {
+     margin-bottom: 0rem!important; 
+  }
+  .contact-padding-qrcode {
+    padding-top: 0;
+    margin-top: -70px;
+  }
+  .contact-text-responsive-align {
+    text-align: center;
+  }
+  .contact-map-my-5 {
+    margin-top: 10px;
+  }
+  .contact-border-support {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 58%;
+    top: 29px;
+    height: 38%;
+    left: 44px;
+  }
+  .aboutus-background {
+      height: 80px;
+      width: 95%;
+      background-color: #e1c076;
+      margin: auto;
+      margin-top: 0px;
+  }
+   .single-promotiom-pading-auto {
+    margin-top: 15px;
+  }
+
+/*-------------- All-List -------------------------*/
+  .all-list-ml-5, .all-list-mx-5 {
+      margin-left: 0rem!important; 
+  }
+
+  .all-list-mb-3, .all-list-my-3 {
+      margin-bottom: 0rem!important;
+  }
+  .all-list-mt-3, .all-list-my-3 {
+      margin-top: 0rem!important;
+  }
+  .all-list-btn-magin-15 {
+      margin-top: 5%;
+      margin-left: 26%;
+  }
+  .all-list-container {
+      width: 96%;
+  }
+  .contact-padding-qrcode {
+      padding-top: 0;
+      margin-top: 32px;
+  }
+  /*---------- Card -Type --------------*/
+  .cardtype-styled-select.cardtype-slate {
+    background: url(http://localhost/108Image/assets/images/img/imgpeplo/set-select.jpg.) no-repeat right center;
+    height: 34px;
+    width: 100%;
+    margin: auto;
+  }
+/*----------- Single-promotion --------------*/\
 }
 
 @media (max-width: 375px)
@@ -323,12 +1162,290 @@ section{
   .ft-social{
       margin-left: 17%;
   }
+  /*----------- Studio #PARK --------------*/
+  .studio-border-img {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 85%;
+      top: 39px;
+      height: 74%;
+      left: 26px;
+  }
+  .studio-border-img-hight {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 86%;
+      top: 44px;
+      height: 79%;
+      left: 24px;
+  } 
+ /*------- Card-type --------------------*/
+  .cardtype-styled-select.cardtype-slate {
+    /*background: url(http://localhost/108Image/assets/images/img/imgpeplo/set-select.jpg.) no-repeat right center;
+    height: 34px;*/
+    width: 100%;
+    margin: auto;
+  }
+
+  /*--------- About US ----------------------------*/
+  .aboutus-border-background {
+      border: 2px solid #eee;
+      width: 97%;
+      padding-left: 1%;
+      height: 66px;
+      padding-top: 5px;
+      margin-top: -4px;
+      padding-right: 1%;
+      margin-left: 4px;
+  }
+  .aboutus-border-img {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 86%;
+    top: 41px;
+    height: 71%;
+    left: 25px;
+  }
+  .aboutus-background-footer {
+    background: #eee;
+    margin-top: -60px;
+    height: 204%;
+  }
+  /*------------- Contact -----------------------------*/
+  .contact-background {
+      height: 290px;
+      width: 86%;
+      background-color: #e1c076;
+      /* position: absolute; */
+      top: 276px;
+      right: 10px;
+      font-size: 16px;
+  }
+  h4.contact-font-h4 {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .contact-border-img {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 85%;
+      top: 40px;
+      height: 73%;
+      left: 18px;
+  }
+  .contact-col-6 {
+    -webkit-box-flex: 0!important;
+    -ms-flex: 0 0 50%!important;
+     flex: 0 0 100%!important;
+    max-width: 100%!important;
+  } 
+  .contact-img-reponsive {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .contact-border-support {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 60%;
+    top: 27px;
+    height: 55%;
+    left: 75px;
+  }
+  .contact-background {
+      height: 326px;
+      width: 86%;
+      background-color: #e1c076;
+      /* position: absolute; */
+      top: 276px;
+      right: 16px;
+      font-size: 16px;
+  }
+  .contact-magin-padding-ii {
+      padding-top: 260px;
+  }
+  .contact-map-color {
+    height: 305px;
+    width: 100%;
+    background-color: #e1c076;
+    margin-bottom: 25px;
+  }
+
+/*----- All-List ---------*/
+  .all-list-container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 350px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #fff;
+  }
+  h4.all-list-h4 {
+      font-size: 22px;
+      line-height: 28px;
+  }
+  .all-list-fontsize-1 {
+    font-size: 0px;
+  }
+  .all-list-btn-magin-15 {
+      margin-top: 6%;
+      margin-left: 9%;
+  }
 }
 
 @media (max-width: 320px)
 {
   .ft-social{
       margin-left: 10%;
+  }
+  /*----------- Studio #PARK --------------*/
+  .studio-img-100 {
+    width: 90%;
+  }
+  .studio-border-img {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 80%;
+      top: 44px;
+      height: 66%;
+      left: 24px;
+  }
+  .studio-border-img-hight {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 81%;
+      top: 40px;
+      height: 76%;
+      left: 25px;
+  }
+  h2.studio-font-size {
+    font-size: 21px;
+    line-height: 40px;
+  }
+  .cardtype-styled-select.cardtype-slate {
+    /*background: url(http://localhost/108Image/assets/images/img/imgpeplo/set-select.jpg.) no-repeat right center;
+    height: 34px;*/
+    width: 100%;
+    margin: auto;
+  }
+  h4.cardtype-h4-responsive {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  /*-------------- About Us --------------------------*/
+  .aboutus-border-img {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 83%;
+      top: 37px;
+      height: 70%;
+      left: 21px;
+  }
+
+  .aboutus-background-footer {
+    background: #eee;
+    margin-top: -60px;
+    height: 230%;
+  }
+  .aboutus-font-size {
+    color: #fff;
+    font-size: 16px;
+  }
+  .aboutus-font0size-line15 {
+    font-size: 15px;
+  }
+  h5.aboutus-h5-rosponsive {
+    font-size: 16px;
+    line-height: 12px;
+  }
+  .aboutus-font-left {
+    margin-left: -40px;
+  }
+  h3.about-us-h3-rosponsive {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .aboutus-border-background {
+    border: 2px solid #eee;
+    width: 96%;
+    margin-left: 2%;
+    height: 66px;
+    padding-top: 5px;
+    margin-top: -4px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  /*-------- contact ----------------------*/
+  .contact-background {
+      height: 399px;
+      width: 91%;
+      background-color: #e1c076;
+      /* position: absolute; */
+      top: 229px;
+      right: -2px;
+      font-size: 16px;
+  }
+  .contact-col-6 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  .contact-border-img {
+      border: 2px solid #fff;
+      position: absolute;
+      width: 85%;
+      top: 35px;
+      height: 73%;
+      left: 19px;
+  }
+  .contact-button-glode {
+    background-color: #e1c076;
+    margin-left: 28%;
+    height: 40px;
+  }
+  
+  h4.contact-font-h4 {
+    font-size: 19px;
+    line-height: 28px;
+  }
+  h4.contact-h4 {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  h5.contact-font-h5 {
+    font-size: 21px;
+    line-height: 28px;
+    margin-top: -16px;
+  }
+  .contact-border-support {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 56%;
+    top: 27px;
+    height: 49%;
+    left: 70px;
+  }
+  /*---- all-list-----*/
+  .all-list-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+  }
+  .all-list-btn-magin-15 {
+    margin-top: 8%;
+    margin-left: 0%;
+  }
+  .all-list-ml-5, .all-list-mx-5 {
+     margin-left: 0rem!important; 
   }
 }
 
