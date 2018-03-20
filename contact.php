@@ -129,9 +129,58 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-12 col-sm-6">
-                    <img class="contact-img-100 contact-map-my-5 contact-box-shadow" src="assets/images/imagestudio/contact-ver2.png">
+
+
+
+
+                  <div class="col-12 col-sm-6 ">
+                    <div class=" contact-box-shadow">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><h5 class="contact-map"><i class="fa fa-map" aria-hidden="true"></i> แผนที่</h5></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><h5 class="contact-map"><i class="fa fa-map-marker" aria-hidden="true"></i> google Map</h5></a>
+                            </li>
+                        </ul>
+
+
+                        <div class="tab-content" id="pills-tabContent">
+
+                          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <img class="contact-img-100 contact-map-my-5" src="assets/images/imagestudio/contact-ver2.png">
+                          </div>
+
+
+                          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <iframe class="contact-map-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.015974196054!2d99.80950351482808!3d13.534611090488276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e32f556ef65e11%3A0xe3a4f991e7011fc5!2z4Lir4LmJ4Liy4LiH4Liq4Lij4Lij4Lie4Liq4Li04LiZ4LiE4LmJ4Liy4LmC4Lij4Lia4Li04LiZ4Liq4Lix4LiZ!5e0!3m2!1sth!2sth!4v1521444661651" width="100%" height="305" frameborder="0" style="border:0;" allowfullscreen></iframe>
+                          </div>
+                       <!--    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div> -->
+                        </div>
+
+
+
+
+
+<!--                         <div class="tab-content" id="pills-tabContent">
+
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                              <img class="contact-img-100 contact-map-my-5" src="assets/images/imagestudio/contact-ver2.png"> 
+                            </div>
+
+
+                            <div id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.015974196054!2d99.80950351482808!3d13.534611090488276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e32f556ef65e11%3A0xe3a4f991e7011fc5!2z4Lir4LmJ4Liy4LiH4Liq4Lij4Lij4Lie4Liq4Li04LiZ4LiE4LmJ4Liy4LmC4Lij4Lia4Li04LiZ4Liq4Lix4LiZ!5e0!3m2!1sth!2sth!4v1521444661651" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+
+
+                        </div> -->
+                      </div>
                   </div>
+
+
+
+
               </div>
             </div>
           </div>
