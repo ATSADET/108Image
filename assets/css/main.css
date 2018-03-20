@@ -944,6 +944,15 @@ a.wreath_halftoneregular{
     .contact-from-input {
           margin-top: 90px;
     }
+
+  a.active,.show>.nav-link {
+      color: #000!important;
+      background-color: #fff!important;
+      border-bottom: 5px solid #e1c076!important;
+      border-radius: 0px!important;
+  }
+
+
     .btn-custom-2 {
         background-color: #e1c076;
         color: white;
@@ -1633,7 +1642,9 @@ p.studio-magin-prot {
     margin-left: 50px;
 }
 .contact-box-shadow {
-    box-shadow: 4px 5px 8px 0px #eee;
+    box-shadow: 1px 1px 8px 2px #eee;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .contact-border-support {
     border: 2px solid #fff;
@@ -1642,6 +1653,11 @@ p.studio-magin-prot {
     top: 29px;
     height: 60%;
     left: 45px;
+}
+h5.contact-map {
+    font-size: 18px;
+    margin-left: -15px;
+    margin: auto;
 }
 /*----------------- About-us #PARK ------------------------*/
 .aboutus-size {
@@ -2928,6 +2944,13 @@ hr.all-list-hr-center {
       border: 2px solid;
       margin-top: 15px;
     }
+    h5.contact-map {
+      font-size: 18px;
+      margin-left: -15px;
+    }
+    .contact-map-responsive {
+      height: 222px;
+    }
     .contact-border-img {
       border: 2px solid #fff;
       position: absolute;
@@ -3586,6 +3609,9 @@ hr.studio-hr-right {
     font-size: 22px;
     margin-top: -11px;
   }
+  .contact-map-responsive {
+    height: 300px;
+  }
   .contact-ml-4, .contact-mx-4 {
       margin-left: 9px!important;
   }
@@ -3966,6 +3992,11 @@ hr.studio-hr-right {
       height: 73%;
       left: 18px;
   }
+  .contact-phone {
+    margin-left: 22px;
+    font-size: 22px;
+    margin-top: -11px;
+  }
   .contact-col-6 {
     -webkit-box-flex: 0!important;
     -ms-flex: 0 0 50%!important;
@@ -4002,7 +4033,9 @@ hr.studio-hr-right {
     background-color: #e1c076;
     margin-bottom: 25px;
   }
-
+  .contact-map-responsive {
+    height: 230px;
+  }
 /*----- All-List ---------*/
   .all-list-container {
       width: 100%;
@@ -4382,6 +4415,9 @@ hr.studio-hr-right {
     margin-left: 28%;
     height: 40px;
   }
+  .contact-map-responsive {
+    height: 200px;
+  }
 
   h4.contact-font-h4 {
     font-size: 19px;
@@ -4403,6 +4439,11 @@ hr.studio-hr-right {
     top: 27px;
     height: 49%;
     left: 70px;
+  }
+  .contact-phone {
+    margin-left: 22px;
+    font-size: 22px;
+    margin-top: -11px;
   }
   /*---- all-list-----*/
   .all-list-container {
